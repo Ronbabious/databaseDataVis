@@ -1,0 +1,1030 @@
+,Carb + Fat,ONI score,Group,foodName
+0,0.987342117,0.013338379,grains,corn-starch
+1,0.976693197,0.017163654,"vege, spices and fruit",candied fruit
+2,0.97133243,0.01996044,"vege, spices and fruit",canned papaya
+3,0.98774248,0.021407086,grains,tapioca
+4,0.958274598,0.028412856,grains,arrowroot flour
+5,0.995328922,0.031103898,"vege, spices and fruit",vanilla extract
+6,0.993579454,0.031693433,"vege, spices and fruit",cranberry-orange relish
+7,0.951966376,0.036195893,"vege, spices and fruit",cranberry sauce
+8,0.935965349,0.037943132,"vege, spices and fruit",dried cranberries
+9,0.919835921,0.045316843,"vege, spices and fruit",canned maraschino cherries
+10,0.742020166,0.054310799,"vege, spices and fruit",chili powder seasoning
+11,0.91550128,0.06002631,dairy,"ice cream sandwich, light"
+12,0.878830084,0.06258113,grains,tortillas
+13,0.767112081,0.065471527,dairy,"ice cream sandwich, no sugar added"
+14,1.0,0.070292385,"vege, spices and fruit",white vinegar
+15,0.891210614,0.071369463,grains,"jasmine rice, cooked"
+16,0.955004949,0.071891821,"vege, spices and fruit",dried cherries
+17,0.948726486,0.072353176,"vege, spices and fruit",papaya nectar
+18,0.85168984,0.080188464,grains,water biscuits
+19,0.960901259,0.080952493,"vege, spices and fruit",tamarinds nectar
+20,0.972031963,0.081069721,"vege, spices and fruit",balsamic vinegar
+21,0.918265221,0.082840697,dairy,ice cream cookie sandwich
+22,0.968984278,0.084524817,grains,hamburger bun
+23,0.854660348,0.086221155,"vege, spices and fruit",fuji apples
+24,0.945548058,0.086922719,grains,ginger snap cookie
+25,0.666015278,0.08698373,"vege, spices and fruit",taco seasoning mix
+26,0.7152,0.088235294,"vege, spices and fruit",taco seasoning
+27,0.920177384,0.088784074,"vege, spices and fruit",prune puree
+28,0.948817673,0.092273876,nuts and legumes,yokan
+29,0.886524823,0.092534767,"vege, spices and fruit",dried blackberries
+30,0.974342527,0.095575365,"vege, spices and fruit",apple juice
+31,0.820422535,0.09705363,"vege, spices and fruit",gala apples
+32,0.9488117,0.098111769,"vege, spices and fruit",canned jackfruit
+33,0.895453914,0.098163772,"vege, spices and fruit",canned apples
+34,0.957136479,0.100926067,"vege, spices and fruit","java-plum, (jambolan)"
+35,0.768953069,0.102489979,dairy,"frozen yogurt, low fat"
+36,0.826116373,0.102662124,"vege, spices and fruit",red delicious apples
+37,0.776204455,0.103238192,"vege, spices and fruit",granny smith apples
+38,0.978508591,0.104260568,"vege, spices and fruit",apple juice concentrate with ascorbic acid
+39,0.938883035,0.104578464,"vege, spices and fruit",peach nectar
+40,0.874756585,0.105171569,grains,rice pasta
+41,0.922330097,0.106598602,grains,fruitcake
+42,0.711780404,0.107863844,"vege, spices and fruit",canned nance
+43,0.186360585,0.109326071,grains,vital wheat gluten
+44,0.888689408,0.112125759,"vege, spices and fruit","fruit cocktail, canned"
+45,0.890968563,0.113073354,"vege, spices and fruit",guava nectar
+46,0.811499912,0.113579134,"vege, spices and fruit",delicious apples
+47,0.969322858,0.115715609,"vege, spices and fruit",mango nectar
+48,0.858576206,0.115832248,"vege, spices and fruit",dried apples
+49,0.950745301,0.116000491,"vege, spices and fruit",oheloberries
+50,0.929521428,0.116212804,"vege, spices and fruit",canned rambutan
+51,0.901693632,0.117631819,grains,Grahams Crackers
+52,0.894252874,0.118796849,grains,guten free pasta
+53,0.951600218,0.120274311,nuts and legumes,vermicelli
+54,0.88215425,0.121890198,"vege, spices and fruit",apples without skin
+55,0.974342527,0.122685339,"vege, spices and fruit",apple juice with ascorbic acid
+56,0.893714286,0.123228054,grains,rice noodles
+57,0.891127304,0.123906275,"vege, spices and fruit",applesauce
+58,0.977272727,0.124611017,"vege, spices and fruit",persimmon
+59,0.949355433,0.12472954,grains,yellow cake mix
+60,0.96306496,0.12520618,"vege, spices and fruit",grape juice
+61,0.98097503,0.125528775,"vege, spices and fruit",crabapples
+62,0.95971223,0.126357236,"vege, spices and fruit",pickle relish
+63,0.979840403,0.127203106,"vege, spices and fruit",apple juice diluted concentrate with ascorbic acid
+64,0.987955364,0.127591171,"vege, spices and fruit",apple juice concentrate
+65,0.815948798,0.127972702,"vege, spices and fruit",apples
+66,0.935171261,0.128147111,"vege, spices and fruit",apricot nectar
+67,0.942320897,0.128327698,grains,pudding cake mix
+68,0.97044335,0.128513453,grains,white cake mix
+69,0.866636889,0.129861827,"vege, spices and fruit","Dates, deglet noor"
+70,0.887388535,0.130721585,"vege, spices and fruit",canned mangosteen
+71,0.962639495,0.130983749,dairy,creamsicle
+72,0.881292261,0.133293894,"vege, spices and fruit",frozen apple
+73,0.833418861,0.133963296,grains,cinnamon bread
+74,0.815820543,0.13434871,"vege, spices and fruit",canned blueberries
+75,0.846347607,0.135084513,"vege, spices and fruit",canned gooseberries
+76,0.863204237,0.135138939,"vege, spices and fruit",dried jujube
+77,0.870967742,0.135794868,"vege, spices and fruit",red vinegar
+78,0.704330378,0.136894171,"vege, spices and fruit",dried goji berries
+79,0.941761477,0.139395103,grains,breakfast tart
+80,0.690358902,0.140413478,"vege, spices and fruit",frozen blueberries
+81,0.964978111,0.140562399,"vege, spices and fruit","apple juice with ascorbic acid, calcium, potassium"
+82,0.81773255,0.141725746,grains,blue corn flour
+83,0.839629121,0.142773018,"vege, spices and fruit",canned prunes
+84,0.918712853,0.146129888,"vege, spices and fruit",raisins
+85,0.913118034,0.146486605,dairy,Dulce de Leche
+86,0.634930448,0.146891255,dairy,"fat free ice cream, no sugar"
+87,0.871621853,0.148973949,"vege, spices and fruit",dried pears
+88,0.831152903,0.148978053,"vege, spices and fruit",canned raspberries
+89,0.888568684,0.149131231,"vege, spices and fruit",frozen apricot
+90,0.870528109,0.149389567,"vege, spices and fruit","groundcherries, (cape-gooseberries or poha)"
+91,0.872407599,0.151820832,grains,pan dulce bread
+92,0.854867257,0.152914096,"vege, spices and fruit",custard-apple
+93,0.889648912,0.155291092,"vege, spices and fruit",dates
+94,0.873752481,0.155914837,grains,white flour
+95,0.912948857,0.15633223,"vege, spices and fruit","Pitanga, (surinam-cherry)"
+96,0.945155393,0.156914601,"vege, spices and fruit",jujube
+97,0.913375796,0.157314894,dairy,Reddi Wip Fat Free Whipped Topping
+98,0.778122095,0.157645191,"vege, spices and fruit",canned pears
+99,0.730196655,0.15842521,dairy,"milk dessert bar, frozen"
+100,0.831900669,0.159586466,"vege, spices and fruit",pummelo
+101,0.723127036,0.160442863,"vege, spices and fruit",rowal
+102,0.960915157,0.162337634,"vege, spices and fruit",stewed prunes
+103,0.87012987,0.163216887,grains,cornbread dry mix
+104,0.942044572,0.165115573,"vege, spices and fruit",dried mango
+105,0.934282585,0.166376263,"vege, spices and fruit",frozen pineapple
+106,0.837244349,0.167125411,"vege, spices and fruit",canned cherries
+107,0.881470368,0.167171618,"vege, spices and fruit",tamarinds
+108,0.090663058,0.167256789,grains,corn bran
+109,0.921098627,0.16780864,"vege, spices and fruit",cassava
+110,0.749071038,0.167862903,"vege, spices and fruit",sapodilla
+111,0.952045134,0.168395744,grains,carrot cake mix
+112,0.961963905,0.170897272,"vege, spices and fruit",cranberry juice
+113,0.930250524,0.171571428,"vege, spices and fruit",sweet pickles
+114,0.908409321,0.172114938,"vege, spices and fruit",canned strawberries
+115,0.960810274,0.172266739,"vege, spices and fruit",prunes
+116,0.855572998,0.173175586,"vege, spices and fruit",quince
+117,0.650811627,0.17375454,dairy,strawberry greek yogurt
+118,0.871694105,0.175369886,grains,"white rice, cooked"
+119,0.861871965,0.175949978,"vege, spices and fruit",dried currants
+120,0.922143865,0.176022816,grains,corn muffins
+121,0.906468776,0.178034763,grains,rice flour
+122,0.874784786,0.180249083,grains,"somen noodles, cooked"
+123,0.861316596,0.18044256,"vege, spices and fruit",dried plums
+124,0.887262399,0.181993467,"vege, spices and fruit",canned plums
+125,0.181771894,0.184374833,dairy,"cheddar cheese, fat free or nonfat"
+126,0.858797942,0.186770486,grains,gluten-free rolls
+127,0.563141561,0.188035996,"vege, spices and fruit",white pepper
+128,0.80950455,0.188932876,"vege, spices and fruit",canned blackberries
+129,0.945945946,0.189779037,"vege, spices and fruit",tangerine juice
+130,0.952306489,0.190875263,"vege, spices and fruit",Orange Pineapple Juice Blend
+131,0.769129185,0.191017041,grains,"gluten-free pasta, cooked"
+132,0.982056343,0.192075694,"vege, spices and fruit",pomegranate juice
+133,0.929978118,0.192471274,"vege, spices and fruit",roselle
+134,0.648596529,0.192726463,"vege, spices and fruit",pears
+135,0.648124191,0.193822819,"vege, spices and fruit",abiyuch
+136,0.853340087,0.19444109,grains,all purpose flour
+137,0.822100582,0.19552207,"vege, spices and fruit",canned figs
+138,0.91926837,0.195890402,grains,blueberry muffins
+139,0.951983299,0.196179503,grains,baking powder
+140,0.90446746,0.196449054,"vege, spices and fruit","plantains, cooked"
+141,0.843066415,0.19654161,grains,wheat flour
+142,0.701851559,0.196753526,"vege, spices and fruit",muscadine grapes
+143,0.913978495,0.196871148,"vege, spices and fruit",rose-apples
+144,0.722032613,0.197458302,dairy,fruit greek yogurt
+145,0.90593343,0.199694669,grains,pound cake (fat free)
+146,0.561643836,0.202303801,dairy,"parmesan cheese topping, fat free"
+147,0.855472264,0.202640409,"vege, spices and fruit",longans
+148,0.819634703,0.203406418,"vege, spices and fruit",cherries
+149,0.8858084,0.204179393,grains,popovers
+150,0.938596491,0.204308692,"vege, spices and fruit",dried longans
+151,0.89119171,0.204481152,"vege, spices and fruit",dried litchis
+152,0.810864465,0.205479967,"vege, spices and fruit",dried figs
+153,0.917597953,0.206130747,"vege, spices and fruit",grapes
+154,0.915537018,0.206250018,"vege, spices and fruit",seedless grapes
+155,0.958163446,0.208452231,"vege, spices and fruit",passion-fruit juice
+156,0.820676616,0.208674401,grains,somen noodles
+157,0.856716108,0.208989511,"vege, spices and fruit",dry banana
+158,0.800877168,0.209846917,grains,light rye flour
+159,0.903482944,0.209930907,dairy,"ice cream, light"
+160,0.842620162,0.210138925,nuts and legumes,tofu yogurt
+161,0.911184664,0.211238151,"vege, spices and fruit",prune juice
+162,0.949622166,0.211794333,"vege, spices and fruit",grapefruit juice
+163,0.790245837,0.212081439,grains,oat flour
+164,0.883923706,0.213282493,"vege, spices and fruit",litchis
+165,0.936651584,0.213549096,"vege, spices and fruit",tangerines juice
+166,0.754861968,0.214083104,"vege, spices and fruit","dugar-apples, (sweetsop)"
+167,0.412756898,0.217061292,animal,honey ham
+168,0.752895753,0.217425559,dairy,"frozen yogurt, non fat"
+169,0.798030635,0.217655595,grains,gluten-free pasta
+170,0.840033677,0.21943278,"vege, spices and fruit",dried apricot
+171,0.805104408,0.220722064,"vege, spices and fruit",frozen sour cherries
+172,0.741811493,0.220768973,grains,hard white wheat
+173,0.224404055,0.221321301,seafood,brook trout
+174,0.752212389,0.221504413,"vege, spices and fruit","mammy-apple, (mamey)"
+175,0.722324791,0.221571109,grains,"splent, uncooked"
+176,0.945899599,0.222183893,"vege, spices and fruit",dried peaches
+177,0.822858529,0.222311875,"vege, spices and fruit",figs
+178,0.89418767,0.222913995,"vege, spices and fruit",plantains
+179,0.870045003,0.222979668,"vege, spices and fruit",Durian
+180,0.57841684,0.223294988,"vege, spices and fruit",feijoa
+181,0.596837945,0.22341094,"vege, spices and fruit",frozen nance
+182,0.535997054,0.223596027,"vege, spices and fruit",passion fruit
+183,0.958518519,0.223775231,"vege, spices and fruit",pineapple juice
+184,0.607568027,0.224401359,grains,bread (wheat)
+185,0.834224599,0.225719637,dairy,sour cream (fat free)
+186,0.886110042,0.225812468,"vege, spices and fruit",yautia (tannier)
+187,0.792040408,0.227477501,"vege, spices and fruit",breadfruit
+188,0.83155596,0.228818261,grains,hotdog (hamburger) rolls
+189,0.325077399,0.228824698,dairy,"cottage cheese, lowfat 1% with vegetables"
+190,0.837553685,0.229642161,grains,naan bread
+191,0.966469529,0.229955988,nuts and legumes,chestnuts
+192,0.741625473,0.230001517,grains,soft white wheat
+193,0.811317534,0.23018745,grains,semolina
+194,0.835294118,0.230337612,"vege, spices and fruit",plums
+195,0.838303762,0.231148211,grains,bollilo bread
+196,0.775395034,0.233228469,grains,yellow hominy
+197,0.953253096,0.233355202,"vege, spices and fruit",Catsup
+198,0.271708683,0.233576367,dairy,cottage cheese (low fat)
+199,0.830452741,0.234415111,grains,focaccia
+200,0.846103931,0.235398068,grains,white corn flour
+201,0.846103931,0.235577308,grains,yellow corn flour
+202,0.824367991,0.236897606,grains,bread crumbs
+203,0.82596291,0.238114322,grains,raisin bread
+204,0.775395034,0.239163873,grains,white hominy
+205,0.917613636,0.239313583,"vege, spices and fruit",pineapple (canned)
+206,0.810376324,0.240631074,grains,couscous
+207,0.918592618,0.240717228,grains,sponge cake
+208,0.63705104,0.241154692,dairy,"vanilla greek yogurt, low fat"
+209,0.070916905,0.241226178,animal,Ruffed Grouse breast
+210,0.853798768,0.241717596,"vege, spices and fruit",Horned melon (Kiwano)
+211,0.048295455,0.24174121,dairy,mozzarella (non fat)
+212,0.83640553,0.241832883,"vege, spices and fruit",loquats
+213,0.858976478,0.242089016,"vege, spices and fruit",potato flour
+214,0.771318914,0.243540132,grains,wheat bagel
+215,0.78063303,0.243724616,grains,whole grain bagel
+216,0.900429962,0.24435719,"vege, spices and fruit",canned grapes
+217,0.853963839,0.245750822,"vege, spices and fruit",hearts of palm
+218,0.803412115,0.24590904,"vege, spices and fruit",blueberries
+219,0.753505054,0.245960964,"vege, spices and fruit",	pomegranates
+220,0.80388362,0.247334597,grains,"pasta, cooked"
+221,0.825203252,0.248923973,dairy,"chocolate yogurt, non fat"
+222,0.606720122,0.249072963,nuts and legumes,baked beans
+223,0.551020408,0.24948936,"vege, spices and fruit",orange peel
+224,0.621751474,0.249791624,"vege, spices and fruit",prickly pears
+225,0.809768638,0.251978619,grains,"french bread, baguette"
+226,0.767755874,0.252997612,"vege, spices and fruit",soursop
+227,0.106918239,0.25333197,dairy,"swiss cheese, fat free"
+228,0.80114131,0.255207863,"vege, spices and fruit",pumpkin pie spice
+229,0.87704918,0.255285393,grains,Phyllo dough
+230,0.58899316,0.255515325,"vege, spices and fruit",cardamom
+231,0.825203252,0.255976794,dairy,"frozen yogurt, non fat with vitamin D"
+232,0.972068039,0.256893723,"vege, spices and fruit",Poi
+233,0.722335647,0.257252576,"vege, spices and fruit","eggplant, pickled"
+234,0.785534154,0.257640349,grains,bread dough
+235,0.716762562,0.259547374,"vege, spices and fruit",allspice
+236,0.885940987,0.259963946,"vege, spices and fruit",eppaw
+237,0.650842266,0.260068516,"vege, spices and fruit","tree fern, cooked"
+238,0.651594279,0.260761473,nuts and legumes,chickpea flour (besan)
+239,0.834349402,0.261759336,grains,white cornmeal
+240,0.834349402,0.261938081,grains,yellow cornmeal
+241,0.880913065,0.262992387,grains,saltines
+242,0.574942937,0.263270667,"vege, spices and fruit",kumquats
+243,0.81594673,0.263860015,"vege, spices and fruit",yam
+244,0.821749033,0.263910194,grains,pasta
+245,0.165568369,0.264622295,animal,gizzard
+246,0.782849844,0.264955332,grains,chapati or roti bread
+247,0.75413636,0.265419718,grains,whole wheat pasta
+248,0.62051028,0.265962252,"vege, spices and fruit",elderberries
+249,0.774183317,0.266317152,"vege, spices and fruit","gourd dishcloth (towelgourd), cooked"
+250,0.841097052,0.266348959,"vege, spices and fruit","taro, cooked"
+251,0.831289848,0.26724474,"vege, spices and fruit",russet potatoes
+252,0.850440774,0.26725781,"vege, spices and fruit",bananas
+253,0.054259408,0.269663659,"vege, spices and fruit","fungi, clouf ears"
+254,0.916559692,0.269931216,"vege, spices and fruit",lemon juice
+255,0.828864803,0.271181285,"vege, spices and fruit",acerola
+256,0.900153691,0.271876361,grains,white corn grain
+257,0.78855557,0.273720019,grains,corn tortillas
+258,0.837662688,0.274291246,grains,sorghum flour
+259,0.83042394,0.274613153,grains,croutons
+260,0.815505993,0.274893234,grains,bagels
+261,0.806927882,0.27535461,"vege, spices and fruit",clementines
+262,0.7893308,0.27674161,"vege, spices and fruit","sweet corn, canned"
+263,0.878076486,0.277041734,"vege, spices and fruit",jackfruit
+264,0.822778102,0.278185789,grains,yellow corn grain
+265,0.901557007,0.27920239,"vege, spices and fruit",canned grapefruit
+266,0.82421283,0.280417053,"vege, spices and fruit",tangerines
+267,0.926096998,0.280635924,"vege, spices and fruit","yambean (jicama), cooked"
+268,0.850206612,0.283518616,"vege, spices and fruit",chicory roots
+269,0.83293313,0.284740363,grains,"egg noodles, cooked"
+270,0.859225027,0.284913186,grains,white bread
+271,0.868504418,0.285437935,grains,brown rice flour
+272,0.801937256,0.285938204,"vege, spices and fruit","sapote, mamey"
+273,0.724856696,0.286149044,grains,bread roll
+274,0.811026265,0.289179026,"vege, spices and fruit",yam
+275,0.696476965,0.289233642,"vege, spices and fruit","potatoes, cooked"
+276,0.403183024,0.28962424,dairy,"cheedar or american cheese, fat free"
+277,0.921040621,0.289755255,"vege, spices and fruit","mountain yam, cooked"
+278,0.841097052,0.290789721,"vege, spices and fruit",taro
+279,0.813442337,0.291026172,grains,whole wheat crackers
+280,0.776155718,0.291036033,"vege, spices and fruit",nectarines
+281,0.34657205,0.291228914,"vege, spices and fruit",cinnamon
+282,0.810664172,0.291375362,grains,"soba noodles, cooked"
+283,0.903401111,0.291421533,dairy,"milk condensed, sweetened"
+284,0.581075617,0.291921314,"vege, spices and fruit",gooseberries
+285,0.829595665,0.292796264,"vege, spices and fruit",saffron
+286,0.815028902,0.293190975,"vege, spices and fruit",Jerusalem-artichokes
+287,0.612456747,0.293561347,"vege, spices and fruit",Guava sauce
+288,0.798813056,0.29395911,dairy,chocolate milk (fat free)
+289,0.852616065,0.294301248,grains,bread sticks
+290,0.665548871,0.294606216,"vege, spices and fruit",bay leaf
+291,0.635782748,0.294721354,"vege, spices and fruit",currants
+292,0.732380319,0.294748031,grains,multigrain bagels
+293,0.66189576,0.297310858,"vege, spices and fruit",pumpkin pie mix
+294,0.305266746,0.297572003,dairy,Greek yogurt (low fat)
+295,0.796661898,0.297893501,"vege, spices and fruit",arrowhead
+296,0.658255514,0.299147688,animal,smoked turkey
+297,0.68088033,0.299272749,"vege, spices and fruit",cranberries
+298,0.857716581,0.299327442,grains,brown rice
+299,0.455896007,0.299811561,"vege, spices and fruit","ginger root, pickled"
+300,0.898753306,0.300620428,grains,cornbread
+301,0.935535287,0.301106301,"vege, spices and fruit",lemon grass
+302,0.957671958,0.301755307,"vege, spices and fruit",blackberry juice
+303,0.817263158,0.301926781,"vege, spices and fruit",papayas
+304,0.694832827,0.302250262,dairy,dry milkshake mix
+305,0.865258924,0.302805721,"vege, spices and fruit",honeydew melon
+306,0.780394041,0.303452118,"vege, spices and fruit",cherimoya
+307,0.7460518,0.303568359,"vege, spices and fruit",casaba
+308,0.369369369,0.30495248,animal,lean turkey
+309,0.704697987,0.305667999,"vege, spices and fruit",salsify (vegetable oyster)
+310,0.586588193,0.305939108,nuts and legumes,gingko nuts
+311,0.717309397,0.306962729,grains,pearled barley
+312,0.271173737,0.307670628,animal,"goose breast, skinless"
+313,0.718677818,0.308172659,grains,"macaroni, cooked"
+314,0.924687318,0.308204947,nuts and legumes,water chestnuts
+315,0.827889693,0.308619221,"vege, spices and fruit",chinese waterchestnuts (matai)
+316,0.782901057,0.308907727,dairy,"kefir strawberry, low fat"
+317,0.823728814,0.309770202,dairy,"half and half cream, fat free"
+318,0.860732233,0.310420018,"vege, spices and fruit",pineapple (fresh)
+319,0.808042895,0.311538642,"vege, spices and fruit",grapefruit
+320,0.806379407,0.312100151,"vege, spices and fruit",grapefruit
+321,0.744981413,0.31232104,dairy,"milk chocolate, low fat"
+322,0.409289356,0.312722184,"vege, spices and fruit",savory
+323,0.908863573,0.312970296,"vege, spices and fruit",lime juice
+324,0.836792121,0.313446662,grains,wonton wrappers
+325,0.836561332,0.31408189,grains,"millet, cooked"
+326,0.90547046,0.314503029,nuts and legumes,ginkgo nuts
+327,0.653149993,0.314887667,"vege, spices and fruit",blackberries (frozen)
+328,0.888020833,0.315984183,"vege, spices and fruit",frozen lemon juice
+329,0.754507814,0.318641565,"vege, spices and fruit",kanpyo
+330,0.880851064,0.318667032,"vege, spices and fruit",acerola juice
+331,0.82046763,0.31907245,"vege, spices and fruit",ginger
+332,0.684395723,0.319192824,"vege, spices and fruit","salsify, cooked"
+333,0.920915125,0.319353853,"vege, spices and fruit",black currants
+334,0.854698289,0.319695833,"vege, spices and fruit",mango
+335,0.671908202,0.319949026,dairy,"yogurt, non fat"
+336,0.740635641,0.320567917,grains,soft red wheat
+337,0.781157775,0.321014893,"vege, spices and fruit",peaches
+338,0.790928078,0.32162237,grains,millet
+339,0.806994245,0.321749731,grains,macaroni
+340,0.716916572,0.321910156,grains,Rye grain
+341,0.817019493,0.322431483,grains,egg noodles
+342,0.700598802,0.322753844,"vege, spices and fruit",limes
+343,0.619047619,0.322847902,nuts and legumes,"chili beans, cooked"
+344,0.668097282,0.323271575,"vege, spices and fruit",orange with peel
+345,0.863229879,0.323314337,grains,pancake mix
+346,0.881141512,0.324192908,"vege, spices and fruit",watermelon
+347,0.850289931,0.324206073,grains,bread stuffing
+348,0.742283951,0.324861243,"vege, spices and fruit",oranges
+349,0.785054576,0.329097718,"vege, spices and fruit",mountain yam
+350,0.717770689,0.329812638,grains,potato bread
+351,0.576577333,0.330422352,"vege, spices and fruit",wasabi root
+352,0.834854596,0.331723539,"vege, spices and fruit","burdock root, cooked"
+353,0.693584071,0.331770631,"vege, spices and fruit",arrowroot
+354,0.827674334,0.332039588,grains,french rolls
+355,0.242352941,0.332472767,seafood,snail
+356,0.835161895,0.332600161,"vege, spices and fruit",frozen melon balls
+357,0.648490311,0.332749181,"vege, spices and fruit",lemons
+358,0.739715782,0.333465863,"vege, spices and fruit",canned peaches
+359,0.334250344,0.334594312,"vege, spices and fruit",lemon peel
+360,0.767546829,0.334634797,grains,barley flour
+361,0.80860821,0.334661802,grains,sorghum
+362,0.889347647,0.334706795,dairy,"milk shake, chocolate"
+363,0.811196487,0.335058167,grains,egg bagel
+364,0.607163489,0.335722289,dairy,"milk, non fat fortified"
+365,0.235864161,0.337179832,animal,"veal thymus, cooked"
+366,0.607898119,0.337950477,"vege, spices and fruit",dill weed
+367,0.85422372,0.338265183,"vege, spices and fruit",potato
+368,0.671908202,0.338319165,dairy,"yogurt, nonfat with vitamin D"
+369,0.814371257,0.338523659,grains,oatmeal bread
+370,0.207894147,0.338894126,animal,chicken gizzard
+371,0.820292025,0.339032079,grains,italian bread
+372,0.532236409,0.340184452,nuts and legumes,carob flour
+373,0.802886308,0.340577,"vege, spices and fruit",taro
+374,0.748535728,0.341536288,"vege, spices and fruit",burdock root
+375,0.728038178,0.342034397,grains,bulgur
+376,0.286410283,0.342123235,animal,veal thymus
+377,0.740870642,0.342919028,"vege, spices and fruit",mulberries
+378,0.207828998,0.344403744,animal,beef strip steaks
+379,0.939144987,0.345112018,nuts and legumes,"chestnuts, cooked"
+380,0.737458978,0.345889266,"vege, spices and fruit",onion
+381,0.61183432,0.347081105,"vege, spices and fruit","cardoon, cooked"
+382,0.821749033,0.347235188,grains,orzo
+383,0.8506798,0.348034625,grains,millet flour
+384,0.538738739,0.348217341,"vege, spices and fruit",boysenberries
+385,0.42314601,0.348951013,"vege, spices and fruit",yambean (jicama)
+386,0.658558559,0.349666825,grains,crackers
+387,0.824191791,0.350695018,grains,cinnamon bagel
+388,0.552420016,0.351034215,"vege, spices and fruit",Loganberries
+389,0.053763441,0.351124597,seafood,turtle
+390,0.669432036,0.351548859,"vege, spices and fruit",red onions
+391,0.821409589,0.352082121,"vege, spices and fruit","white potatoes, cooked"
+392,0.862300588,0.352811826,"vege, spices and fruit",canned pineapple
+393,0.274810618,0.353046122,animal,"beef heart, cooked"
+394,0.773236723,0.353229687,"vege, spices and fruit","poultry, chicken seasoning"
+395,0.742034158,0.353442698,"vege, spices and fruit",frozen strawberries
+396,0.786066151,0.354618437,grains,rye dinner rolls
+397,0.85753169,0.355762837,grains,"spaghetti, cooked"
+398,0.143322476,0.35674857,seafood,"conch, cooked"
+399,0.585987261,0.357410611,"vege, spices and fruit",fiddlehead ferns
+400,0.854810447,0.357741956,grains,triticale
+401,0.469265367,0.35802005,"vege, spices and fruit","winged beans,cooked"
+402,0.881443299,0.358471742,nuts and legumes,dried ginkgo nuts
+403,0.767683705,0.360176442,"vege, spices and fruit","sweet corn, white"
+404,0.002621614,0.360434877,animal,gelatin powder
+405,0.833333333,0.361133827,grains,egg bread
+406,0.445637936,0.362048504,"vege, spices and fruit",chanterelle mushrooms
+407,0.741120758,0.363274747,"vege, spices and fruit","parsnips, cooked"
+408,0.692927259,0.363872549,"vege, spices and fruit",parsnips
+409,0.748376623,0.364174075,grains,Buckwheat
+410,0.634258142,0.364543622,dairy,kefir (low fat)
+411,0.72123653,0.364912618,"vege, spices and fruit",onion powder
+412,0.797639815,0.365481903,"vege, spices and fruit","russet potatoes, cooked"
+413,0.768379222,0.365633006,"vege, spices and fruit",white potatoes
+414,0.541914796,0.366209236,animal,frankfurter (fat free)
+415,0.680513461,0.366341726,"vege, spices and fruit",horseradish
+416,0.703602058,0.366666667,"vege, spices and fruit","celeriac, cooked"
+417,0.7746891,0.367235294,"vege, spices and fruit",naranjilla (lulo) pulp
+418,0.841275973,0.367804031,grains,soba noodles
+419,0.8007034,0.368355147,"vege, spices and fruit",sweet onions
+420,0.039531479,0.370077894,seafood,frog legs
+421,0.765115268,0.371282323,grains,pumpernickel rolls
+422,0.768795812,0.371525057,"vege, spices and fruit","onions, cooked"
+423,0.777345271,0.371532705,grains,rye bread
+424,0.904645477,0.372158864,"vege, spices and fruit",butterbur (fuki)
+425,0.774221136,0.37322758,"vege, spices and fruit","sweet corn, white, canned"
+426,0.864215988,0.373396167,dairy,"milk shake, vanilla"
+427,0.799861015,0.373964029,grains,whole wheat bread
+428,0.646246764,0.374519072,"vege, spices and fruit",pigeonpeas
+429,0.668261563,0.37637987,"vege, spices and fruit","tahitian taro, cooked"
+430,0.472693032,0.377042198,"vege, spices and fruit",raspberries
+431,0.472693032,0.377042198,"vege, spices and fruit",frozen raspberries
+432,0.74622131,0.377302892,"vege, spices and fruit",apricots
+433,0.753995549,0.378483147,grains,"buckwheat, cooked"
+434,0.789793593,0.380023798,"vege, spices and fruit",potatoes
+435,0.643633813,0.380431902,"vege, spices and fruit","pigeonpeas, cooked"
+436,0.890413473,0.380683513,nuts and legumes,breadnut tree seeds
+437,0.805393234,0.381948466,"vege, spices and fruit",onion flakes
+438,0.662074373,0.382399231,"vege, spices and fruit",tarragon
+439,0.838776928,0.383395196,grains,oat bran muffins
+440,0.432931875,0.385464413,"vege, spices and fruit",fava beans
+441,0.747970622,0.385869197,grains,whole wheat tortillas
+442,0.79039101,0.385943636,"vege, spices and fruit",sweet potato (raw)
+443,0.692673618,0.385986314,grains,triticale flour
+444,0.736449388,0.386009683,"vege, spices and fruit","lotus root, cooked"
+445,0.666055046,0.387623716,"vege, spices and fruit","rutabagas, cooked"
+446,0.686487711,0.387658522,grains,multi grain bread
+447,0.756040071,0.388348207,"vege, spices and fruit",kiwifruit
+448,0.491657674,0.388482772,"vege, spices and fruit",fireweed leaves
+449,0.785607196,0.389245899,grains,oat bran bagels
+450,0.799578726,0.389836717,grains,panko
+451,0.815433572,0.391436416,"vege, spices and fruit",cantaloupe
+452,0.790743742,0.392652458,"vege, spices and fruit","sweet corn, cooked"
+453,0.74395385,0.392908293,"vege, spices and fruit",ginger
+454,0.765200926,0.393017093,"vege, spices and fruit",tahitian taro
+455,0.93442623,0.393180036,"vege, spices and fruit",Jew's ear (pepeao)
+456,0.412012152,0.393851152,"vege, spices and fruit","drumstick, cooked"
+457,0.752176909,0.394976844,grains,"whole wheat pasta, cooked"
+458,0.719930176,0.395516516,grains,splent
+459,0.548898678,0.396011058,"vege, spices and fruit",carambola
+460,0.690348525,0.396307229,"vege, spices and fruit",canned apricots
+461,0.778118413,0.396318457,grains,wild rice
+462,0.77875631,0.396827232,"vege, spices and fruit","sweet corn, white, cooked"
+463,0.769804618,0.396911423,grains,dinner rolls
+464,0.71544311,0.396934966,grains,"KAMUT khorasan, cooked"
+465,0.277280859,0.397017242,animal,"beef kidneys, cooked"
+466,0.736688508,0.397048978,grains,"wheat flour, wholemeal"
+467,0.738800883,0.397951461,grains,spaghetti
+468,0.169300226,0.397962185,animal,"duckling breast, cooked"
+469,0.715660994,0.398072927,grains,hard red wheat
+470,0.767935937,0.398622034,grains,teff
+471,0.759398496,0.398674445,grains,pumpernickel bread
+472,0.52166065,0.398759369,"vege, spices and fruit",drumstick
+473,0.82050397,0.399246943,grains,wheat germ bread
+474,0.669560903,0.400125152,"vege, spices and fruit","eggplant, cooked"
+475,0.760159893,0.400930262,grains,quinoa
+476,0.892459016,0.401176847,"vege, spices and fruit","butternut squash, cooked"
+477,0.234946049,0.640802602,animal,ground beef (lean)
+478,0.269461078,0.666526611,animal,beef spleen
+479,0.273516643,0.629568505,animal,"beef spleen, cooked"
+480,0.284990214,0.565975098,animal,top round steak (fat trimmed)
+481,0.069390351,0.585773292,animal,moose
+482,0.13115285,0.594368698,animal,"buffalo, cooked"
+483,0.13132389,0.615319865,animal,buffalo
+484,0.15026643,0.651091309,animal,"deer tenderloin, cooked"
+485,0.156516564,0.648052623,animal,veal
+486,0.161062907,0.624950213,animal,"elk round, cooked"
+487,0.169428189,0.484661319,animal,"antelope, cooked"
+488,0.169496243,0.499613003,animal,antelope
+489,0.191691604,0.590056765,animal,deer
+490,0.191975928,0.509149575,animal,"deer, cooked"
+491,0.196767587,0.654708242,animal,"deer shoulder, cooked"
+492,0.199635725,0.626024091,animal,"elk tenderloin, cooked"
+493,0.201002432,0.584159958,animal,"goat, cooked"
+494,0.201473011,0.566912086,animal,goat
+495,0.212621597,0.569970395,animal,"veal spleen, cooked"
+496,0.217961655,0.593414775,animal,"elk loin, cooked"
+497,0.248298101,0.632925136,animal,veal top round
+498,0.248466258,0.675142371,animal,veal chop
+499,0.250409165,0.664197426,animal,"caribou, cooked"
+500,0.250414044,0.655034598,animal,caribou
+501,0.251262962,0.667649413,animal,bison chuck
+502,0.255369351,0.580949547,animal,"squirrel, cooked"
+503,0.25828856,0.558664216,animal,"boar meat, cooked"
+504,0.258339798,0.407976305,animal,boar meat
+505,0.265612262,0.606871387,animal,"bison chuck, cooked"
+506,0.274156567,0.602289439,animal,"veal top round, cooked"
+507,0.278037821,0.662773776,animal,veal shank
+508,0.288566243,0.575386215,animal,"lamb spleen, cooked"
+509,0.255737027,0.697748654,animal,kangaroo steak
+510,0.240680713,0.539131702,animal,"veal lungs, cooked"
+511,0.240977881,0.60708061,animal,veal lungs
+512,0.246015831,0.66872549,animal,pork spleen
+513,0.257731959,0.676140239,animal,beef lungs
+514,0.259423503,0.648228727,animal,lamb lungs
+515,0.25972817,0.579113287,animal,"lamb lungs, cooked"
+516,0.260844194,0.584739456,animal,tripe
+517,0.271629779,0.737758678,animal,"chicken giblet, cooked"
+518,0.289817232,0.59722445,animal,"beef lungs, cooked"
+519,0.295864263,0.594963513,animal,"pork lungs, cooked"
+520,0.29390281,0.483746814,animal,beef kidney
+521,0.278633521,0.692635023,animal,"lamb kidneys, cooked"
+522,0.333051206,0.72117521,animal,veal kidneys
+523,0.333073505,0.756359247,animal,pork liver
+524,0.143952858,0.645732629,animal,pork leg sirloin tip roast
+525,0.203389831,0.597732357,animal,"pork spleen, cooked"
+526,0.253395164,0.64801137,animal,pork shoulder breast
+527,0.254935622,0.643681282,animal,pork tenderloin
+528,0.257316661,0.644520565,animal,"pork shoulder petite tender, cooked"
+529,0.260613308,0.644246316,animal,pork leg cap steak
+530,0.261909391,0.615399344,animal,pork shoulder
+531,0.264652931,0.621488929,animal,"pork leg sirloin tip roast, cooked"
+532,0.288347441,0.617385088,animal,pork sirloin
+533,0.288939979,0.648645396,animal,pork shoulder petite tender
+534,0.295108598,0.638250734,animal,pork chops (lean)
+535,0.277333099,0.683394761,animal,roasted ham
+536,0.270114433,0.684236881,animal,roasted lean ham
+537,0.298004875,0.678389734,animal,lean ham
+538,0.130786517,0.646447941,animal,"ostrich inside leg, cooked"
+539,0.134444125,0.580990058,animal,"turkey breast, cooked"
+540,0.137947051,0.553793994,animal,"chicken light meat, skinless"
+541,0.151889169,0.662163047,animal,emu
+542,0.175505162,0.655637255,animal,ostrich
+543,0.205684655,0.556715976,animal,"chicken breast, boneless, cooked"
+544,0.207606973,0.58338352,animal,chicken breast
+545,0.229177719,0.600609252,animal,"whole turkey, cooked"
+546,0.229470453,0.629597988,animal,quail breast
+547,0.23080565,0.534278711,animal,pheasant breast
+548,0.231855788,0.635841283,animal,"ostrich outside strip, cooked"
+549,0.24470339,0.596979701,animal,"whole chicken, skinless"
+550,0.246053138,0.631451195,animal,"ostrich inside strip, cooked"
+551,0.247153382,0.551549172,animal,"chicken light meat, skinless, cooked"
+552,0.257871537,0.554414948,animal,"pheasant, skinless"
+553,0.266076499,0.578417251,animal,"chicken wing, skinless"
+554,0.272132934,0.56739178,animal,cornish game hen
+555,0.277027594,0.64264986,animal,"ostrich oyster, cooked"
+556,0.287258888,0.65627091,animal,"turkey thigh, skinless"
+557,0.298641191,0.56267561,animal,"turkey light meat, cooked"
+558,0.127902691,0.604700477,animal,turkey breast
+559,0.165268688,0.635452249,animal,whole turkey
+560,0.213454075,0.620527728,animal,turkey back
+561,0.213454075,0.660285276,animal,turkey dark meat
+562,0.392055268,0.607567402,animal,turkey roast
+563,0.280983917,0.66600424,animal,beef lunch meat
+564,0.174736842,0.649249461,animal,pastrami (fat free)
+565,0.153623188,0.494209594,animal,oven-roasted chicken
+566,0.156943922,0.545407913,animal,mesquite chicken
+567,0.289940828,0.594398831,animal,sliced rotisserie chicken
+568,0.179402299,0.566904347,animal,turkey breast lunch meat
+569,0.475614072,0.6534125,animal,smoked ham
+570,0.531226075,0.724009258,animal,italian style sausage
+571,0.18805093,0.549307701,dairy,protein powder (flavoured)
+572,0.084953395,0.558041293,dairy,protein powder (unflavoured bulk)
+573,0.288135593,0.550920886,dairy,cottage cheese lowfat 1%
+574,0.387109375,0.611014527,dairy,cream cheese (low fat)
+575,0.333438885,0.416678894,dairy,American cheese (fat free)
+576,0.414247274,0.579767077,dairy,cottage cheese nonfat
+577,0.667247663,0.588428697,dairy,"plain yogurt, low fat"
+578,0.674736189,0.591813288,dairy,"milk, 1% fat with protein, vitamin A and vitamin D"
+579,0.64515817,0.411383155,dairy,"strawberry greek yogurt, low fat"
+580,0.571792693,0.512241209,dairy,instant breakfast sugar-free chocolate powder
+581,0.672701622,0.5928376,dairy,"milk, 1% fat with vitamin A and vitamin D"
+582,0.680341475,0.621620315,dairy,low fat milk
+583,0.671626984,0.604977241,dairy,"buttermilk, low fat"
+584,0.643839884,0.601106153,dairy,"buttermilk, dried"
+585,0.71563981,0.516396104,dairy,"nutritional supplement for people with diabetes, liquid"
+586,0.529229977,0.525350028,dairy,"vanilla greek yogurt, non fat"
+587,0.768501921,0.470435069,dairy,hot cocoa
+588,0.585233442,0.615907308,dairy,"plain yogurt, non fat"
+589,0.6039953,0.627053468,dairy,skim milk
+590,0.752136752,0.572773326,dairy,"milk evaporated, reduced fat"
+591,0.609819121,0.610770847,dairy,"milk evaporated, nonfat"
+592,0.605218761,0.645671663,dairy,dry milk with vitamin A and vitamin C
+593,0.577172186,0.504717589,dairy,"strawberry greek yogurt, non fat"
+594,0.80974478,0.41919922,dairy,"milk chocolate, reduced fat with calcium"
+595,0.80974478,0.474003856,dairy,"milk chocolate, reduced fat with vitamin A and vitamin D"
+596,0.77135517,0.540315811,dairy,"milk chocolate, low fat with vitamin A and vitamin D"
+597,0.771150052,0.526153565,dairy,"vanilla yogurt, low fat with vitamin D"
+598,0.817516193,0.4685423,dairy,"fruit yogurt, low fat with vitamin D"
+599,0.830947776,0.441970203,dairy,"fruit yogurt, low fat fortified with vitamin D"
+600,0.842110483,0.423901089,dairy,"fruit yogurt, low fat fortified"
+601,0.77254902,0.459073235,dairy,instant breakfast chocolate powder
+602,0.852852853,0.52963655,dairy,non-fat yogurt
+603,0.752079867,0.429779381,grains,oat bran bread
+604,0.773522065,0.414633415,grains,oat bran dinner rolls
+605,0.780079681,0.448792918,grains,rice bran bread
+606,0.80077821,0.42632375,grains,wheat bran bread
+607,0.712951168,0.470334416,grains,english muffins (whole wheat)
+608,0.712563746,0.485832494,grains,English muffins
+609,0.770689655,0.41532396,grains,english muffins
+610,0.771346396,0.406356506,grains,pita bread
+611,0.624561041,0.634834592,grains,wheat germ
+612,0.721436895,0.403581899,grains,Oats
+613,0.649683449,0.582432233,grains,"oat bran, cooked"
+614,0.749182237,0.409969248,grains,buckwheat flour
+615,0.714833866,0.421108732,grains,KAMUT khorasan
+616,0.848618143,0.411196654,grains,wheat durum
+617,0.735238662,0.4012649,grains,"teff, cooked"
+618,0.837549052,0.421401721,grains,sprouted wheat
+619,0.463850528,0.708938831,grains,baker's yeast
+620,0.348935814,0.693742415,grains,wheat bran
+621,0.0794966,0.56371805,nuts and legumes,soy protein isolate
+622,0.426296065,0.533968674,nuts and legumes,"lupins, cooked"
+623,0.22847823,0.678797788,nuts and legumes,peanut flour
+624,0.440658169,0.567585924,nuts and legumes,lupin seeds
+625,0.62346817,0.567948065,nuts and legumes,refried beans
+626,0.820796742,0.473472296,nuts and legumes,okara
+627,0.663230595,0.484619579,nuts and legumes,garbanzo beans
+628,0.504949369,0.560084733,nuts and legumes,mungo beans
+629,0.500952381,0.570914098,nuts and legumes,"broad beans, canned"
+630,0.485940813,0.598769187,nuts and legumes,"mungo beans, cooked"
+631,0.46809712,0.559843503,nuts and legumes,yellow beans
+632,0.469487388,0.563244832,nuts and legumes,"yellow beans, cooked"
+633,0.729882197,0.531501224,nuts and legumes,"hyacinth beans, cooked"
+634,0.440314329,0.548944773,nuts and legumes,hyacinth beans
+635,0.49626222,0.560477009,nuts and legumes,"great northern beans, cooked"
+636,0.602204491,0.561046796,nuts and legumes,"yardlong beans, cooked"
+637,0.603868255,0.583329241,nuts and legumes,yardlong beans
+638,0.45114208,0.553778534,nuts and legumes,"split peas, cooked"
+639,0.538188277,0.540094348,nuts and legumes,broad beans
+640,0.538188277,0.568837663,nuts and legumes,"broad beans, cooked with salt"
+641,0.739562342,0.474206876,nuts and legumes,mothbeans
+642,0.739731734,0.43984433,nuts and legumes,"mothbeans, cooked"
+643,0.444014095,0.564667667,nuts and legumes,cranberry (roman) beans
+644,0.480242711,0.575835555,nuts and legumes,"black beans, cooked"
+645,0.485000718,0.533479039,nuts and legumes,"cranberry (roman) beans, cooked"
+646,0.498899611,0.58972701,nuts and legumes,"lima beans, cooked"
+647,0.46521259,0.522610335,nuts and legumes,"white beans, cooked"
+648,0.509163998,0.562346913,nuts and legumes,"pinto beans, cooked"
+649,0.582159224,0.525713823,nuts and legumes,pigeon peas
+650,0.515409874,0.566554172,nuts and legumes,great northern beans
+651,0.465093298,0.554648822,nuts and legumes,white beans
+652,0.474982481,0.540778128,nuts and legumes,navy beans
+653,0.505365048,0.553756321,nuts and legumes,"black turtle beans, cooked"
+654,0.575267264,0.545977013,nuts and legumes,black turtle beans
+655,0.616158736,0.572935684,nuts and legumes,pink beans
+656,0.498169616,0.46393634,nuts and legumes,"french beans, cooked"
+657,0.496827302,0.504103362,nuts and legumes,french beans
+658,0.622824874,0.559064891,nuts and legumes,"pink beans, cooked"
+659,0.61208873,0.526902898,nuts and legumes,adzuki beans
+660,0.563907338,0.466499735,nuts and legumes,"pigeon peas, cooked"
+661,0.544210364,0.503414086,nuts and legumes,"adzuki beans, cooked"
+662,0.500318026,0.614865401,nuts and legumes,cottonseed meal
+663,0.440756432,0.646586345,nuts and legumes,cottonseed flour
+664,0.743993498,0.473003924,nuts and legumes,breadnut seeds
+665,0.849659443,0.448843799,nuts and legumes,sisymbrium sp. seeds
+666,0.817227576,0.466953909,nuts and legumes,lotus seeds
+667,0.767064439,0.449844799,nuts and legumes,roasted breadnut seeds
+668,0.648043342,0.507100514,nuts and legumes,miso
+669,0.223114525,0.622637925,seafood,sheefish
+670,0.043231056,0.603858929,seafood,yellowfin tuna
+671,0.070433289,0.622998208,seafood,"ling, cooked"
+672,0.070484581,0.62941096,seafood,ling
+673,0.07424072,0.614198334,seafood,"northern pike, cooked"
+674,0.074594595,0.672790537,seafood,northern pike
+675,0.075089392,0.672103673,seafood,sunfish
+676,0.075199392,0.554170731,seafood,"cusk, cooked"
+677,0.075292805,0.666934493,seafood,"sunfish, cooked"
+678,0.075575027,0.561559451,seafood,cusk
+679,0.078038048,0.605264484,seafood,atlantic cod
+680,0.078134464,0.594495435,seafood,"atlantic cod, cooked"
+681,0.078355942,0.618824196,seafood,"atlantic cod, canned"
+682,0.078455791,0.591251442,seafood,mahimahi
+683,0.07865605,0.588264526,seafood,"mahimahi, cooked"
+684,0.082082966,0.63851573,seafood,white fish
+685,0.082100142,0.516793141,seafood,orange roughy
+686,0.086241571,0.643502957,seafood,burbot
+687,0.086346863,0.639555779,seafood,"burbot, cooked"
+688,0.087572977,0.566158922,seafood,roughy
+689,0.092681587,0.695799642,seafood,lobster
+690,0.093624472,0.600928041,seafood,skipjack tuna
+691,0.096492822,0.644618916,seafood,"perch, cooked"
+692,0.101587909,0.660146176,seafood,pollock
+693,0.10534846,0.536954316,seafood,"grouper, cooked"
+694,0.105882353,0.545996225,seafood,grouper
+695,0.109565217,0.556009556,seafood,pout
+696,0.109859155,0.54879442,seafood,"pout, cooked"
+697,0.11898229,0.573498517,seafood,lingcod
+698,0.119066148,0.570452676,seafood,"lingcod, cooked"
+699,0.123536842,0.572549853,seafood,"sheepshead, cooked"
+700,0.12513369,0.680112928,seafood,"walleye pike, cooked"
+701,0.125428376,0.687749616,seafood,walleye pike
+702,0.12816153,0.614795518,seafood,snapper
+703,0.128273119,0.534838936,seafood,"snapper, cooked"
+704,0.13032368,0.646163993,seafood,"shrimp, canned"
+705,0.139375057,0.599873527,seafood,whiting
+706,0.141052632,0.63132742,seafood,rockfish
+707,0.181598063,0.651633987,seafood,mackerel (raw)
+708,0.184541063,0.568479177,seafood,cisco
+709,0.184553928,0.597913786,seafood,ocean perch
+710,0.18520964,0.595143166,seafood,perch
+711,0.18567536,0.609102821,seafood,"tilapia, cooked"
+712,0.191061453,0.53941886,seafood,monkfish
+713,0.191197298,0.533761082,seafood,"monkfish, cooked"
+714,0.195985029,0.543886411,seafood,"sea bass, cooked"
+715,0.196249455,0.620185525,seafood,sea bass
+716,0.21154784,0.553258572,seafood,sheepshead
+717,0.220526359,0.503488469,seafood,"tuna, canned"
+718,0.228989977,0.591987993,seafood,tilefish
+719,0.234782609,0.576652775,seafood,"wolffish, cooked"
+720,0.235056278,0.583729429,seafood,wolffish
+721,0.235841082,0.635797868,seafood,"smelt, cooked"
+722,0.235969664,0.683115308,seafood,smelt
+723,0.237199397,0.641531907,seafood,"sucker, cooked"
+724,0.237488626,0.648399632,seafood,sucker
+725,0.240875912,0.639338594,seafood,smoked sturgeon
+726,0.245441795,0.583210207,seafood,"scup, cooked"
+727,0.245479069,0.634236846,seafood,scup
+728,0.257711243,0.558413032,seafood,"catfish, cooked"
+729,0.259215043,0.606526974,seafood,flatfish (flounder)
+730,0.279207921,0.587944494,seafood,catfish
+731,0.286302057,0.641447829,seafood,croaker
+732,0.292418773,0.577897448,seafood,"turbot, cooked"
+733,0.292561983,0.587353745,seafood,turbot
+734,0.128521599,0.709321703,seafood,cuttlefish (cooked)
+735,0.128521599,0.721224692,seafood,cuttlefish (raw)
+736,0.22050894,0.606299338,seafood,spiny lobster
+737,0.220829031,0.598391448,seafood,"spiny lobster, cooked"
+738,0.233419023,0.740472774,seafood,octopus
+739,0.271405147,0.711498789,seafood,"clam, cooked"
+740,0.28100215,0.58429104,seafood,clam
+741,0.423170141,0.760012377,seafood,mussel
+742,0.42330991,0.682508635,seafood,"mussel, cooked"
+743,0.262212644,0.590168004,seafood,scallop
+744,0.266461538,0.640208232,seafood,welk
+745,0.266461538,0.674900255,seafood,whelk
+746,0.311039484,0.696801933,seafood,abalone (raw)
+747,0.517241379,0.674280231,seafood,"pacific oyster, cooked"
+748,0.517241379,0.680726028,seafood,pacific oyster
+749,0.554791999,0.56127883,seafood,"gefiltefish, cooked"
+750,0.500956601,0.492582991,seafood,shrimp imitation
+751,0.474755784,0.485423853,seafood,scallop imitation
+752,0.581744048,0.402262874,"vege, spices and fruit",Guavas
+753,0.60152607,0.411081099,"vege, spices and fruit",frozen rhubarb
+754,0.477446389,0.439362745,"vege, spices and fruit",balsam-pear (bitter gourd) tips
+755,0.317662861,0.486362806,"vege, spices and fruit","malabar spinach, cooked"
+756,0.452712434,0.737252714,"vege, spices and fruit",drumstick leaves
+757,0.555043759,0.747388385,"vege, spices and fruit",kidney beans (cooked)
+758,0.470995671,0.826330532,"vege, spices and fruit",seaweed (laver)
+759,0.425158117,0.737014573,"vege, spices and fruit",white mushroom
+760,0.276752768,0.687964592,"vege, spices and fruit",dock
+761,0.285483871,0.684191597,"vege, spices and fruit","dock, cooked"
+762,0.458198315,0.543826331,"vege, spices and fruit",arugula
+763,0.72027972,0.475256769,"vege, spices and fruit",borage
+764,0.719932998,0.466960784,"vege, spices and fruit","borage, cooked"
+765,0.308108108,0.848857227,"vege, spices and fruit",Chinese cabbage
+766,0.308108108,0.848857227,"vege, spices and fruit",Chinese cabbage (cooked)
+767,0.392797784,0.714926711,"vege, spices and fruit",portabella mushrooms
+768,0.313199864,0.872360248,"vege, spices and fruit",spinach (raw)
+769,0.349569127,0.827118347,"vege, spices and fruit",taro leaves
+770,0.567624572,0.410573022,"vege, spices and fruit",cowpeas leafy tips
+771,0.457800512,0.796532563,"vege, spices and fruit","lambsquarters, cooked"
+772,0.264887064,0.883631714,"vege, spices and fruit",spinach
+773,0.402777778,0.463768116,"vege, spices and fruit",pokeberry shoots (poke)
+774,0.373382011,0.767718546,"vege, spices and fruit","taro leaves, cooked"
+775,0.292682927,0.595055413,"vege, spices and fruit",coriander (raw)
+776,0.577752554,0.75432526,"vege, spices and fruit","jute, potherb"
+777,0.377006051,0.449399114,"vege, spices and fruit",morel mushrooms
+778,0.631205674,0.550168981,"vege, spices and fruit","cress, cooked"
+779,0.423550088,0.667701908,"vege, spices and fruit","hearts of palm, canned"
+780,0.674157303,0.458832283,"vege, spices and fruit",purslane
+781,0.383458647,0.73810357,"vege, spices and fruit",lambsquarters
+782,0.284585987,0.786573842,"vege, spices and fruit",collards
+783,0.692307692,0.719492037,"vege, spices and fruit",cornsalad
+784,0.291803279,0.537114846,"vege, spices and fruit",NZ spinach (cooked)
+785,0.254513687,0.739781512,"vege, spices and fruit","chinese cabbage (pe-tsai), cooked"
+786,0.325842697,0.537815126,"vege, spices and fruit",NZ spinach (raw)
+787,0.404799107,0.822503933,"vege, spices and fruit",parsley (dried)
+788,0.252525253,0.459241509,"vege, spices and fruit","mustard spinach (tendergreen), cooked"
+789,0.617571059,0.546519389,"vege, spices and fruit",cress
+790,0.26199262,0.473034441,"vege, spices and fruit",mustard spinach (tendergreen)
+791,0.693617021,0.742548097,"vege, spices and fruit",vinespinach (basella)
+792,0.538793103,0.668952969,"vege, spices and fruit",summer squash
+793,0.401360544,0.780613433,"vege, spices and fruit",mung beans
+794,0.370253165,0.729325063,"vege, spices and fruit","swamp cabbage (skunk cabbage), cooked"
+795,0.456527004,0.729000938,"vege, spices and fruit",oyster mushrooms
+796,0.60729237,0.778260827,"vege, spices and fruit","drumstick leaves, cooked"
+797,0.574468085,0.418596721,"vege, spices and fruit",chevril
+798,0.558718861,0.769989814,"vege, spices and fruit",brown mushrooms
+799,0.61868255,0.510994147,"vege, spices and fruit",coriander leaf
+800,0.514787827,0.810376541,"vege, spices and fruit",mung beans (sprouted)
+801,0.486938656,0.667932392,"vege, spices and fruit","white mushrooms, cooked"
+802,0.243769908,0.714584091,"vege, spices and fruit",mint leaves
+803,0.50262697,0.813616099,"vege, spices and fruit","jute, potherb, cooked"
+804,0.475096657,0.793318287,"vege, spices and fruit","collards, frozen, cooked"
+805,0.475096657,0.802305215,"vege, spices and fruit","collards, frozen, cooked with salt"
+806,0.727480567,0.69744036,"vege, spices and fruit","purslane, cooked"
+807,0.630363036,0.602473942,"vege, spices and fruit",yellow tomatoes
+808,0.497435897,0.52868602,"vege, spices and fruit","dandelion greens, cooked"
+809,0.508196721,0.744396252,"vege, spices and fruit",chinese cabbage (pe-tsai)
+810,0.633244602,0.677022916,"vege, spices and fruit","scotch kale, cooked"
+811,0.567907708,0.619803806,"vege, spices and fruit",orange tomatoes
+812,0.639133921,0.681482667,"vege, spices and fruit",scotch kale
+813,0.357027464,0.820159976,"vege, spices and fruit",swiss chard (cooked)
+814,0.43908046,0.667623402,"vege, spices and fruit","mushrooms, canned"
+815,0.581589958,0.61984279,"vege, spices and fruit",pickles
+816,0.73275236,0.450802139,"vege, spices and fruit",taro shoots
+817,0.746958637,0.425626133,"vege, spices and fruit",cowpeas (cooked)
+818,0.539888683,0.538553533,"vege, spices and fruit",dandelion greens
+819,0.274600721,0.72595315,"vege, spices and fruit",nopales
+820,0.5,0.707538869,"vege, spices and fruit",peas
+821,0.56284153,0.696566071,"vege, spices and fruit",scallop squash
+822,0.378249337,0.678198027,"vege, spices and fruit","scallop squash, cooked"
+823,0.507246377,0.657788817,"vege, spices and fruit",celtuce
+824,0.423117709,0.486136642,"vege, spices and fruit",serrano peppers
+825,0.44219803,0.660815397,"vege, spices and fruit","tomatoes, canned"
+826,0.421130512,0.524934968,"vege, spices and fruit",thyme leaves
+827,0.252336449,0.433786456,"vege, spices and fruit",balsam-pear (bitter gourd) pods
+828,0.385868603,0.472904375,"vege, spices and fruit",artichokes
+829,0.789263221,0.446928896,"vege, spices and fruit",sweet corn
+830,0.531791908,0.660663091,"vege, spices and fruit",celery
+831,0.491712707,0.66956427,"vege, spices and fruit",snap beans
+832,0.82195122,0.466596639,"vege, spices and fruit","taro shoots, cooked"
+833,0.142857143,0.458113472,"vege, spices and fruit",waxgourd
+834,0.470383275,0.609603683,"vege, spices and fruit",radishes
+835,0.447221648,0.407289946,"vege, spices and fruit",blackberries
+836,0.396117901,0.479269208,"vege, spices and fruit",mustard cabbage
+837,0.53953954,0.401723925,"vege, spices and fruit",cardoon
+838,0.618264445,0.452692186,"vege, spices and fruit",beets
+839,0.53803132,0.415371148,"vege, spices and fruit",epazote
+840,0.684984855,0.598987202,"vege, spices and fruit",pumpkin
+841,0.544537815,0.505174604,"vege, spices and fruit",turnips
+842,0.490941803,0.417288269,"vege, spices and fruit",sage
+843,0.418617565,0.644078668,"vege, spices and fruit",mint
+844,0.502988854,0.550469462,"vege, spices and fruit",fenugreek
+845,0.60426799,0.422837037,"vege, spices and fruit",cloves
+846,0.405344711,0.419383312,"vege, spices and fruit",marjoram
+847,0.486339711,0.520708963,"vege, spices and fruit",thyme
+848,0.563024181,0.454228296,"vege, spices and fruit",pepper
+849,0.28395635,0.832423712,"vege, spices and fruit",spinach
+850,0.438941864,0.451631946,"vege, spices and fruit","mustard greens, cooked"
+851,0.327655311,0.737531548,"vege, spices and fruit","collards, cooked"
+852,0.457824316,0.709183266,"vege, spices and fruit",kale leaves
+853,0.305817514,0.44646723,"vege, spices and fruit","grape leaves, canned"
+854,0.703703704,0.410171569,"vege, spices and fruit","napa cabbage, cooked"
+855,0.433628319,0.647890412,"vege, spices and fruit",bamboo shoots
+856,0.400289017,0.465414137,"vege, spices and fruit",grape leaves
+857,0.474530831,0.604188018,"vege, spices and fruit",broad beans
+858,0.739130435,0.643307354,"vege, spices and fruit",winged bean leaves
+859,0.590603206,0.473574205,"vege, spices and fruit",ancho peppers
+860,0.475819033,0.594330011,"vege, spices and fruit","broad beans, cooked"
+861,0.685541506,0.40677143,"vege, spices and fruit",tomatillos
+862,0.36989732,0.710116045,"vege, spices and fruit","collards, frozen"
+863,0.625054753,0.579180964,"vege, spices and fruit",squash
+864,0.369273917,0.497204892,"vege, spices and fruit",banana pepper
+865,0.532198372,0.645082932,"vege, spices and fruit",shiitake mushrooms
+866,0.721989215,0.486934297,"vege, spices and fruit",winged bean tuber
+867,0.506542056,0.69712312,"vege, spices and fruit","peas edible-podded, cooked"
+868,0.721095836,0.508658304,"vege, spices and fruit","peas, cooked"
+869,0.716700201,0.586799486,"vege, spices and fruit","lentils, cooked"
+870,0.293621508,0.73897707,"vege, spices and fruit","nopales, cooked"
+871,0.767634855,0.590738224,"vege, spices and fruit",yardlong bean
+872,0.537634409,0.646344546,"vege, spices and fruit",welsh onions
+873,0.751614506,0.5768386,"vege, spices and fruit",tomato juice
+874,0.518093954,0.663630777,"vege, spices and fruit",enoki mushrooms
+875,0.739881764,0.589407531,"vege, spices and fruit",vegetable juice cocktail
+876,0.374673891,0.463995598,"vege, spices and fruit",sweet potato leaves
+877,0.517921818,0.581250482,"vege, spices and fruit","green peas, cooked"
+878,0.604842615,0.535368587,"vege, spices and fruit","sweet potato leaves, cooked"
+879,0.523319868,0.567228199,"vege, spices and fruit","green peas, canned"
+880,0.768763472,0.500631567,"vege, spices and fruit","hyacinth-beans, cooked"
+881,0.564551422,0.405345472,"vege, spices and fruit","pumpkin flowers, cooked"
+882,0.764957265,0.484905591,"vege, spices and fruit",pepeao
+883,0.616666667,0.407526261,"vege, spices and fruit",gourd dishcloth (towelgourd)
+884,0.67193015,0.525268962,"vege, spices and fruit",succotash (corn and limas)
+885,0.609632446,0.61816245,"vege, spices and fruit","summer squash, cooked"
+886,0.655008001,0.525819112,"vege, spices and fruit",sun-dried tomatoes
+887,0.45686901,0.476860517,"vege, spices and fruit",hot pickled peppers
+888,0.379426644,0.631149707,"vege, spices and fruit","savoy cabbage, cooked"
+889,0.511530398,0.605537676,"vege, spices and fruit","snap beans, canned"
+890,0.387387387,0.715045818,"vege, spices and fruit",savoy cabbage
+891,0.501057082,0.550242011,"vege, spices and fruit",hubbard squash
+892,0.500712454,0.54707746,"vege, spices and fruit","hubbard squash, cooked"
+893,0.384064458,0.42988212,"vege, spices and fruit","shellie beans, cooked"
+894,0.643385903,0.457223967,"vege, spices and fruit",green onions
+895,0.510775862,0.501418095,"vege, spices and fruit","radishes, cooked"
+896,0.553519367,0.630037183,"vege, spices and fruit",orange pepper
+897,0.563636364,0.589709767,"vege, spices and fruit","pimento, canned"
+898,0.601532567,0.587370694,"vege, spices and fruit",tomatoes
+899,0.503078983,0.62736413,"vege, spices and fruit",maitake mushrooms
+900,0.579949205,0.460154363,"vege, spices and fruit",hot chile pepper
+901,0.592097941,0.499851503,"vege, spices and fruit",mixed frozen vegetables
+902,0.711225364,0.625603899,"vege, spices and fruit",red hot chili peppers
+903,0.659259259,0.592264576,"vege, spices and fruit",green tomatoes
+904,0.629707113,0.619912084,"vege, spices and fruit",crushed tomatoes
+905,0.762201245,0.417085748,"vege, spices and fruit",white sweet corn
+906,0.668097282,0.573596059,"vege, spices and fruit","kohlrabi, cooked"
+907,0.788018433,0.571068983,"vege, spices and fruit","yardlong bean, cooked"
+908,0.683149304,0.605370709,"vege, spices and fruit","tomatoes, cooked"
+909,0.433839479,0.682367189,"vege, spices and fruit",yellow snap beans
+910,0.491712707,0.679032057,"vege, spices and fruit","yellow snap beans, canned"
+911,0.653319609,0.544450996,"vege, spices and fruit",ketchup
+912,0.69376,0.476904663,"vege, spices and fruit","succotash (corn and limas), cooked"
+913,0.640102828,0.459671157,"vege, spices and fruit","waxgourd, cooked"
+914,0.757712992,0.425750581,"vege, spices and fruit",spaghetti squash
+915,0.540034072,0.586831336,"vege, spices and fruit",hyacinth-beans
+916,0.706129303,0.614033044,"vege, spices and fruit",green chili peppers
+917,0.786286732,0.574112141,"vege, spices and fruit",hungarian peppers
+918,0.509564127,0.433272416,"vege, spices and fruit",celery flakes
+919,0.524992777,0.608764399,"vege, spices and fruit","red cabbage, cooked"
+920,0.5518008,0.640168818,"vege, spices and fruit",chayote
+921,0.614628821,0.564848408,"vege, spices and fruit",red cabbage
+922,0.824141921,0.467566803,"vege, spices and fruit","sesbania flower, cooked"
+923,0.70989011,0.453261229,"vege, spices and fruit",celeriac
+924,0.75617581,0.482904289,"vege, spices and fruit",yellow peppers
+925,0.517241379,0.480884612,"vege, spices and fruit",fennel bulb
+926,0.592668024,0.551095159,"vege, spices and fruit","pumpkin, canned"
+927,0.694479037,0.44665361,"vege, spices and fruit","beets, cooked"
+928,0.737298637,0.518789951,"vege, spices and fruit","green peppers, cooked"
+929,0.841975309,0.462460933,"vege, spices and fruit",sesbania flower
+930,0.647723496,0.455725553,"vege, spices and fruit",cowpeas (blackeyes)
+931,0.664407476,0.492439949,"vege, spices and fruit","cowpeas (blackeyes), cooked"
+932,0.723797781,0.512908552,"vege, spices and fruit",gourd (calabash)
+933,0.732641142,0.460649785,"vege, spices and fruit","spaghetti squash, cooked"
+934,0.649489432,0.487814095,"vege, spices and fruit","winter squash, cooked"
+935,0.667983744,0.533860091,"vege, spices and fruit",tomato powder
+936,0.544537815,0.447687973,"vege, spices and fruit","turnips, cooked"
+937,0.584775087,0.494404319,"vege, spices and fruit","gourd (calabash), cooked"
+938,0.664015905,0.411030358,"vege, spices and fruit",rutabagas
+939,0.796171171,0.459018012,"vege, spices and fruit","leeks, cooked"
+940,0.626028422,0.420946533,"vege, spices and fruit",lotus root
+941,0.708066581,0.428433972,"vege, spices and fruit",shallots
+942,0.770672547,0.432100352,"vege, spices and fruit","potatoes, canned"
+943,0.734307539,0.432220915,"vege, spices and fruit","beets, canned"
+944,0.777439951,0.45973008,"vege, spices and fruit","shiitake mushrooms, cooked"
+945,0.599360682,0.598978601,"vege, spices and fruit","carrots, cooked"
+946,0.834397918,0.448979342,"vege, spices and fruit",carrot juice
+947,0.726649077,0.403746105,"vege, spices and fruit",white onions
+948,0.614063778,0.500035512,"vege, spices and fruit",baby carrots
+949,0.851421189,0.411750975,"vege, spices and fruit","sweet potatoes, canned"
+950,0.655323135,0.430181825,"vege, spices and fruit","acorn squash, cooked"
+951,0.799038882,0.444493301,"vege, spices and fruit",acorn squash
+952,0.2626611,0.630554813,animal,Canadian bacon
+953,0.186396337,0.597504123,animal,beef jerky
+954,0.670819177,0.605352085,grains,oat bran
+955,0.436093984,0.600362806,nuts and legumes,lentils
+956,0.389211618,0.790829671,plants,spinach and rocket
+957,0.05829702,0.634358855,seafood,haddock
+958,0.085188028,0.761712396,seafood,crab
+959,0.138674884,0.752394616,seafood,crayfish
+960,0.138847002,0.618031828,seafood,halibut
+961,0.160008366,0.638308605,seafood,tilapia
+962,0.284171836,0.671846387,seafood,squid
+963,0.314347708,0.745214589,"vege, spices and fruit",spirulina
+964,0.343922652,0.837127796,"vege, spices and fruit",basil (fresh)
+965,0.183497537,0.885620915,"vege, spices and fruit",broccoli raab (cooked)
+966,0.175851176,0.883912656,"vege, spices and fruit",broccoli raab (raw)
+967,0.394673123,0.850388878,"vege, spices and fruit",bok choy
+968,0.572307692,0.684869061,"vege, spices and fruit",dill (fresh)
+969,0.240431857,0.740112473,"vege, spices and fruit",basil (dried)
+970,0.681509434,0.755153879,"vege, spices and fruit",amaranth leaves
+971,0.135214364,0.791210126,"vege, spices and fruit",beet greens (raw)
+972,0.35495283,0.807980846,"vege, spices and fruit",beet greens (cooked)
+973,0.362276541,0.79712195,"vege, spices and fruit",okra
+974,0.145945946,0.74251522,"vege, spices and fruit",escarole
+975,0.19434629,0.760916878,"vege, spices and fruit",chicory greens (raw)
+976,0.740631888,0.660788905,"vege, spices and fruit",wakame
+977,0.228915663,0.795561166,"vege, spices and fruit",turnip greens
+978,0.452167928,0.539224708,"vege, spices and fruit",eggplant
+979,0.704155125,0.407513471,"vege, spices and fruit",strawberries
+980,0.433871356,0.630962231,"vege, spices and fruit",peppermint
+981,0.549893843,0.470915545,"vege, spices and fruit",jalapeno peppers
+982,0.646323054,0.537425559,"vege, spices and fruit",winter squash
+983,0.62704918,0.514948699,nuts and legumes,coconut water
+984,0.308151093,0.820536816,plants,bok choy (cooked)
+985,0.394673123,0.819244447,plants,bok choy (raw)
+986,0.078243645,0.685478002,seafood,cod
+987,0.229309781,0.635659481,"vege, spices and fruit",alfalfa sprouts
+988,0.266055046,0.873233384,"vege, spices and fruit",watercress
+989,0.37705803,0.806771245,"vege, spices and fruit",chives
+990,0.416216216,0.436671335,"vege, spices and fruit",kimchi (cabbage)
+991,0.432387312,0.827413462,"vege, spices and fruit",Swiss chard (raw)
+992,0.138613861,0.797285294,"vege, spices and fruit",endive
+993,0.512641205,0.703764135,"vege, spices and fruit",green beans
+994,0.394665215,0.467784347,"vege, spices and fruit",capers
+995,0.495122642,0.637626852,"vege, spices and fruit",paprika
+996,0.411764706,0.562788361,"vege, spices and fruit",oregano
+997,0.718991449,0.425810927,"vege, spices and fruit",garlic powder
+998,0.464612422,0.63588161,"vege, spices and fruit",green peas
+999,0.624217119,0.582452253,"vege, spices and fruit",tomato sauce
+1000,0.797856049,0.477910553,"vege, spices and fruit",leeks
+1001,0.767711963,0.516715533,"vege, spices and fruit",butternut squash
+1002,0.371944166,0.767269238,animal,beef liver
+1003,0.680341475,0.596650327,dairy,milk (low fat)
+1004,0.092611863,0.487108786,dairy,egg white
+1005,0.264786795,0.854331333,plants,spinach (cooked)
+1006,0.293213828,0.564486664,plants,coriander/cilantro
+1007,0.3359375,0.827424268,plants,mixed greens
+1008,0.325417255,0.763207158,plants,"mixed vegetables (broccoli, cauliflower and carrots)"
+1009,0.458214431,0.777911682,plants,broccoli (cooked from fresh)
+1010,0.257142857,0.696237517,seafood,mackerel
+1011,0.190044444,0.677358671,seafood,shrimp
+1012,0.433987813,0.851148149,"vege, spices and fruit",parsley (fresh)
+1013,0.478922136,0.494386066,"vege, spices and fruit",kale (raw)
+1014,0.295116773,0.835807428,"vege, spices and fruit",broccoli (cooked from frozen)
+1015,0.371877231,0.891301294,"vege, spices and fruit",asparagus (cooked)
+1016,0.322834646,0.854729189,"vege, spices and fruit",asparagus (raw)
+1017,0.561507937,0.722982537,"vege, spices and fruit",zucchini
+1018,0.358999038,0.75958464,"vege, spices and fruit",lettuce
+1019,0.473402963,0.774152196,"vege, spices and fruit",broccoli (raw)
+1020,0.478723404,0.748702358,"vege, spices and fruit",cauliflower
+1021,0.537366548,0.74142841,"vege, spices and fruit",kale (cooked)
+1022,0.307901907,0.584805554,"vege, spices and fruit",sauerkraut
+1023,0.541576283,0.570338972,"vege, spices and fruit",cabbage
+1024,0.769706169,0.447508964,"vege, spices and fruit",sweet potato (baked)
+1025,0.615130895,0.424285657,"vege, spices and fruit",turmeric
+1026,0.56481088,0.603949689,"vege, spices and fruit",green peppers
+1027,0.745996687,0.566364272,"vege, spices and fruit",cucumber
+1028,0.791342952,0.449413704,"vege, spices and fruit",garlic
