@@ -1,0 +1,630 @@
+,Unnamed: 0,SatietyIndex,InsulinIndex,F6,foodName
+0,0,0.50237103,0.300037946,animal,beef loin
+1,1,0.50237103,0.33366849,animal,beef ribs
+2,2,0.50237103,0.4825417,animal,beef roast
+3,3,0.50237103,0.325203658,animal,"Beef, flank, steak, separable lean and fat, trimmed to 0"" fat, choice, cooked, braised"
+4,4,0.50237103,0.325414234,animal,"Beef, rib eye steak, boneless, lip off, separable lean and fat, trimmed to 0"" fat, select, cooked, grilled"
+5,5,0.50237103,0.320887285,animal,"Beef, rib, eye, small end (ribs 10-12), separable lean and fat, trimmed to 0"" fat, choice, cooked, broiled"
+6,6,0.50237103,0.311622155,animal,"Beef, rib, small end (ribs 10-12), separable lean and fat, trimmed to 1/8"" fat, select, cooked, broiled"
+7,7,0.50237103,0.374689315,animal,"Beef, variety meats and by-products, tripe, cooked, simmered"
+8,8,0.50237103,0.514399768,animal,chuck steak
+9,9,0.50237103,0.303581205,animal,ground beef
+10,10,0.50237103,0.594779148,animal,ground beef (lean)
+11,11,0.50237103,0.497261422,animal,porterhouse steak (fat trimmed)
+12,12,0.50237103,0.446481954,animal,rib eye fillet
+13,13,0.50237103,0.378132965,animal,roast beef
+14,14,0.50237103,0.354780621,animal,sirloin steak
+15,15,0.50237103,0.567589228,animal,sirloin steak (lean)
+16,16,0.484268743,0.259199431,animal,T-bone steak
+17,17,0.50237103,0.554937834,animal,top round steak (fat trimmed)
+18,18,0.50237103,0.533843125,animal,bison
+19,19,0.50237103,0.443850329,animal,elk
+20,20,0.50237103,0.31144672,animal,lamb
+21,21,0.50237103,0.429378359,animal,lamb (lean)
+22,22,0.50237103,0.423787344,animal,lamb chop
+23,23,0.21390603,0.045283026,animal,lamb fat
+24,24,0.389395742,0.190453255,animal,lamb rib
+25,25,0.50237103,0.483908206,animal,lamb shank
+26,26,0.555435619,0.645797374,animal,veal
+27,27,0.50237103,0.480545437,animal,veal loin
+28,28,0.461983725,0.217553098,animal,beef brains
+29,29,0.50237103,0.519443121,animal,beef heart
+30,30,0.50237103,0.518291799,animal,beef kidney
+31,31,0.50237103,0.594734193,animal,beef liver
+32,32,0.50237103,0.549629324,animal,beef tripe
+33,33,0.50237103,0.495584015,animal,chicken liver
+34,34,0.50237103,0.20192413,animal,headcheese
+35,35,0.50237103,0.265637972,animal,lamb brains
+36,36,0.50237103,0.477008087,animal,lamb heart
+37,37,0.50237103,0.523285151,animal,lamb kidney
+38,38,0.50237103,0.483724115,animal,lamb liver
+39,39,0.50237103,0.582815888,animal,lamb lungs
+40,40,0.314911787,0.162045249,animal,liver pate
+41,41,0.316640787,0.12522998,animal,liver sausage
+42,42,0.309395148,0.163829403,animal,liverwurst
+43,43,0.50237103,0.591670672,animal,pork liver
+44,44,0.290167215,0.117101426,animal,sweetbread
+45,45,0.50237103,0.565997753,animal,turkey gizzard
+46,46,0.50237103,0.469866766,animal,turkey heart
+47,47,0.50237103,0.469420071,animal,turkey liver
+48,48,0.50237103,0.554488354,animal,veal liver
+49,49,0.259396427,0.105799612,animal,bacon
+50,50,0.50237103,0.539858078,animal,ground pork
+51,51,0.50237103,0.293188829,animal,ham
+52,52,0.50237103,0.561548502,animal,leg ham
+53,53,0.50237103,0.538409256,animal,pork chops (lean)
+54,54,0.487287226,0.298670574,animal,pork feet
+55,55,0.50237103,0.410526766,animal,pork loin
+56,56,0.50237103,0.437595777,animal,pork loin (lean)
+57,57,0.369765221,0.176927247,animal,pork ribs
+58,58,0.50237103,0.39334847,animal,pork ribs
+59,59,0.50237103,0.563779351,animal,pork shoulder
+60,60,0.50237103,0.319206874,animal,"Pork, fresh, variety meats and by-products, stomach, cooked, simmered"
+61,61,0.50237103,0.346991434,animal,prok ears
+62,62,0.50237103,0.408266829,animal,roast ham
+63,63,0.50237103,0.406981774,animal,roast pork
+64,64,0.50237103,0.359778982,animal,chicken
+65,65,0.531646255,0.61449166,animal,chicken breast
+66,66,0.313433394,0.388929829,animal,"Chicken breast tenders, breaded, uncooked"
+67,67,0.50237103,0.472121088,animal,chicken drumstick
+68,68,0.278199098,0.335827294,animal,"Chicken patty, frozen, cooked"
+69,69,0.327004259,0.322332849,animal,"Chicken patty, frozen, uncooked"
+70,70,0.506772498,0.321221075,animal,"Chicken, broiler, rotisserie, BBQ, back meat only"
+71,71,0.504124449,0.39029182,animal,"Chicken, broiler, rotisserie, BBQ, drumstick meat and skin"
+72,72,0.50237103,0.386432716,animal,"Chicken, broiler, rotisserie, BBQ, thigh, meat only"
+73,73,0.367752305,0.180362875,animal,duck
+74,74,0.50237103,0.301830303,animal,ground turkey
+75,75,0.50237103,0.277355506,animal,turkey
+76,76,0.50237103,0.503095021,animal,turkey
+77,77,0.361262214,0.178891116,animal,beef sausage
+78,78,0.29893284,0.138051328,animal,blood sausage
+79,79,0.282914094,0.110206186,animal,bologna
+80,80,0.300268656,0.162957284,animal,bratwurst
+81,81,0.352258594,0.173099864,animal,chorizo
+82,82,0.273160224,0.165158028,animal,frankfurter
+83,83,0.57385996,0.667338525,animal,frankfurter (fat free)
+84,84,0.50237103,0.348235294,animal,HORMEL Pillow Pak Sliced Turkey Pepperoni
+85,85,0.283213714,0.151605378,animal,kielbasa
+86,86,0.276536032,0.155207888,animal,knackwurst
+87,87,0.450693477,0.188679115,animal,meatballs
+88,88,0.58923685,0.72467571,animal,pastrami (fat free)
+89,89,0.286982255,0.128673142,animal,pepperoni
+90,90,0.376354677,0.198721526,animal,pork sausage
+91,91,0.37410026,0.331755068,animal,Poultry salad sandwich spread
+92,92,0.366740274,0.180787187,animal,salami
+93,93,0.261239897,0.301983637,animal,"Sandwich spread, pork, beef"
+94,94,0.419071316,0.346414585,animal,"Sausage, chicken, beef, pork, skinless, smoked"
+95,95,0.50237103,0.390060499,animal,"Sausage, Italian, sweet, links"
+96,96,0.286137801,0.342667479,animal,"Scrapple, pork"
+97,97,0.636994911,0.632045314,animal,turkey
+98,98,0.621543746,0.547669648,animal,turkey breast (fat free)
+99,99,0.50237103,0.403640527,animal,pork skins
+100,100,0.667010797,0.917448101,animal,gelatin powder
+101,101,0.385671569,0.210383788,dairy,blue cheese
+102,102,0.392470445,0.194236551,dairy,brie
+103,103,0.214157565,0.018010836,dairy,butter
+104,104,0.410275096,0.207147403,dairy,camembert
+105,105,0.511418537,0.481798348,dairy,cheddar (non-fat)
+106,106,0.377537823,0.199970436,dairy,cheddar cheese
+107,107,0.667884315,0.911477745,dairy,chocolate milk (fat free)
+108,108,0.38425963,0.20749205,dairy,Colby
+109,109,0.580581441,0.519055241,dairy,cottage cheese
+110,110,0.651014789,0.625465424,dairy,cottage cheese (low fat)
+111,111,0.239756928,0.056056057,dairy,cream
+112,112,0.244430089,0.113799752,dairy,cream cheese
+113,113,0.744161946,0.76029359,dairy,cream cheese (low fat)
+114,114,0.435339302,0.230763461,dairy,edam cheese
+115,115,0.686924455,0.739754778,dairy,egg white
+116,116,0.346124544,0.183256182,dairy,egg yolk
+117,117,0.398533678,0.220122203,dairy,feta cheese
+118,118,0.42321498,0.213023023,dairy,goat cheese
+119,119,0.441684569,0.239394978,dairy,gouda cheese
+120,120,0.626496231,0.372265786,dairy,Greek yogurt
+121,121,0.649161833,0.629602821,dairy,Greek yogurt (low fat)
+122,122,0.435312667,0.219273324,dairy,gruyere cheese
+123,123,0.37794646,0.430117206,dairy,human breast milk
+124,124,0.686550887,0.637143546,dairy,kefir (low fat)
+125,125,0.389031081,0.188566068,dairy,limburger cheese
+126,126,0.33915968,0.438173769,dairy,milk (full fat)
+127,127,0.40738673,0.204808916,dairy,Monterey cheese
+128,128,0.477605668,0.341211959,dairy,mozzarella
+129,129,0.86818194,0.552613636,dairy,mozzarella (non fat)
+130,130,0.403577167,0.205688827,dairy,muenster cheese
+131,131,0.609582989,0.964114229,dairy,non-fat yogurt
+132,132,0.412847385,0.337424004,dairy,parmesan cheese
+133,133,0.642261958,0.467071499,dairy,protein powder (WPC)
+134,134,0.73443481,0.533347537,dairy,protein powder (WPI)
+135,135,0.404153008,0.265225881,dairy,ricotta
+136,136,0.265745541,0.12775196,dairy,sour cream
+137,137,0.481503524,0.927058824,dairy,sour cream (fat free)
+138,138,0.234728563,0.26298984,dairy,sour cream (light)
+139,139,0.416661764,0.219387249,dairy,Swiss cheese
+140,140,0.510159235,0.295615598,dairy,whole egg
+141,141,0.383242143,0.827281141,grains,bagels
+142,142,0.711947057,0.778158245,grains,"Bagels, multigrain"
+143,143,0.669621776,0.807612042,grains,"Bagels, wheat"
+144,144,0.653631828,0.530366349,grains,baker's yeast
+145,145,0.51462467,0.934363257,grains,baking powder
+146,146,0.343917492,0.639528732,grains,"Biscuits, plain or buttermilk, dry mix"
+147,147,0.275848197,0.678743349,grains,"Biscuits, plain or buttermilk, frozen, baked"
+148,148,0.269850608,0.552222801,grains,"Biscuits, plain or buttermilk, prepared from recipe"
+149,149,0.293755441,0.66417837,grains,"Biscuits, plain or buttermilk, refrigerated dough, higher fat"
+150,150,0.190908734,0.610715915,grains,"Biscuits, plain or buttermilk, refrigerated dough, higher fat, baked"
+151,151,0.391296649,0.693990528,grains,"Biscuits, plain or buttermilk, refrigerated dough, lower fat"
+152,152,0.384815977,0.697431677,grains,"Biscuits, plain or buttermilk, refrigerated dough, lower fat, baked"
+153,153,0.31645441,0.582797133,grains,blueberry muffins
+154,154,0.803802681,0.764234694,grains,bread (wheat)
+155,155,0.362771509,0.774560952,grains,"Bread crumbs, dry, grated, seasoned"
+156,156,0.426444797,0.654102583,grains,bread roll
+157,157,0.355940295,0.738901464,grains,"Bread sticks, plain"
+158,158,0.280616435,0.416067431,grains,"Bread stuffing, bread, dry mix, prepared"
+159,159,0.602650177,0.731719839,grains,"Bread stuffing, cornbread, dry mix"
+160,160,0.38698503,0.477627451,grains,"Bread stuffing, cornbread, dry mix, prepared"
+161,161,0.558202475,0.826197955,grains,"Bread, boston brown, canned"
+162,162,0.232146791,0.543967595,grains,"Bread, chapati or roti, whole wheat, commercially prepared, frozen"
+163,163,0.296672335,0.47558156,grains,"Bread, cheese"
+164,164,0.607750852,0.70781984,grains,"Bread, cinnamon"
+165,165,0.533454252,0.659333156,grains,"Bread, cornbread, dry mix, enriched (includes corn muffin mix)"
+166,166,0.50502353,0.762614002,grains,"Bread, cracked-wheat"
+167,167,0.40744539,0.751165354,grains,"Bread, egg, toasted"
+168,168,0.341139962,0.812596401,grains,"Bread, french or vienna (includes sourdough)"
+169,169,0.253231546,0.69709276,grains,"Bread, gluten-free, white, made with rice flour, corn starch, and/or tapioca"
+170,170,0.379639752,0.795513113,grains,"Bread, irish soda, prepared from recipe"
+171,171,0.534084538,0.810113673,grains,"Bread, italian"
+172,172,0.470359326,0.678478153,grains,"Bread, multi-grain (includes whole-grain)"
+173,173,0.645785442,0.677589452,grains,"Bread, multi-grain, toasted (includes whole-grain)"
+174,174,0.291698872,0.650793873,grains,"Bread, naan, whole wheat, commercially prepared, refrigerated"
+175,175,0.626003969,0.728984346,grains,"Bread, oat bran, toasted"
+176,176,0.579170907,0.767714749,grains,"Bread, oatmeal"
+177,177,0.579818964,0.767948793,grains,"Bread, oatmeal, toasted"
+178,178,0.214817612,0.613115236,grains,"Bread, pan dulce, sweet yeast bread"
+179,179,0.250185253,0.479659747,grains,"Bread, paratha, whole wheat, commercially prepared, frozen"
+180,180,0.604773281,0.831326407,grains,"Bread, pita, whole-wheat"
+181,181,0.691814086,0.759300545,grains,"Bread, potato"
+182,182,0.61899173,0.832121877,grains,"Bread, protein, (includes gluten), toasted"
+183,183,0.53477793,0.761470334,grains,"Bread, pumpernickel"
+184,184,0.534032152,0.762242787,grains,"Bread, pumpernickel, toasted"
+185,185,0.541460942,0.776742575,grains,"Bread, raisin, enriched"
+186,186,0.54148255,0.776165215,grains,"Bread, raisin, enriched, toasted"
+187,187,0.572994613,0.632955432,grains,"Bread, reduced-calorie, oat bran, toasted"
+188,188,0.460388596,0.603178319,grains,"Bread, reduced-calorie, wheat"
+189,189,0.219077874,0.738284887,grains,"Bread, roll, Mexican, bollilo"
+190,190,0.563580633,0.769630245,grains,"Bread, rye"
+191,191,0.565166345,0.77000061,grains,"Bread, rye, toasted"
+192,192,0.378072838,0.698332663,grains,"Bread, wheat"
+193,193,0.508093237,0.837090014,grains,"Bread, wheat germ, toasted"
+194,194,0.611177404,0.78606532,grains,"Bread, wheat, toasted"
+195,195,0.337740231,0.758084014,grains,"Bread, white, commercially prepared (includes soft bread crumbs)"
+196,196,0.486220986,0.818900242,grains,"Bread, white, commercially prepared, low sodium, no salt"
+197,197,0.520241006,0.812629589,grains,"Bread, white, commercially prepared, toasted"
+198,198,0.356814168,0.767300609,grains,"Bread, white, prepared from recipe, made with low fat (2%) milk"
+199,199,0.433520041,0.861742637,grains,"Bread, white, prepared from recipe, made with nonfat dry milk"
+200,200,0.504972122,0.726248035,grains,"Bread, whole-wheat, prepared from recipe"
+201,201,0.50533391,0.725274073,grains,"Bread, whole-wheat, prepared from recipe, toasted"
+202,202,0.433387336,0.673134135,grains,"Cake, boston cream pie, commercially prepared"
+203,203,0.398520208,0.51974544,grains,"Cake, chocolate, commercially prepared with chocolate frosting, in-store bakery"
+204,204,0.252300952,0.603591435,grains,"Cake, chocolate, prepared from recipe without frosting"
+205,205,0.223997836,0.646168388,grains,"Cake, pineapple upside-down, prepared from recipe"
+206,206,0.225362338,0.567134423,grains,"Cake, pound, commercially prepared, other than all butter, enriched"
+207,207,0.472849207,0.600700604,grains,"Cake, snack cakes, creme-filled, chocolate with frosting"
+208,208,0.55102546,0.55260041,grains,"Cake, snack cakes, creme-filled, chocolate with frosting, low-fat, with added fiber"
+209,209,0.305511885,0.68302793,grains,"Cake, snack cakes, creme-filled, sponge"
+210,210,0.55102546,0.596435605,grains,"Cake, snack cakes, not chocolate, with icing or filling, low-fat, with added fiber"
+211,211,0.392492691,0.723252314,grains,"Cake, white, prepared from recipe with coconut frosting"
+212,212,0.384185591,0.670211293,grains,"Cake, white, prepared from recipe without frosting"
+213,213,0.367709716,0.560288449,grains,"Cake, yellow, commercially prepared, with chocolate frosting, in-store bakery"
+214,214,0.37794646,0.585013664,grains,"Cake, yellow, commercially prepared, with vanilla frosting"
+215,215,0.215717204,0.61952931,grains,"Cake, yellow, prepared from recipe without frosting"
+216,216,0.472013688,0.489912604,grains,cheesecake
+217,217,0.423625789,0.547329738,grains,choc chip cookies
+218,218,0.451101733,0.609235234,grains,choc chip cookies
+219,219,0.325289098,0.44377997,grains,"Cinnamon buns, frosted (includes honey buns)"
+220,220,0.231046362,0.570269332,grains,"Coffeecake, cheese"
+221,221,0.258471342,0.473264163,grains,"Coffeecake, cinnamon with crumb topping, commercially prepared, enriched"
+222,222,0.407769433,0.700230639,grains,"Coffeecake, cinnamon with crumb topping, dry mix, prepared"
+223,223,0.306204086,0.668175271,grains,"Coffeecake, fruit"
+224,224,0.426510005,0.621913552,grains,"Cookies, brownies, commercially prepared"
+225,225,0.55102546,0.604100778,grains,"Cookies, brownies, commercially prepared, reduced fat, with added fiber"
+226,226,0.306671993,0.533229002,grains,"Cookies, chocolate chip, commercially prepared, regular, higher fat, enriched"
+227,227,0.401114669,0.55473134,grains,"Cookies, chocolate chip, refrigerated dough"
+228,228,0.524214049,0.462647151,grains,"Cookies, chocolate cream covered biscuit sticks"
+229,229,0.346340618,0.602149907,grains,"Cookies, chocolate sandwich, with creme filling, regular"
+230,230,0.503825096,0.494837394,grains,"Cookies, chocolate sandwich, with creme filling, regular, chocolate-coated"
+231,231,0.443262618,0.552243994,grains,"Cookies, chocolate sandwich, with creme filling, special dietary"
+232,232,0.357230072,0.529794832,grains,"Cookies, chocolate sandwich, with extra creme filling"
+233,233,0.467093684,0.670472238,grains,"Cookies, chocolate wafers"
+234,234,0.405949004,0.57684488,grains,"Cookies, chocolate, made with rice cereal"
+235,235,0.579045413,0.761623629,grains,"Cookies, fig bars"
+236,236,0.420015992,0.629422856,grains,"Cookies, marshmallow, chocolate-coated (includes marshmallow pies)"
+237,237,0.344882378,0.715088827,grains,"Cookies, molasses"
+238,238,0.442874017,0.613526639,grains,"Cookies, oatmeal, commercially prepared, regular"
+239,239,0.446528179,0.615469281,grains,"Cookies, oatmeal, commercially prepared, special dietary"
+240,240,0.55102546,0.556518689,grains,"Cookies, oatmeal, reduced fat"
+241,241,0.275561892,0.568877792,grains,"Cookies, oatmeal, refrigerated dough"
+242,242,0.409948698,0.581015757,grains,"Cookies, peanut butter sandwich, regular"
+243,243,0.285711551,0.404892962,grains,"Cookies, peanut butter, commercially prepared, sugar free"
+244,244,0.222428473,0.494260918,grains,"Cookies, peanut butter, refrigerated dough"
+245,245,0.395043325,0.682528401,grains,"Cookies, raisin, soft-type"
+246,246,0.38698503,0.409177727,grains,"Cookies, sugar wafer, with creme filling, sugar free"
+247,247,0.305005793,0.569281952,grains,"Cookies, sugar wafers with creme filling, regular"
+248,248,0.250680681,0.598335958,grains,"Cookies, sugar, commercially prepared, regular (includes vanilla)"
+249,249,0.381946349,0.582550723,grains,"Cookies, sugar, refrigerated dough"
+250,250,0.378539354,0.559961256,grains,"Cookies, sugar, refrigerated dough, baked"
+251,251,0.258392623,0.649825877,grains,"Cookies, vanilla wafers, higher fat"
+252,252,0.414735806,0.670953062,grains,"Cookies, vanilla wafers, lower fat"
+253,253,0.316633098,0.699210652,grains,"Crackers, cheese, reduced fat"
+254,254,0.156597467,0.520991996,grains,"Crackers, cheese, sandwich-type with cheese filling"
+255,255,0.180558655,0.505139127,grains,"Crackers, cheese, sandwich-type with peanut butter filling"
+256,256,0.394115421,0.546499964,grains,"Crackers, cheese, whole grain"
+257,257,0.532045031,0.815607389,grains,"Crackers, melba toast, rye (includes pumpernickel)"
+258,258,0.373693859,0.675504429,grains,"Crackers, milk"
+259,259,0.372113165,0.58008188,grains,"Crackers, multigrain"
+260,260,0.38698503,0.658860661,grains,"Crackers, saltines, whole wheat (includes multi-grain)"
+261,261,0.360682807,0.597789211,grains,"Crackers, sandwich-type, peanut butter filled, reduced fat"
+262,262,0.245866744,0.522466193,grains,"Crackers, standard snack-type, regular, low salt"
+263,263,0.267682782,0.568613429,grains,"Crackers, standard snack-type, sandwich, with cheese filling"
+264,264,0.176257183,0.520364405,grains,"Crackers, standard snack-type, sandwich, with peanut butter filling"
+265,265,0.4748345,0.557704762,grains,"Crackers, toast thins, low sodium"
+266,266,0.412696771,0.562710021,grains,"Crackers, wheat, low salt"
+267,267,0.389499056,0.562460764,grains,"Crackers, whole-wheat, low salt"
+268,268,0.391580113,0.467005149,grains,"Cream puff, eclair, custard or cream filled, iced"
+269,269,0.367897065,0.491088664,grains,croissaunt
+270,270,0.38746389,0.582228161,grains,"Croutons, seasoned"
+271,271,0.282740721,0.449262762,grains,"Danish pastry, cheese"
+272,272,0.382789141,0.478968755,grains,"Danish pastry, cinnamon, enriched"
+273,273,0.426922539,0.52977735,grains,"Danish pastry, fruit, enriched (includes apple, cinnamon, raisin, lemon, raspberry, strawberry)"
+274,274,0.420158944,0.450899917,grains,"Danish pastry, nut (includes almond, raisin nut, cinnamon nut)"
+275,275,0.429160997,0.550518588,grains,"Doughnuts, cake-type, chocolate, sugared or glazed"
+276,276,0.263912045,0.445624986,grains,"Doughnuts, cake-type, plain (includes unsugared, old-fashioned)"
+277,277,0.394581344,0.585660628,grains,"Doughnuts, french crullers, glazed"
+278,278,0.311860286,0.479525653,grains,"Doughnuts, yeast-leavened, glazed, enriched (includes honey buns)"
+279,279,0.341085939,0.375007666,grains,"Doughnuts, yeast-leavened, with creme filling"
+280,280,0.389941375,0.492573993,grains,"Doughnuts, yeast-leavened, with jelly filling"
+281,281,0.408470019,0.750671043,grains,egg bread
+282,282,0.367366155,0.859186472,grains,English muffins
+283,283,0.558567934,0.827797636,grains,English muffins
+284,284,0.692359241,0.756911333,grains,English muffins
+285,285,0.565180203,0.855426888,grains,"English muffins, mixed-grain (includes granola)"
+286,286,0.564857092,0.857699512,grains,"English muffins, mixed-grain, toasted (includes granola)"
+287,287,0.421527184,0.829729807,grains,"English muffins, plain, enriched, with ca prop (includes sourdough)"
+288,288,0.476755889,0.862391885,grains,"English muffins, raisin-cinnamon (includes apple-cinnamon)"
+289,289,0.452591349,0.857962459,grains,"English muffins, raisin-cinnamon, toasted (includes apple-cinnamon)"
+290,290,0.586505465,0.814603623,grains,"English muffins, wheat"
+291,291,0.587822288,0.816780772,grains,"English muffins, wheat, toasted"
+292,292,0.516637049,0.708735336,grains,fruitcake
+293,293,0.435928248,0.47193729,grains,fudge filled cookies
+294,294,0.156323918,0.519069886,grains,"Garlic bread, frozen"
+295,295,0.388358715,0.507018147,grains,girl scout cookies
+296,296,0.484665674,0.725843505,grains,Grahams Crackers
+297,297,0.336801991,0.585060298,grains,"Hush puppies, prepared from recipe"
+298,298,0.609624601,0.771196855,grains,"Muffin, blueberry, commercially prepared, low-fat"
+299,299,0.31970969,0.695253594,grains,"Muffins, blueberry, toaster-type"
+300,300,0.389461777,0.695551485,grains,"Muffins, blueberry, toaster-type, toasted"
+301,301,0.52164719,0.688711366,grains,"Muffins, corn, commercially prepared"
+302,302,0.55102546,0.629231519,grains,"Muffins, wheat bran, toaster-type with raisins, toasted"
+303,303,0.622833315,0.875542259,grains,oat bran bagels
+304,304,0.625343028,0.727592831,grains,oat bran bread
+305,305,0.489930907,0.68473801,grains,oat bran muffins
+306,306,0.173279083,0.749080614,grains,"Pancakes, gluten-free, frozen, ready-to-heat"
+307,307,0.331105405,0.772315758,grains,Phyllo dough
+308,308,0.305372792,0.550710279,grains,"Pie Crust, Cookie-type, Chocolate, Ready Crust"
+309,309,0.223465874,0.520933203,grains,"Pie Crust, Cookie-type, Graham Cracker, Ready Crust"
+310,310,0.397030059,0.534972894,grains,"Pie crust, cookie-type, prepared from recipe, graham cracker, chilled"
+311,311,0.255456999,0.391814516,grains,"Pie crust, cookie-type, prepared from recipe, vanilla wafer, chilled"
+312,312,0.120136006,0.451489036,grains,"Pie crust, standard-type, frozen, ready-to-bake, enriched"
+313,313,0.138278984,0.458907699,grains,"Pie crust, standard-type, frozen, ready-to-bake, enriched, baked"
+314,314,0.297999603,0.371552359,grains,"Pie crust, standard-type, prepared from recipe, unbaked"
+315,315,0.451136031,0.559684964,grains,"Pie, apple, commercially prepared, enriched flour"
+316,316,0.360702,0.524658505,grains,"Pie, banana cream, prepared from recipe"
+317,317,0.379194041,0.597400557,grains,"Pie, blueberry, commercially prepared"
+318,318,0.396327742,0.609345669,grains,"Pie, cherry, commercially prepared"
+319,319,0.338338858,0.569005417,grains,"Pie, Dutch Apple, Commercially Prepared"
+320,320,0.471724701,0.518430994,grains,"Pie, fried pies, fruit"
+321,321,0.417529717,0.691012276,grains,"Pie, lemon meringue, commercially prepared"
+322,322,0.482937707,0.635054463,grains,"Pie, mince, prepared from recipe"
+323,323,0.403734459,0.587326823,grains,"Pie, peach"
+324,324,0.353811078,0.601087995,grains,"Pie, pecan, commercially prepared"
+325,325,0.383663689,0.560225299,grains,"Pie, pumpkin, commercially prepared"
+326,326,0.356506963,0.511687464,grains,"Pie, vanilla cream, prepared from recipe"
+327,327,0.549416847,0.926975425,grains,pound cake (fat free)
+328,328,0.551152074,0.730119754,grains,rice bran bread
+329,329,0.590659563,0.729360596,grains,"Rolls, dinner, oat bran"
+330,330,0.426735061,0.761724863,grains,"Rolls, dinner, plain, commercially prepared (includes brown-and-serve)"
+331,331,0.316921703,0.744217922,grains,"Rolls, dinner, plain, prepared from recipe, made with low fat (2%) milk"
+332,332,0.550522547,0.79656414,grains,"Rolls, dinner, rye"
+333,333,0.463319665,0.716126075,grains,"Rolls, dinner, wheat"
+334,334,0.580031058,0.720215629,grains,"Rolls, dinner, whole-wheat"
+335,335,0.474086096,0.788434584,grains,"Rolls, french"
+336,336,0.362723865,0.764488686,grains,"Rolls, gluten-free, white, made with rice flour, rice starch, and corn starch"
+337,337,0.432237018,0.706378636,grains,"Rolls, hamburger or hot dog, wheat/cracked wheat"
+338,338,0.539812874,0.718610984,grains,"Rolls, hamburger or hotdog, mixed-grain"
+339,339,0.293447276,0.755941037,grains,"Rolls, hamburger or hotdog, plain"
+340,340,0.575169994,0.776214603,grains,"Rolls, hamburger, whole grain white, calcium-fortified"
+341,341,0.449661914,0.809058242,grains,"Rolls, hard (includes kaiser)"
+342,342,0.566946005,0.801895517,grains,"Rolls, pumpernickel"
+343,343,0.584461931,0.638681755,grains,rye bread
+344,344,0.201270261,0.551285449,grains,seed crackers
+345,345,0.483715235,0.893030547,grains,sponge cake
+346,346,0.471091366,0.596200536,grains,"Strudel, apple"
+347,347,0.447895745,0.568778537,grains,"Sweet rolls, cinnamon, commercially prepared with raisins"
+348,348,0.191467978,0.518369557,grains,"Taco shells, baked"
+349,349,0.235550351,0.70561618,grains,"Toaster pastries, fruit (includes apple, blueberry, cherry, strawberry)"
+350,350,0.295821615,0.73278416,grains,"Toaster Pastries, fruit, frosted (include apples, blueberry, cherry, strawberry)"
+351,351,0.498458349,0.751679242,grains,"Tortillas, ready-to-bake or -fry, corn"
+352,352,0.218129441,0.693614083,grains,"Tortillas, ready-to-bake or -fry, flour, refrigerated"
+353,353,0.154387839,0.718750621,grains,"Tortillas, ready-to-bake or -fry, flour, shelf stable"
+354,354,0.388838656,0.740262177,grains,"Tortillas, ready-to-bake or -fry, flour, without added calcium"
+355,355,0.43221877,0.726015727,grains,water biscuits
+356,356,0.638800949,0.793321853,grains,wheat bran bread
+357,357,0.198700449,0.606868149,grains,whole wheat crackers
+358,358,0.573242692,0.727291008,grains,"Barley, hulled"
+359,359,0.554551976,0.780945511,grains,Buckwheat
+360,360,0.595938278,0.804533165,grains,"Buckwheat groats, roasted, cooked"
+361,361,0.585138787,0.805544455,grains,bulgur
+362,362,0.538131102,0.117847403,grains,corn bran
+363,363,0.301508985,0.820977936,grains,"Corn flour, masa, unenriched, white"
+364,364,0.490763637,0.808980796,grains,"Corn flour, whole-grain, white"
+365,365,0.490763637,0.808980796,grains,"Corn flour, whole-grain, yellow"
+366,366,0.490911653,0.785420732,grains,"Corn grain, yellow"
+367,367,0.38953983,0.98824757,grains,corn-starch
+368,368,0.293981085,0.892632555,grains,cornmeal
+369,369,0.496389425,0.813700096,grains,"Cornmeal, whole-grain, white"
+370,370,0.496389425,0.813700096,grains,"Cornmeal, whole-grain, yellow"
+371,371,0.597066777,0.91085657,grains,couscous
+372,372,0.595541274,0.747768025,grains,crackers
+373,373,0.490221187,0.832456675,grains,egg noodles
+374,374,0.233282036,0.896852522,grains,guten free pasta
+375,375,0.548601384,0.726325121,grains,"Hominy, canned, white"
+376,376,0.504418928,0.849790956,grains,"Millet, cooked"
+377,377,0.344723712,0.636886554,grains,"Noodles, chinese, chow mein"
+378,378,0.445602316,0.804336417,grains,"Noodles, egg, enriched, cooked"
+379,379,0.445602316,0.804336417,grains,"Noodles, egg, unenriched, cooked, without added salt"
+380,380,0.55005692,0.650498111,grains,oat bran
+381,381,0.475138044,0.668215702,grains,"Oat flour, partially debranned"
+382,382,0.530460479,0.699919019,grains,Oats
+383,383,0.244487308,0.842317009,grains,"Pasta, gluten-free, brown rice flour, cooked, TINKYADA"
+384,384,0.26787557,0.77602462,grains,"Pasta, gluten-free, corn flour and quinoa flour, cooked, ANCIENT HARVEST"
+385,385,0.516523182,0.780039757,grains,"Pasta, gluten-free, corn, cooked"
+386,386,0.362054456,0.777291333,grains,"Pasta, whole-wheat, cooked"
+387,387,0.564220609,0.777274875,grains,pearled barley
+388,388,0.330486373,0.733306573,grains,quinoa
+389,389,0.430593499,0.9227374,grains,rice flour
+390,390,0.486754573,0.929821508,grains,rice noodles
+391,391,0.30540695,0.85671507,grains,"Rice, brown, long-grain, cooked"
+392,392,0.572539031,0.807423316,grains,rye flour
+393,393,0.632526782,0.64372753,grains,rye flour
+394,394,0.563141852,0.770392383,grains,Rye grain
+395,395,0.452329751,0.897118805,grains,sprouted wheat
+396,396,0.5754154,0.383499256,grains,wheat bran
+397,397,0.280367816,0.913333506,grains,wheat flour
+398,398,0.555039054,0.758293336,grains,"Wheat, soft white"
+399,399,0.242314498,0.919319401,grains,white flour
+400,400,0.397803786,0.951404631,grains,white rice
+401,401,0.625332536,0.863865611,grains,wild rice
+402,402,0.719384283,0.728017382,nuts and legumes,black beans
+403,403,0.777766056,0.718323297,nuts and legumes,broad beans
+404,404,0.674637865,0.636823472,nuts and legumes,chick peas
+405,405,0.797333014,0.684623637,nuts and legumes,cowpeas
+406,406,0.671158924,0.689739883,nuts and legumes,garbanzo beans
+407,407,0.416259512,0.450863665,nuts and legumes,hummus
+408,408,0.740532761,0.73540629,nuts and legumes,kidney beans
+409,409,0.810241588,0.641610733,nuts and legumes,lentils
+410,410,0.680611528,0.51072133,nuts and legumes,lupin seeds
+411,411,0.654571727,0.490911498,nuts and legumes,miso
+412,412,0.731377764,0.390489014,nuts and legumes,natto
+413,413,0.489005418,0.612973819,nuts and legumes,navy beans
+414,414,0.46324363,0.181335189,nuts and legumes,peanut butter
+415,415,0.492392209,0.177516372,nuts and legumes,peanuts
+416,416,0.792294528,0.63268536,nuts and legumes,peas
+417,417,0.611275764,0.717404192,nuts and legumes,soy protein isolate
+418,418,0.461166544,0.156710753,nuts and legumes,almond butter
+419,419,0.454700738,0.151949612,nuts and legumes,almonds
+420,420,0.358056481,0.090751028,nuts and legumes,brazil nuts
+421,421,0.364025844,0.167388407,nuts and legumes,butternuts
+422,422,0.2841108,0.259867525,nuts and legumes,cashews
+423,423,0.335030856,0.338772935,nuts and legumes,coconut
+424,424,0.281490158,0.084011756,nuts and legumes,coconut cream
+425,425,0.439958265,0.095333396,nuts and legumes,coconut meat
+426,426,0.366718391,0.084801662,nuts and legumes,coconut milk
+427,427,0.716231572,0.655645872,nuts and legumes,coconut water
+428,428,0.440997796,0.11489527,nuts and legumes,flax seed
+429,429,0.459262722,0.522290618,nuts and legumes,gingko nuts
+430,430,0.401006588,0.102689246,nuts and legumes,hazelnuts
+431,431,0.373684724,0.060245212,nuts and legumes,macadamia nuts
+432,432,0.400592692,0.063452163,nuts and legumes,pecans
+433,433,0.21390603,0.065560275,nuts and legumes,pili nuts
+434,434,0.276805574,0.114240116,nuts and legumes,pine nuts
+435,435,0.47958775,0.223209871,nuts and legumes,pistachio nuts
+436,436,0.462434529,0.191168007,nuts and legumes,pumpkin seeds
+437,437,0.351379571,0.211704993,nuts and legumes,sesame butter
+438,438,0.425474665,0.099671572,nuts and legumes,sesame seeds
+439,439,0.450546349,0.149048452,nuts and legumes,sunflower seeds
+440,440,0.407997519,0.13400358,nuts and legumes,walnuts
+441,441,0.50237103,0.452676963,seafood,smelt
+442,442,0.50237103,0.57421319,seafood,abalone
+443,443,0.50237103,0.436571773,seafood,anchovy
+444,444,0.50237103,0.333194536,seafood,caviar
+445,445,0.562527039,0.726821901,seafood,clam
+446,446,0.612184167,0.706713945,seafood,cod
+447,447,0.607149429,0.712544928,seafood,crab
+448,448,0.568370992,0.667365443,seafood,crayfish
+449,449,0.50237103,0.468718367,seafood,fish roe
+450,450,0.50237103,0.570369472,seafood,flounder
+451,451,0.611736653,0.706275537,seafood,haddock
+452,452,0.56852567,0.660527658,seafood,halibut
+453,453,0.50237103,0.359562578,seafood,herring
+454,454,0.601899699,0.710781653,seafood,lobster
+455,455,0.386458374,0.138179393,seafood,mackerel
+456,456,0.563004405,0.774375116,seafood,molluscs
+457,457,0.50237103,0.628483276,seafood,mussel
+458,458,0.581686793,0.710684714,seafood,octopus
+459,459,0.609388173,0.704369219,seafood,orange roughy
+460,460,0.522677382,0.586259973,seafood,oysters
+461,461,0.53463289,0.621747428,seafood,perch
+462,462,0.595259372,0.688883935,seafood,pollock
+463,463,0.56677983,0.657369589,seafood,rockfish
+464,464,0.50237103,0.516374604,seafood,salmon
+465,465,0.50237103,0.374659394,seafood,sardine
+466,466,0.559444441,0.773958558,seafood,scallop
+467,467,0.570310307,0.687401063,seafood,shrimp
+468,468,0.50237103,0.490508397,seafood,sturgeon
+469,469,0.50237103,0.451627732,seafood,trout
+470,470,0.50237103,0.520712106,seafood,tuna
+471,471,0.648834326,0.824033823,seafood,welk
+472,472,0.609400626,0.70378763,seafood,white fish
+473,473,0.567863361,0.659861663,seafood,whiting
+474,474,0.634592965,0.679717422,"vege, spices and fruit",	pomegranates
+475,475,0.535344482,0.967526249,"vege, spices and fruit",apple juice
+476,476,0.696635209,0.498621922,"vege, spices and fruit",apples
+477,477,0.660228139,0.93548538,"vege, spices and fruit",apricot nectar
+478,478,0.689162497,0.714205072,"vege, spices and fruit",apricots
+479,479,0.712569689,0.861480534,"vege, spices and fruit",apricots
+480,480,0.398155453,0.076029706,"vege, spices and fruit",avocado
+481,481,0.586193042,0.708720703,"vege, spices and fruit",bananas
+482,482,0.681774371,0.271712456,"vege, spices and fruit",blackberries
+483,483,0.682909201,0.560062398,"vege, spices and fruit",blueberries
+484,484,0.686997986,0.540972973,"vege, spices and fruit",boysenberries
+485,485,0.709652898,0.922169269,"vege, spices and fruit",canned peaches
+486,486,0.655175392,0.687506722,"vege, spices and fruit",canned pineapple
+487,487,0.703663054,0.920157184,"vege, spices and fruit",canned pineapple
+488,488,0.6657335,0.941625689,"vege, spices and fruit",canned tangerines
+489,489,0.685563008,0.699837154,"vege, spices and fruit",cantaloupe
+490,490,0.692480055,0.555344721,"vege, spices and fruit",carambola
+491,491,0.682244312,0.614038253,"vege, spices and fruit",cherries
+492,492,0.700897416,0.648128729,"vege, spices and fruit",cranberries
+493,493,0.710291585,0.85958486,"vege, spices and fruit",dried apples
+494,494,0.711974238,0.883166281,"vege, spices and fruit",dried currants
+495,495,0.477008195,0.515390214,"vege, spices and fruit",gooseberries
+496,496,0.537089525,0.842015113,"vege, spices and fruit","Gooseberries, canned, light syrup pack, solids and liquids"
+497,497,0.533812263,0.833739793,"vege, spices and fruit",grapefruit
+498,498,0.700072412,0.851127988,"vege, spices and fruit",grapefruit
+499,499,0.5367023,0.953183631,"vege, spices and fruit",grapefruit juice
+500,500,0.671242928,0.906160398,"vege, spices and fruit",grapes
+501,501,0.52650567,0.676712595,"vege, spices and fruit","Guanabana nectar, canned"
+502,502,0.709265802,0.891731783,"vege, spices and fruit",guava nectar
+503,503,0.694601844,0.65804231,"vege, spices and fruit",honeydew melon
+504,504,0.667580052,0.548399848,"vege, spices and fruit",kiwifruit
+505,505,0.689657116,0.70402053,"vege, spices and fruit",limes
+506,506,0.678451009,0.865309946,"vege, spices and fruit",litchis
+507,507,0.68034692,0.631293549,"vege, spices and fruit",mango
+508,508,0.699616497,0.735003095,"vege, spices and fruit",mulberries
+509,509,0.672346394,0.715003478,"vege, spices and fruit",nectarines
+510,510,0.39819482,0.028388409,"vege, spices and fruit",olives
+511,511,0.690618694,0.766780123,"vege, spices and fruit",oranges
+512,512,0.675515148,0.523365863,"vege, spices and fruit",passion fruit
+513,513,0.680533694,0.699690219,"vege, spices and fruit",peaches
+514,514,0.685408902,0.638850472,"vege, spices and fruit",pears
+515,515,0.706780667,0.676716465,"vege, spices and fruit","Pears, canned, heavy syrup pack, solids and liquids"
+516,516,0.703513346,0.759599834,"vege, spices and fruit",pineapple
+517,517,0.699825609,0.900655414,"vege, spices and fruit",plantains
+518,518,0.681741961,0.65504332,"vege, spices and fruit",plums
+519,519,0.71486626,0.926305337,"vege, spices and fruit",prune juice
+520,520,0.708688262,0.867945578,"vege, spices and fruit",prunes
+521,521,0.543282039,0.855510204,"vege, spices and fruit",quince
+522,522,0.542809772,0.889011617,"vege, spices and fruit",raisins
+523,523,0.661174466,0.670082421,"vege, spices and fruit",raisins
+524,524,0.644953338,0.297859955,"vege, spices and fruit",raspberries
+525,525,0.661075481,0.488413238,"vege, spices and fruit",strawberries
+526,526,0.535573942,0.785281004,"vege, spices and fruit","Sugar-apples, (sweetsop), raw"
+527,527,0.550739594,0.945351945,"vege, spices and fruit",tangerine juice
+528,528,0.667856869,0.601911935,"vege, spices and fruit",watermelon
+529,529,0.737051205,0.472059551,"vege, spices and fruit",basil
+530,530,0.419020966,0.522059375,"vege, spices and fruit",bay leaf
+531,531,0.507208428,0.269778089,"vege, spices and fruit",caraway seed
+532,532,0.55681812,0.341406959,"vege, spices and fruit",cinnamon
+533,533,0.413130599,0.35199254,"vege, spices and fruit",cloves
+534,534,0.482707225,0.389751911,"vege, spices and fruit",cumin
+535,535,0.470569873,0.132876925,"vege, spices and fruit",curry powder
+536,536,0.606472871,0.586451329,"vege, spices and fruit",dill (fresh)
+537,537,0.459316373,0.418501938,"vege, spices and fruit",dill seed
+538,538,0.665248539,0.856855263,"vege, spices and fruit",garlic powder
+539,539,0.521077701,0.701947615,"vege, spices and fruit",ginger
+540,540,0.38698503,0.261850613,"vege, spices and fruit",mace
+541,541,0.529711702,0.307091848,"vege, spices and fruit",marjoram
+542,542,0.540891826,0.270818623,"vege, spices and fruit",mustard seed
+543,543,0.404127902,0.232120005,"vege, spices and fruit",nutmeg
+544,544,0.539677832,0.570408112,"vege, spices and fruit",pepper
+545,545,0.455749282,0.754434348,"vege, spices and fruit",saffron
+546,546,0.42429853,0.263702741,"vege, spices and fruit",sage
+547,547,0.602738239,0.622437276,"vege, spices and fruit",tarragon
+548,548,0.452987849,0.342137058,"vege, spices and fruit",thyme
+549,549,0.551953831,0.612165526,"vege, spices and fruit",turmeric
+550,550,0.720886208,0.192289606,"vege, spices and fruit",alfalfa
+551,551,0.586076679,0.859074419,"vege, spices and fruit",amaranth leaves
+552,552,0.755834331,0.491673455,"vege, spices and fruit",artichokes
+553,553,0.845144723,0.452987686,"vege, spices and fruit",arugula
+554,554,0.942309599,0.49626553,"vege, spices and fruit",asparagus
+555,555,0.755644798,0.35894048,"vege, spices and fruit",banana pepper
+556,556,0.845088783,0.346334181,"vege, spices and fruit",beet greens
+557,557,0.750259993,0.699673385,"vege, spices and fruit",beets
+558,558,0.760558068,0.503567295,"vege, spices and fruit",broccoli
+559,559,0.865285771,0.495201891,"vege, spices and fruit",Brussel sprouts
+560,560,0.688051998,0.753937357,"vege, spices and fruit",butternut squash
+561,561,0.807898641,0.553731295,"vege, spices and fruit",cabbage
+562,562,0.618925116,0.641931243,"vege, spices and fruit",carrots
+563,563,0.551241117,0.750055236,"vege, spices and fruit",Catsup
+564,564,0.838625576,0.500890183,"vege, spices and fruit",cauliflower
+565,565,0.673783202,0.724395604,"vege, spices and fruit",celeriac
+566,566,0.746155636,0.496700917,"vege, spices and fruit",celery
+567,567,0.89364258,0.508332665,"vege, spices and fruit",chard
+568,568,0.607104359,0.40499283,"vege, spices and fruit",chayote
+569,569,0.741541035,0.231379205,"vege, spices and fruit",chicory greens
+570,570,0.935489533,0.53826071,"vege, spices and fruit",Chinese cabbage
+571,571,0.876223227,0.483039753,"vege, spices and fruit",chives
+572,572,0.635140467,0.369033203,"vege, spices and fruit",collards
+573,573,0.781721192,0.295954089,"vege, spices and fruit",coriander
+574,574,0.637871529,0.394758252,"vege, spices and fruit",cucumber
+575,575,0.70706376,0.408992717,"vege, spices and fruit",edamame
+576,576,0.729024975,0.345340195,"vege, spices and fruit",eggplant
+577,577,0.706575353,0.233211166,"vege, spices and fruit",endive
+578,578,0.701077408,0.242807341,"vege, spices and fruit",escarole
+579,579,0.626296077,0.888643618,"vege, spices and fruit",garlic
+580,580,0.559988949,0.808737434,"vege, spices and fruit",ginger
+581,581,0.585029702,0.371061093,"vege, spices and fruit",jalapeno peppers
+582,582,0.733938208,0.871419396,"vege, spices and fruit",Jerusalem-artichokes
+583,583,0.760003296,0.597414236,"vege, spices and fruit",kale
+584,584,0.693063034,0.829163168,"vege, spices and fruit",leeks
+585,585,0.352134364,0.932584787,"vege, spices and fruit",lemon grass
+586,586,0.884056972,0.495844618,"vege, spices and fruit",lettuce
+587,587,0.705771957,0.70137265,"vege, spices and fruit",lima beans
+588,588,0.974235804,0.738646571,"vege, spices and fruit",mung beans
+589,589,0.890261329,0.362430678,"vege, spices and fruit",mustard greens
+590,590,0.86833268,0.500001596,"vege, spices and fruit",okra
+591,591,0.797328083,0.646936789,"vege, spices and fruit",onions
+592,592,0.703859667,0.479075607,"vege, spices and fruit",parsley
+593,593,0.873406465,0.647706283,"vege, spices and fruit",peas
+594,594,0.611039554,0.93905685,"vege, spices and fruit",pickle relish
+595,595,0.637871529,0.394758252,"vege, spices and fruit",pickles
+596,596,0.509047757,0.826381454,"vege, spices and fruit",pinto beans
+597,597,0.409921104,0.968408236,"vege, spices and fruit",Poi
+598,598,0.874323396,0.547540209,"vege, spices and fruit",portabella mushrooms
+599,599,0.601674811,0.911456948,"vege, spices and fruit",potato
+600,600,0.738595447,0.757192367,"vege, spices and fruit",pumpkin
+601,601,0.886557187,0.317850674,"vege, spices and fruit",pumpkin leaves
+602,602,0.71374293,0.674954395,"vege, spices and fruit",radicchio
+603,603,0.756430632,0.425095174,"vege, spices and fruit",radishes
+604,604,0.79522132,0.54710253,"vege, spices and fruit",red cabbage
+605,605,0.699114282,0.40192138,"vege, spices and fruit",red peppers
+606,606,0.726999057,0.550764007,"vege, spices and fruit",rhubarb
+607,607,0.760765453,0.387148384,"vege, spices and fruit",sauerkraut
+608,608,0.573731322,0.769632635,"vege, spices and fruit",seaweed (kelp)
+609,609,0.74314279,0.80295555,"vege, spices and fruit",seaweed (laver)
+610,610,0.606466685,0.794072249,"vege, spices and fruit",seaweed (wakame)
+611,611,0.756227892,0.795420054,"vege, spices and fruit",shallots
+612,612,0.747435766,0.575578342,"vege, spices and fruit",shiitake mushroom
+613,613,0.73897271,0.580180432,"vege, spices and fruit",snap beans
+614,614,0.840204833,0.485521125,"vege, spices and fruit",spinach
+615,615,0.772753737,0.703004441,"vege, spices and fruit",spirulina
+616,616,0.742001883,0.451457948,"vege, spices and fruit",summer squash
+617,617,0.556801751,0.710282153,"vege, spices and fruit",sweet corn
+618,618,0.565380744,0.808686614,"vege, spices and fruit",sweet potato
+619,619,0.55883866,0.845548227,"vege, spices and fruit",taro
+620,620,0.845967441,0.440628883,"vege, spices and fruit",turnip greens
+621,621,0.730715722,0.607947233,"vege, spices and fruit",turnips
+622,622,0.84100573,0.505679407,"vege, spices and fruit",turnips
+623,623,0.85395906,0.653138452,"vege, spices and fruit",watercress
+624,624,0.928078474,0.651803869,"vege, spices and fruit",white mushroom
+625,625,0.689105179,0.690190756,"vege, spices and fruit",winter squash
+626,626,0.558441843,0.845194372,"vege, spices and fruit",yam
+627,627,0.836331003,0.589159201,"vege, spices and fruit",yeast extract spread
+628,628,0.779350086,0.401908489,"vege, spices and fruit",zucchini
