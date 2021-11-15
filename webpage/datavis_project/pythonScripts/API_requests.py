@@ -7,6 +7,10 @@ import os
 import json
 import urllib
 
+# save numpy array as csv file
+from numpy import asarray
+from numpy import savetxt
+
 from requests.models import HTTPError
 from rich import print
 
@@ -44,14 +48,12 @@ for food in foodNameList:
                 print('Changed API from 2 to 3')
         if(response.status_code == 200):
             jsonObject = response.json()
-            #print(jsonObject)
             foodElem = jsonObject["foods"]
-            #print('lookUp on :',foodElem)
-            print(len(jsonObject["foods"]))
-            #print('FoodLookUp On:', foodElem['description'])
             if 'servingSize' in foodElem is not False:
                 print("Serving size: ", foodElem["servingSize"],foodElem["servingSizeUnit"])
             if(len(jsonObject['foods']) < 1):
+                print('Json object empty', apiCounter)
+                apiCounter += 1
                 Col_Protein.append('NULL')
                 Col_Fat.append('NULL')
                 Col_Carb.append('NULL')
@@ -71,6 +73,11 @@ for food in foodNameList:
                         if(x['unitName'] == 'KCAL'):
                             #print(x['nutrientName'], " = ", x['value'],'KCAL' )
                             Col_Energy.append(x['value'])
+                    else:
+                        Col_Protein.append('NULL')
+                        Col_Fat.append('NULL')
+                        Col_Carb.append('NULL')
+                        Col_Energy.append('NULL')
             counter += 1
             print('API call number: ', counter)
         else:
@@ -83,6 +90,11 @@ for food in foodNameList:
             print('failed : ', failCounter)
     except RequestException as error:
         print('Err was : ', error)
+savetxt('protein.csv', Col_Protein, delimiter=',')
+savetxt('fat.csv', Col_Fat, delimiter=',')
+savetxt('carb.csv', Col_Carb, delimiter=',')
+savetxt('energy.csv', Col_Energy, delimiter=',')
+
 df['Protein'] = Col_Protein
 df['Fat'] = Col_Fat
 df['Carb'] = Col_Carb
