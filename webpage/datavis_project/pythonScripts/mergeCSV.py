@@ -30,8 +30,8 @@ df = pd.read_csv(r"/Users/aronelibaldvinsson/Desktop/dataVis/databaseDataVis/web
 # df['group'] = df['group'].str.split(',').str[0]
 # df['popular'] = df['popular'].str.split(',').str[0]
 
-df = df.head(15)
-df.to_csv('testCSV.csv')
+df = df.head(40)
+df.to_csv('test1CSV.csv')
 
 
 # #Changing all the different names of foodNames to a consistent name.
