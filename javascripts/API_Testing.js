@@ -19,6 +19,7 @@ function fetch_REQUEST(){
     })
     .then(response => response.json())
     .then(json => {
+        console.log(json)
         var cell1 = document.getElementById('foodName')
         var cell2 = document.getElementById('nutstat')
         var cell3 = document.getElementById('valuestat')
@@ -35,7 +36,7 @@ function fetch_REQUEST(){
 
 function success() {
     var data = JSON.parse(this.responseText)
-    //console.log(data);
+    console.log(data);
 }
 
 function error(err) {

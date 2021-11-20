@@ -4,19 +4,22 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
     <!-- Load vega -->
-    <script src="https://cdn.jsdelivr.net/npm/vega@5.20.2"></script>
-    <script src="https://cdn.jsdelivr.net/npm/vega-lite@5.1.1"></script>
-    <script src="https://cdn.jsdelivr.net/npm/vega-embed@6.18.2"></script>
-
+    <script src="https://cdn.jsdelivr.net/npm/vega@5"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-lite@5"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-embed@6"></script>
+    
     <!--BOOTSTRAP-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     
     <title>DataVis</title>
   </head>
   <body>
+    <div class="d-inline-fill p-3 bd-highlight" id="scatterPlot"></div>
     <div class="d-inline-fill p-3 bd-highlight" id="radarChart"></div>
-    <div class="d-inline-flex p-3 bd-highlight">
+
+    <!-- <div class="d-inline-flex p-3 bd-highlight">
     <input type="text" id="textInput" name='name'>
     <button src='javascripts/API_Testing.js' onclick="submitData()">API CALL</button>
     </div>
@@ -37,11 +40,14 @@
         </tr>
       </tbody>
     </table>
-  </div>
+  </div> -->
     <script src="javascripts/API_Testing.js"></script>
+    <script src="javascripts/scatterplot.js"></script>
+    <script src="javascripts/radarchart.js"></script>
 
     <!-- Bootstrap Import -->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+
   </body>
 </html>
