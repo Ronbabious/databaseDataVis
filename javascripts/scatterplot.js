@@ -44,4 +44,8 @@ var scatterPlot = {
       ]
     }
   }
-    vegaEmbed('#scatterPlot', scatterPlot)
+    vegaEmbed('#scatterPlot', scatterPlot, {tooltip: {theme:'dark'}})
+    .then(function(result){
+      console.log(result.view);
+    })
+    .catch(console.error)
