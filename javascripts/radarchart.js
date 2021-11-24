@@ -15,7 +15,7 @@ radarJSON =
     {
       "name": "table",
       "values": [
-        {"key": "Protein", "value": 10.7, "category": 0},
+        {"key": "Protein", "value": 0.7, "category": 0},
         {"key": "Fat","value": 7.69,"category": 1},
         {"key": "Carb","value": 66.7, "category": 0},
         {"key": "Calorie", "value": 51, "category": 0},
@@ -108,6 +108,9 @@ radarJSON =
               "fill": {"scale": "color", "field": "category"},
               "fillOpacity": {"value": 0.1}
             }
+          },
+          "encoding": {
+            "tooltip": {"data": "table", "field": "foodName", "type": "nominal"},
           }
         },
         {
@@ -189,7 +192,9 @@ radarJSON =
           "y": {"field": "y2"},
           "stroke": {"value": "lightgray"},
           "strokeWidth": {"value": 1}
+          
         }
+      
       }
     }
   ]
