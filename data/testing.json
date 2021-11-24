@@ -1,0 +1,28 @@
+{
+    "name": "table",
+    "values":[
+    {
+      "": 0,
+      "Unnamed: 0": 0,
+      "Unnamed: 0.1": 0,
+      "cost": 29.371721388,
+      "foodName": "pomegranates",
+      "popular": "",
+      "CarbPlusFat": 0.753505054,
+      "ONIscore": 0.245960964,
+      "Group": "vege, spices and fruit,Fruits and Fruit Juices,,,,",
+      "SatietyIndex": 0.583438505,
+      "InsulinIndex": 0.679717422,
+      "F6": "vege",
+      "ND": -1.029863842,
+      "InsulinogenicV2": 0.679717422,
+      "NutrivoreScore": 0.20652251,
+      "Satiety": 0.596614343,
+      "group": "vege",
+      "Protein": 1.67,
+      "Fat": 1.17,
+      "Carb": 18.7,
+      "Calorie": 83
+    }
+]
+}
