@@ -1,3 +1,4 @@
+import embed from 'vega-embed'
 var scatterPlot = {
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
     "width": 400,
@@ -43,9 +44,19 @@ var scatterPlot = {
         {"field": "ONIscore", "type": "nominal"},
       ]
     }
-  }
-    vegaEmbed('#scatterPlot', scatterPlot, {tooltip: {theme:'dark'}})
-    .then(function(result){
-      console.log(result.view);
-    })
-    .catch(console.error)
+}
+
+await embed('#scatterPlot', scatterPlot).then(function(result){
+  console.log(result.view.addEventListener('click',function(event,item){
+    console.log(typeof(item.datum));
+  }));
+})
+
+    // vegaEmbed('#scatterPlot', scatterPlot, {tooltip: {theme:'dark'}})
+    // .then(function(result){
+    //   console.log(result.view);
+    //   result.view.addEventListener('mouseclick', function(event,item){
+    //   console.log(item);
+    //   })
+    // })
+    // .catch(console.error)
