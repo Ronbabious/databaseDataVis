@@ -1,31 +1,31 @@
-var fs = require('fs');
-
+//var fs = require('fs');
+import fs from 'fs'
 //Helt almindeligt JSON object
-dummyFood = {
-    "": 1,
-    "Unnamed: 0": 1,
-    "Unnamed: 0.1": 1,
-    "cost": 0.560078348,
-    "foodName": "Shredded Wheat, bagged cereal",
-    "popular": "",
-    "CarbPlusFat": "",
-    "ONIscore": "",
-    "Group": "",
-    "SatietyIndex": "",
-    "InsulinIndex": "",
-    "F6": "",
-    "ND": "",
-    "InsulinogenicV2": "",
-    "NutrivoreScore": "",
-    "Satiety": "",
-    "group": "",
-    "Protein": 11.2,
-    "Fat": 2.01,
-    "Carb": 81,
-    "Calorie": 348
-};
+// dummyFood = {
+//     "": 1,
+//     "Unnamed: 0": 1,
+//     "Unnamed: 0.1": 1,
+//     "cost": 0.560078348,
+//     "foodName": "Shredded Wheat, bagged cereal",
+//     "popular": "",
+//     "CarbPlusFat": "",
+//     "ONIscore": "",
+//     "Group": "",
+//     "SatietyIndex": "",
+//     "InsulinIndex": "",
+//     "F6": "",
+//     "ND": "",
+//     "InsulinogenicV2": "",
+//     "NutrivoreScore": "",
+//     "Satiety": "",
+//     "group": "",
+//     "Protein": 11.2,
+//     "Fat": 2.01,
+//     "Carb": 81,
+//     "Calorie": 348
+// };
 
-function sendDataToFile(data) {
+export function sendDataToFile(data) {
 
 
     //Create empty array
@@ -55,7 +55,7 @@ function sendDataToFile(data) {
 
 }
 
-sendDataToFile(dummyFood);
+//sendDataToFile(dummyFood);
 
 /*
 export function mapValue(value) {

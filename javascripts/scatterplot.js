@@ -1,10 +1,11 @@
 import embed from 'vega-embed'
+import {sendDataToFile} from './valueMapping.js'
 var scatterPlot = {
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
     "width": 400,
     "height": 400,
     "padding": 10,
-    "data": //[
+    "data": 
     {
         "url": "data/data.csv",
     },
@@ -43,10 +44,11 @@ var scatterPlot = {
     }
 }
 
-await embed('#scatterPlot', scatterPlot).then(function(result) {
-    console.log(result.view.addEventListener('click', function(event, item) {
-        console.log(typeof(item.datum));
-    }));
+await embed('#scatterPlot', scatterPlot).then(function(result){
+  result.view.addEventListener('click',function(event,item){
+  sendDataToFile(item.datum);
+  console.log("Sending data to JSON file.");
+  });
 })
 
 // vegaEmbed('#scatterPlot', scatterPlot, {tooltip: {theme:'dark'}})
