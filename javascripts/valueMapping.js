@@ -1,7 +1,7 @@
 //var fs = require('fs');
 import fs from 'fs'
+
 //Helt almindeligt JSON object
-<<<<<<< HEAD
 dummyFood = {
     "": 1,
     "Unnamed: 0": 1,
@@ -27,33 +27,6 @@ dummyFood = {
 };
 
 function sendDataToFile(data, foodNumber) {
-=======
-// dummyFood = {
-//     "": 1,
-//     "Unnamed: 0": 1,
-//     "Unnamed: 0.1": 1,
-//     "cost": 0.560078348,
-//     "foodName": "Shredded Wheat, bagged cereal",
-//     "popular": "",
-//     "CarbPlusFat": "",
-//     "ONIscore": "",
-//     "Group": "",
-//     "SatietyIndex": "",
-//     "InsulinIndex": "",
-//     "F6": "",
-//     "ND": "",
-//     "InsulinogenicV2": "",
-//     "NutrivoreScore": "",
-//     "Satiety": "",
-//     "group": "",
-//     "Protein": 11.2,
-//     "Fat": 2.01,
-//     "Carb": 81,
-//     "Calorie": 348
-// };
-
-export function sendDataToFile(data) {
->>>>>>> 8c8623d7a3eb5af797d385e0ed5525830e6c5d5f
 
 
     //Create empty array
@@ -76,11 +49,8 @@ export function sendDataToFile(data) {
 
 }
 
-<<<<<<< HEAD
+
 //sendDataToFile(dummyFood, 0);
-=======
-//sendDataToFile(dummyFood);
->>>>>>> 8c8623d7a3eb5af797d385e0ed5525830e6c5d5f
 
 /*
 export function mapValue(value) {
