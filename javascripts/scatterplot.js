@@ -1,5 +1,4 @@
-import embed from 'vega-embed'
-import {sendDataToFile} from './valueMapping.js'
+import { sendDataToFile } from '../javascripts/radarchart.js'
 var scatterPlot = {
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
     "width": 400,
@@ -44,14 +43,14 @@ var scatterPlot = {
     }
 }
 
-await embed('#scatterPlot', scatterPlot).then(function(result){
-  result.view.addEventListener('click',function(event,item){
-  sendDataToFile(item.datum);
+await vegaEmbed('#scatterPlot', scatterPlot).then(function(result){
+  console.log(result.view.addEventListener('click',function(event,item){
+  sendDataToFile(item.datum,1);
   console.log("Sending data to JSON file.");
-  });
+  }));
 })
 
-// vegaEmbed('#scatterPlot', scatterPlot, {tooltip: {theme:'dark'}})
+// vegaEmbedModule('#scatterPlot', scatterPlot, {tooltip: {theme:'dark'}})
 // .then(function(result){
 //   console.log(result.view);
 //   result.view.addEventListener('mouseclick', function(event,item){

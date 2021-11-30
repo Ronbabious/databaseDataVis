@@ -1,5 +1,5 @@
 {
-  "name": "datavis_project",
+  "name": "testproject1",
   "version": "0.0.0",
   "scripts": {
     "dev": "vite",
@@ -8,13 +8,5 @@
   },
   "devDependencies": {
     "vite": "^2.6.4"
-  },
-  "dependencies": {
-    "@tarekraafat/autocomplete.js": "^10.2.6",
-    "common-js": "^0.3.8",
-    "vega": "^5.21.0",
-    "vega-embed": "^6.20.2",
-    "vega-lite": "^5.1.1",
-    "vega-tooltip": "^0.27.0"
   }
 }

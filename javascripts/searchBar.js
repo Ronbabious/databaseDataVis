@@ -15,4 +15,4 @@ const autoCompleteJS = new autoComplete({
             }
         }
     }
-});
+}); 
