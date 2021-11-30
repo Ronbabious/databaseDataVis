@@ -2,6 +2,7 @@
 import fs from 'fs'
 
 //Helt almindeligt JSON object
+<<<<<<< HEAD
 dummyFood = {
     "": 1,
     "Unnamed: 0": 1,
@@ -25,6 +26,31 @@ dummyFood = {
     "Carb": 81,
     "Calorie": 348
 };
+=======
+// dummyFood = {
+//     "": 1,
+//     "Unnamed: 0": 1,
+//     "Unnamed: 0.1": 1,
+//     "cost": 0.560078348,
+//     "foodName": "Shredded Wheat, bagged cereal",
+//     "popular": "",
+//     "CarbPlusFat": "",
+//     "ONIscore": "",
+//     "Group": "",
+//     "SatietyIndex": "",
+//     "InsulinIndex": "",
+//     "F6": "",
+//     "ND": "",
+//     "InsulinogenicV2": "",
+//     "NutrivoreScore": "",
+//     "Satiety": "",
+//     "group": "",
+//     "Protein": 11.2,
+//     "Fat": 2.01,
+//     "Carb": 81,
+//     "Calorie": 348
+// };
+>>>>>>> 2f22091bccccf6d5343837301b18124c6ce7063f
 
 function sendDataToFile(data, foodNumber) {
 
@@ -49,7 +75,10 @@ function sendDataToFile(data, foodNumber) {
 
 }
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 2f22091bccccf6d5343837301b18124c6ce7063f
 //sendDataToFile(dummyFood, 0);
 
 /*
