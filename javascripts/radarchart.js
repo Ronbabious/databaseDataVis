@@ -1,3 +1,89 @@
+variables = [{
+        "key": "cost",
+        "value": 0.560078348,
+        "category": 0
+    },
+    {
+        "key": "ONIscore",
+        "value": "",
+        "category": 0
+    },
+    {
+        "key": "SatietyIndex",
+        "value": "",
+        "category": 0
+    },
+    {
+        "key": "InsulinIndex",
+        "value": "",
+        "category": 0
+    },
+    {
+        "key": "ND",
+        "value": "",
+        "category": 0
+    },
+    {
+        "key": "InsulinogenicV2",
+        "value": "",
+        "category": 0
+    },
+    {
+        "key": "NutrivoreScore",
+        "value": "",
+        "category": 0
+    },
+    {
+        "key": "Protein",
+        "value": 11.2,
+        "category": 0
+    },
+    {
+        "key": "Fat",
+        "value": 2.01,
+        "category": 0
+    },
+    {
+        "key": "Carb",
+        "value": 81,
+        "category": 0
+    },
+    {
+        "key": "Calorie",
+        "value": 348,
+        "category": 0
+    },
+    {
+        "key": "SKRRRRT",
+        "value": 348,
+        "category": 0
+    }
+];
+
+function sendDataToFile(data, category) {
+
+
+    //Create empty array
+    var arrayOfFoodObjects = [];
+    //console.log(Object.keys(data)[1]);
+    //console.log(Object.values(data)[1]);
+    console.log("Length of object is: " + Object.keys(data).length);
+
+
+    for (let i = 0; i < Object.keys(data).length; i++) {
+        if (i != 0 && i != 6 && i != 11 && i != 8 && i != 15 && i != 2 && i != 1 && i != 4 && i != 16 && i != 5) {
+            arrayOfFoodObjects.push({ "key": Object.keys(data)[i], "value": Object.values(data)[i], "category": category });
+        };
+    };
+
+    console.log("foodObject is:  " + JSON.stringify(arrayOfFoodObjects));
+    console.log("Length of new array is: " + arrayOfFoodObjects.length);
+
+    return JSON.stringify(arrayOfFoodObjects)
+
+}
+
+
 radarJSON = {
     "$schema": "https://vega.github.io/schema/vega/v5.json",
     "description": "A radar chart example, showing multiple dimensions in a radial layout.",
@@ -10,7 +96,7 @@ radarJSON = {
     ],
     "data": [{
             "name": "table",
-            "url": "data/radarChartData.json"
+            "values": variables
         },
         {
             "name": "keys",

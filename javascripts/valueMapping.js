@@ -25,7 +25,7 @@ dummyFood = {
     "Calorie": 348
 };
 
-function sendDataToFile(data) {
+function sendDataToFile(data, foodNumber) {
 
 
     //Create empty array
@@ -37,25 +37,18 @@ function sendDataToFile(data) {
 
     for (let i = 0; i < Object.keys(data).length; i++) {
         if (i != 0 && i != 6 && i != 11 && i != 8 && i != 15 && i != 2 && i != 1 && i != 4 && i != 16 && i != 5) {
-            arrayOfFoodObjects.push({ "key": Object.keys(data)[i], "value": Object.values(data)[i], "category": 0 });
+            arrayOfFoodObjects.push({ "key": Object.keys(data)[i], "value": Object.values(data)[i], "category": foodNumber });
         };
     };
 
     console.log("foodObject is:  " + JSON.stringify(arrayOfFoodObjects));
     console.log("Length of new array is: " + arrayOfFoodObjects.length);
 
-
-
-
-    fs.writeFile("/Users/alexkroghsmythe/Documents/Projekter/databaseDataVis/data/radarChartData.json", JSON.stringify(arrayOfFoodObjects), function(err) {
-        if (err) {
-            console.log(err);
-        }
-    });
+    return JSON.stringify(arrayOfFoodObjects)
 
 }
 
-sendDataToFile(dummyFood);
+//sendDataToFile(dummyFood, 0);
 
 /*
 export function mapValue(value) {
