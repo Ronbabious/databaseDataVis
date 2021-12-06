@@ -3,52 +3,77 @@
 
 <head>
     <meta charset="UTF-8" />
+    <!-- Stylesheets -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link type="text/css" rel="stylesheet" href="style.css" />
+
     <link rel="icon" type="image/svg+xml" href="favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
-    <!--AutoComplete Import  -->
-
-
+    
+    
+    <!--BOOTSTRAP-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    
     <!-- Load vega -->
     <script src="https://cdn.jsdelivr.net/npm/vega@5"></script>
     <script src="https://cdn.jsdelivr.net/npm/vega-lite@5"></script>
     <script src="https://cdn.jsdelivr.net/npm/vega-embed@6"></script>
     <script src="https://cdn.jsdelivr.net/npm/vega-tooltip@0.27.0"></script>
     <script src="https://cdn.jsdelivr.net/npm/vega-embed@6"></script>
-
-
-
-    <!--BOOTSTRAP-->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-
+    
+    
     <!-- Autocomplete JS -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tarekraafat/autocomplete.js@10.2.6/dist/css/autoComplete.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tarekraafat/autocomplete.js@10.2.6/dist/css/autoComplete.02.min.css">
+
+      
 
     <title>DataVis</title>
 </head>
+<div class="container-fluid">
+    <div class="row">
+        <div class="col" id="auto">
+              <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                  Search for specific
+              </button>
+              <div class="collapse" id="collapseExample">
+                  <div id="autoComplete_wrapper">
+                      <input id="autoComplete">
+                  </div>
+              </div>
+          </div>
+          <div class="col">
+            <div id="scatterPlot"></div>
+          </div>
+          <div class="col">
+            <div id="radarChart"></div>
+          </div>
+          <div class="row">
+              <div class="col">
+                  <div id="barChart"></div>
+              </div>
+          </div>
+        </div>
+      </div>
 
-<body>
-    <div class="d-inline-fill p-3 bd-highlight" id="autoComplete_wrapper">
-        <input id="autoComplete">
-    </div>
-    <div class="d-inline-fill p-3 bd-highlight" id="scatterPlot"></div>
-    <div class="d-inline-fill p-3 bd-highlight" id="radarChart"></div>
 
     <!--AutoComplete Import  -->
     <script src="https://cdn.jsdelivr.net/npm/@tarekraafat/autocomplete.js@10.2.6/dist/autoComplete.min.js"></script>
 
     <!-- Javascript Imports -->
-    <!-- <script src="javascripts/API_Testing.js"></script> -->
     <script type="module" src="javascripts/scatterplot.js"></script>
-    <!-- <script src="javascripts/scatterplot.js"></script> -->
     <script type="module" src="javascripts/radarchart.js"></script>
+    <script src="javascripts/barchart.js"></script>
     <script src="javascripts/searchBar.js"></script>
 
 
 
     <!-- Bootstrap Import -->
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+        integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+        integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+        crossorigin="anonymous"></script>
 
 </body>
 
