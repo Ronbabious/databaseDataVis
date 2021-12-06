@@ -5,5 +5,10 @@
     "dev": "vite",
     "build": "vite build",
     "serve": "vite preview"
+  },
+  "dependencies": {
+    "@tarekraafat/autocomplete.js": "^10.2.6",
+    "comma-separated-values": "^3.6.4",
+    "papaparse": "^5.3.1"
   }
 }

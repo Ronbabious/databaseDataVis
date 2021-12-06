@@ -1,6 +1,4 @@
 export function sendDataToFile(data, category) {
-
-
     //Create empty array
     var arrayOfFoodObjects = [];
     //console.log(Object.keys(data)[1]);
@@ -9,8 +7,14 @@ export function sendDataToFile(data, category) {
 
 
     for (let i = 0; i < Object.keys(data).length; i++) {
-        if (i != 0 && i != 6 && i != 11 && i != 8 && i != 15 && i != 2 && i != 1 && i != 4 && i != 16 && i != 5) {
-            arrayOfFoodObjects.push({ "key": Object.keys(data)[i], "value": Object.values(data)[i], "category": category });
+        if (Object.keys(data)[i] == "Calorie" || Object.keys(data)[i] == "Carb" || Object.keys(data)[i] == "Fat" || Object.keys(data)[i] == "InsulinIndex" || /*Object.keys(data)[i] == "ND" || */ Object.keys(data)[i] == "NutrivoreScore" || Object.keys(data)[i] == "ONIscore" || Object.keys(data)[i] == "Protein" || Object.keys(data)[i] == "Satiety" || Object.keys(data)[i] == "cost") {
+            console.log(Object.keys(data)[i] + " is index " + i);
+            arrayOfFoodObjects.push({
+                "key": Object.keys(data)[i],
+                "value": normalizeValue(Object.values(data)[i], i),
+                //"value": Object.values(data)[i],
+                "category": category
+            });
         };
     };
 
@@ -18,9 +22,42 @@ export function sendDataToFile(data, category) {
     // console.log("Length of new array is: " + arrayOfFoodObjects.length);
     // console.log("Variables is: " + JSON.stringify(variables));
     var variables = JSON.stringify(arrayOfFoodObjects)
-    // return JSON.stringify(arrayOfFoodObjects)
+        // return JSON.stringify(arrayOfFoodObjects)
     radarChart(variables)
 }
+
+
+function normalizeValue(value, index) {
+    switch (index) {
+        //Cost from 0 to 358
+        case 3:
+            return Math.round((value / 358) * 100);
+        case 7:
+            return Math.round(value * 100);
+        case 10:
+            return Math.round(value * 100);
+            /*case 12:
+            //ND - Fra 14 til -5 (dvs spænder 19)
+                return value / 19 * 100; */
+        case 14:
+            return Math.round(value * 100);
+        case 15:
+            return Math.round(value * 100);
+        case 17:
+            //From 0 to 62.4g
+            return Math.round((value / 62.4) * 100);
+        case 18:
+            //From 0 to 100 :)
+            return Math.round(value);
+        case 19:
+            //from 0 to 111
+            return Math.round((value / 111) * 100);
+        case 20:
+            //Calories from 0 to 563
+            return Math.round((value / 563) * 100);
+    }
+}
+
 function radarChart(data) {
     var radarJSON = {
         "$schema": "https://vega.github.io/schema/vega/v5.json",
@@ -62,7 +99,7 @@ function radarChart(data) {
                 "domain": { "data": "table", "field": "value" },
                 "domainMin": 0
             },
-    
+
             {
                 "name": "color",
                 "type": "ordinal",
@@ -70,14 +107,14 @@ function radarChart(data) {
                 "range": { "scheme": "category10" }
             }
         ],
-    
+
         "encode": {
             "enter": {
                 "x": { "signal": "radius" },
                 "y": { "signal": "radius" }
             }
         },
-    
+
         "marks": [{
                 "type": "group",
                 "name": "categories",
@@ -183,13 +220,13 @@ function radarChart(data) {
                         "y": { "field": "y2" },
                         "stroke": { "value": "lightgray" },
                         "strokeWidth": { "value": 1 }
-    
+
                     }
-    
+
                 }
             }
         ]
     }
-    
+
     vegaEmbed('#radarChart', radarJSON)
 }

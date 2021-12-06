@@ -28,9 +28,79 @@
 </head>
 
 <body>
-    <div class="d-inline-fill p-3 bd-highlight" id="autoComplete_wrapper">
-        <input id="autoComplete">
+
+    <!-- NAVIGATION BAR -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Nutritional Data</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <div class="card" style="width: 25rem;">
+        <!-- AUTOCOMPLETE -->
+        <div class="d-inline-fill p-3 bd-highlight" id="autoComplete_wrapper">
+            <input id="autoComplete">
+        </div>
+        <div class="container-sm">
+            <ul class="list-group selection" id="listofitems">
+                <!-- <li class="list-group-item">
+                <input class="form-check-input me-1" type="checkbox" value="" aria-label="..."> First checkbox
+                <button type="button" class="btn btn-outline-light">Remove item</button>
+            </li> -->
+            </ul>
+        </div>
     </div>
+
+
+    <div class="container">
+        <!-- First row: 4 elements-->
+        <div class="row">
+            <div class="col">
+                1 of 2
+            </div>
+            <div class="col">
+                2 of 2
+            </div>
+            <div class="col">
+                1 of 2
+            </div>
+            <div class="col">
+                2 of 2
+            </div>
+        </div>
+        <!-- Seconds row: 3 elements-->
+        <div class="row">
+            <div class="col">
+                1 of 3
+            </div>
+            <div class="col">
+                2 of 3
+            </div>
+            <div class="col">
+                3 of 3
+            </div>
+        </div>
+        <!-- Third row: 1 element -->
+        <div class="row">
+            <div class="col">
+                1 of 3
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
     <div class="d-inline-fill p-3 bd-highlight" id="scatterPlot"></div>
     <div class="d-inline-fill p-3 bd-highlight" id="radarChart"></div>
 
@@ -42,7 +112,7 @@
     <script type="module" src="javascripts/scatterplot.js"></script>
     <!-- <script src="javascripts/scatterplot.js"></script> -->
     <script type="module" src="javascripts/radarchart.js"></script>
-    <script src="javascripts/searchBar.js"></script>
+    <script type="module" src="javascripts/searchBar.js"></script>
 
 
 

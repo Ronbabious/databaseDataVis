@@ -4,8 +4,7 @@ var scatterPlot = {
     "width": 400,
     "height": 400,
     "padding": 10,
-    "data": 
-    {
+    "data": {
         "url": "data/data.csv",
     },
     "transform": [{
@@ -43,11 +42,12 @@ var scatterPlot = {
     }
 }
 
-await vegaEmbed('#scatterPlot', scatterPlot).then(function(result){
-  console.log(result.view.addEventListener('click',function(event,item){
-  sendDataToFile(item.datum,1);
-  console.log("Sending data to JSON file.");
-  }));
+await vegaEmbed('#scatterPlot', scatterPlot).then(function(result) {
+    console.log(result.view.addEventListener('click', function(event, item) {
+        console.log(item.datum);
+        sendDataToFile(item.datum, 1);
+        console.log("Sending data to JSON file.");
+    }));
 })
 
 // vegaEmbedModule('#scatterPlot', scatterPlot, {tooltip: {theme:'dark'}})
