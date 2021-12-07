@@ -3,10 +3,10 @@ var scatterPlot = {
         "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
         "title": "USDA Food Database",
         "data": {
-        "url": "data/data.json"
+        "url": "data/newData.json"
         },      
         "transform": [
-        {"filter": "datum.ONIscore > 0 && datum.F6 != '' && datum.Protein != 'NULL' && datum.Fat != 'NULL'&& datum.Carb != 'NULL' && datum.Calorie != 'NULL'"},
+            {"filter": "datum.ONIscore > 0 && datum.F6 != '' && datum.Protein != 'NULL' && datum.Fat != 'NULL'&& datum.Carb != 'NULL' && datum.Calorie != 'NULL'"}
         ],
         "concat": [
           {
@@ -28,14 +28,14 @@ var scatterPlot = {
                   { "field": "Fat", "type": "nominal" },
                   { "field": "Carb", "type": "nominal" },
                   { "field": "Calorie", "type": "nominal" },
-                  { "field": "ONIscore", "type": "nominal" },
+                  { "field": "ND", "type": "nominal" },
               ],
-              "x": {
-                  "field": "Fat",
-                  "title": "Fat",
+              "y": {
+                  "field": "Protein",
+                  "title": "Protein",
                   "type": "quantitative"
               },
-              "y": {
+              "x": {
                   "title": "ONIscore",
                   "field": "ONIscore",
                   "type": "quantitative"
@@ -86,14 +86,14 @@ var scatterPlot = {
               { "field": "Fat", "type": "nominal" },
               { "field": "Carb", "type": "nominal" },
               { "field": "Calorie", "type": "nominal" },
-              { "field": "ONIscore", "type": "nominal" },
+              { "field": "ND", "type": "nominal" },
           ],
-          "x": {
+          "y": {
               "field": "Fat",
               "title": "Fat",
               "type": "quantitative"
           },
-          "y": {
+          "x": {
               "title": "ONIscore",
               "field": "ONIscore",
               "type": "quantitative"
@@ -146,14 +146,14 @@ var scatterPlot = {
             { "field": "Fat", "type": "nominal" },
             { "field": "Carb", "type": "nominal" },
             { "field": "Calorie", "type": "nominal" },
-            { "field": "ONIscore", "type": "nominal" },
+            { "field": "ND", "type": "nominal" },
         ],
-        "x": {
+        "y": {
             "field": "Carb",
             "title": "Carbohydrates",
             "type": "quantitative"
         },
-        "y": {
+        "x": {
             "title": "ONIscore",
             "field": "ONIscore",
             "type": "quantitative"
@@ -206,14 +206,17 @@ var scatterPlot = {
               { "field": "Fat", "type": "nominal" },
               { "field": "Carb", "type": "nominal" },
               { "field": "Calorie", "type": "nominal" },
+              { "field": "ND", "type": "nominal" },
               { "field": "ONIscore", "type": "nominal" },
+              { "field": "SatietyIndex", "type": "nominal" },
+              { "field": "Satiety", "type": "nominal" },
           ],
-          "x": {
+          "y": {
               "field": "Calorie",
               "title": "Calories pr. 100 grams",
               "type": "quantitative"
           },
-          "y": {
+          "x": {
               "title": "ONIscore",
               "field": "ONIscore",
               "type": "quantitative"
@@ -266,16 +269,16 @@ var scatterPlot = {
             { "field": "Fat", "type": "nominal" },
             { "field": "Carb", "type": "nominal" },
             { "field": "Calorie", "type": "nominal" },
-            { "field": "ONIscore", "type": "nominal" },
+            { "field": "ND", "type": "nominal" },
         ],
-        "x": {
-            "field": "Calorie",
-            "title": "Calories pr. 100 grams",
+        "y": {
+            "field": "Carb",
+            "title": "Carb",
             "type": "quantitative"
         },
-        "y": {
-            "title": "ONIscore",
-            "field": "ONIscore",
+        "x": {
+            "title": "InsulinogenicV2",
+            "field": "InsulinogenicV2",
             "type": "quantitative"
         }
         },
@@ -326,16 +329,16 @@ var scatterPlot = {
             { "field": "Fat", "type": "nominal" },
             { "field": "Carb", "type": "nominal" },
             { "field": "Calorie", "type": "nominal" },
-            { "field": "ONIscore", "type": "nominal" },
+            { "field": "ND", "type": "nominal" },
         ],
-        "x": {
-            "field": "Calorie",
-            "title": "Calories pr. 100 grams",
+        "y": {
+            "field": "SatietyIndex",
+            "title": "Satiety",
             "type": "quantitative"
         },
-        "y": {
-            "title": "ONIscore",
-            "field": "ONIscore",
+        "x": {
+            "title": "Satiety",
+            "field": "Satiety",
             "type": "quantitative"
         }
         },

@@ -1,0 +1,49 @@
+,cost,foodName,popular,CarbPlusFat,ONIscore,Group,SatietyIndex,InsulinIndex,F6,ND,InsulinogenicV2,NutrivoreScore,Satiety,group,Protein,Fat,Carb,Calorie,ServingSize
+0,29.37172139,pomegranates,,0.753505054,0.245960964,"vege, spices and fruit,Fruits and Fruit Juices,,,,",0.583438505,0.679717422,vege,-1.029863842,0.679717422,0.20652251,0.596614343,vege,1.67,1.17,18.7,83,s
+1,0.560078348,"Shredded Wheat, bagged cereal",,,,,,,,,,,,,11.2,2.01,81,348,s
+2,,USDA choice,,0.333419689,0.560112345,animal,,,,,,,,,25.7,5.72,0,161,s
+3,0.267182093,AFTER EIGHT Mints,,,,,,,,,,,,,1.67,11.9,79.5,432,s
+4,0.205013613,ALMOND JOY BITES,,,,,,,,,,,,,5.58,34.5,57.5,563,s
+5,0.240965896,ALMOND JOY Candy Bar,,,,,,,,,,,,,4.13,26.9,59.5,479,s
+6,0.504941101,APPLE CINNAMON CHEERIOS,,,,,,,,,,,,,8.3,6.09,79.9,386,s
+7,0.515627685,APPLE JACKS with marshmallows,,,,,,,,,,,,,4.7,3.1,89.3,380,s
+8,16.66666667,"APPLEBEE'S, coleslaw",,,,,,,,,,,,,0.79,7.09,13.2,120,s
+9,0.858307222,All Bran,,,,,,,,,,,,,13.1,4.9,74.2,259,s
+10,5.632183908,Almond Chocolate Candies,,,,,,,,,,,,,9,34.4,53.4,526,s
+11,2.227511599,American cheese (fat free),,0.333438885,0.416678894,"dairy,,dairy",,,,,,,,,21,0,10.5,126,s
+12,0.477713885,Apple Cinnamon CHEX,,,,,,,,,,,,,3.23,6.45,83.9,419,s
+13,0.499762218,Apple ZINGS,,,,,,,,,,,,,4.51,2.71,87.3,390,s
+14,,"Apples, canned, sweetened, sliced, drained, heated",,,,"Fruits and Fruit Juices,",0.627415162,,,-3.46429824,0.832895184,0.056144429,0.651000756,vege,0.18,0.43,16.8,67,s
+15,,"Apples, canned, sweetened, sliced, drained, unheated",,,,Fruits and Fruit Juices,0.621961462,,,-3.531003576,0.841998658,0.053272453,0.651000756,vege,NULL,NULL,NULL,NULL,s
+16,0.2514655,BABY RUTH Bar,,,,,,,,,,,,,5.4,21.6,64.8,475,s
+17,0.783984529,BASIC 4,,,,,,,,,,,,,7.27,3.64,78.2,364,s
+18,0.518370385,BERRY BERRY KIX,,,,,,,,,,,,,5,4,85,400,s
+19,0.492190063,BERRY COLOSSAL CRUNCH,,,,,,,,,,,,,4.19,4.17,86.6,396,s
+20,0.307793771,BIT-O'-HONEY Candy Chews,,,,,,,,,,,,,2,7.5,80.9,388,s
+21,0.504941101,BOO BERRY,,,,,,,,,,,,,0,0,100,393,s
+22,0.2514655,BUTTERFINGER Bar,,,,,,,,,,,,,5.4,18.9,72.9,459,s
+23,0.248220783,BUTTERFINGER Crisp,,,,,,,,,,,,,6.67,18.3,68.4,465,s
+24,,"Bagels, multigrain",,,,"Baked Products,",0.660792597,0.778158245,grains,-0.282526678,0.778158245,0.23113462,0.55356678,grains,9.9,1.24,47.5,241,s
+25,,"Bagels, wheat",,,,"Baked Products,,",0.618467316,0.807612042,grains,-1.464368792,0.807612042,0.170845817,0.54963496,grains,10.2,1.53,48.9,250,s
+26,1.479777747,Baked Potato with Cheddar & Bacon Bits Soup,,,,,,,,,,,,,1.67,3.75,8.75,75,s
+27,2.026934592,Baked Potato with Steak & Cheese Soup,,,,,,,,,,,,,2.92,4.17,9.58,88,s
+28,,"Barley, hulled",,,,"Cereal Grains and Pasta,",0.525478321,0.727291008,grains,-0.845941956,0.727291008,0.195665541,0.501658282,grains,12.5,2.3,73.5,354,s
+29,5.529168517,Basil and Garlic Italian Sauce,,,,,,,,,,,,,1.67,2.08,9.17,58,s
+30,2.62324237,Beef Rib Roast with Potatoes & Herbs Soup,,,,,,,,,,,,,2.5,0.62,7.08,46,s
+31,2.024959023,Beef with White and Wild Rice Soup,,,,,,,,,,,,,2.92,0.62,10,58,s
+32,,"Beef, flank, steak, separable lean and fat, trimmed to 0"" fat, choice, cooked, braised",,,,Beef Products,0.50237103,0.325203658,animal,-1.51490755,0.325203658,0.164532362,0.541454137,animal,NULL,NULL,NULL,NULL,s
+33,,"Beef, rib eye steak, boneless, lip off, separable lean and fat, trimmed to 0"" fat, select, cooked, grilled",,,,"Beef Products,,",0.48064,0.325414234,animal,-0.635155382,0.325414234,0.188262328,0.544879276,animal,NULL,NULL,NULL,NULL,s
+34,,"Beef, rib, eye, small end (ribs 10-12), separable lean and fat, trimmed to 0"" fat, choice, cooked, broiled",,,,"Beef Products,",0.48064,0.320887285,animal,-1.810899887,0.320887285,0.143357895,0.541028304,animal,NULL,NULL,NULL,NULL,s
+35,,"Beef, rib, small end (ribs 10-12), separable lean and fat, trimmed to 1/8"" fat, select, cooked, broiled",,,,"Beef Products,",0.50237103,0.311622155,animal,-1.817923591,0.311622155,0.143302749,0.538417319,animal,NULL,NULL,NULL,NULL,s
+36,,"Beef, variety meats and by-products, tripe, cooked, simmered",,,,Beef Products,0.50237103,0.374689315,animal,-1.494652047,0.374689315,0.150363021,0.652725725,animal,11.7,4.05,1.99,94,s
+37,0.515627685,Berry Burst CHEERIOS,,,,,,,,,,,,,8.8,4.5,80.5,378,s
+38,,"Biscuits, plain or buttermilk, dry mix",,,,Baked Products,0.343917492,0.639528732,grains,-2.79263582,0.639528732,0.140837031,0.332430477,grains,8,15.4,63.4,428,s
+39,,"Biscuits, plain or buttermilk, frozen, baked",,,,"Baked Products,,",0.224693737,0.678743349,grains,-2.428185281,0.678743349,0.145922104,0.342032963,grains,6.2,11,53.9,338,s
+40,,"Biscuits, plain or buttermilk, prepared from recipe",,,,"Baked Products,,",0.218696148,0.552222801,grains,-2.851996456,0.552222801,0.098083418,0.289390594,grains,7,16.3,44.6,353,s
+41,,"Biscuits, plain or buttermilk, refrigerated dough, higher fat",,,,Baked Products,0.293755441,0.66417837,grains,-2.968794186,0.66417837,0.132558158,0.30000254,grains,6.66,10.6,46.3,307,s
+42,,"Biscuits, plain or buttermilk, refrigerated dough, higher fat, baked",,,,Baked Products,0.190908734,0.610715915,grains,-2.650612482,0.610715915,0.14013061,0.183647741,grains,6.79,11.2,49,324,s
+43,,"Biscuits, plain or buttermilk, refrigerated dough, lower fat",,,,"Baked Products,,",0.340142189,0.693990528,grains,-2.554606865,0.693990528,0.155073622,0.431267973,grains,6.7,7.83,43.7,270,s
+44,,"Biscuits, plain or buttermilk, refrigerated dough, lower fat, baked",,,,Baked Products,0.384815977,0.697431677,grains,-2.92960305,0.697431677,0.135858848,0.423857545,grains,7.8,9.1,51.6,319,s
+45,0.633558604,Blueberry MUFFIN TOPS Cereal,,,,,,,,,,,,,9.09,1.94,81.8,354,s
+46,0.219852694,Blueberry and Almond Chocolate Bar,,,,,,,,,,,,,6.35,28.7,60.4,525,s
+47,0.352974509,Braunschweig,common,0.822575711,0.51509857,animal,,,,,,,,,14.5,28.5,3.1,327,s

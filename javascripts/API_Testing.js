@@ -11,9 +11,10 @@ const API_REQUEST_HEADER = {
     pagesize: 5,
 }    
 
+//&requireAllWords=True&numberOfResultsPerPage=1
 function fetch_REQUEST(){
     console.log(encodeURIComponent(this.searchData));
-    fetch(`https://api.nal.usda.gov/fdc/v1/foods/search?query=${encodeURIComponent(this.searchData)}&pageSize=${encodeURIComponent(API_REQUEST_HEADER.pagesize)}&api_key=${encodeURIComponent(API_REQUEST_HEADER.api_key)}`    ,{
+    fetch(`https://api.nal.usda.gov/fdc/v1/foods/search?query=${encodeURIComponent(this.searchData)}&pageSize=${encodeURIComponent(API_REQUEST_HEADER.pagesize)}&requireAllWords=True&numberOfResultsPerPage=1&api_key=${encodeURIComponent(API_REQUEST_HEADER.api_key)}`    ,{
         method: 'GET',
         headers: {'Content-type': 'application/json;charset=UTF-8'}
     })
