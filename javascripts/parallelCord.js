@@ -1,101 +1,58 @@
-/* exampleData = {
-  "": 149,
-  cost: "",
-  foodName: "Chicken, broiler, rotisserie, BBQ, drumstick meat and skin",
-  popular: "",
-  CarbPlusFat: "",
-  ONIscore: "",
-  Group: "Poultry Products",
-  SatietyIndex: 0.504124449,
-  InsulinIndex: 0.39029182,
-  F6: "animal",
-  ND: -0.53657119,
-  InsulinogenicV2: 0.39029182,
-  NutrivoreScore: 0.211575689,
-  Satiety: 0.557304502,
-  group: "animal",
-  Protein: 25.6,
-  Fat: 11.5,
-  Carb: 0.12,
-  ServingSize: "100g",
-  Calorie: 206,
-};
- */
+/*exampleData = {
+    "": 149,
+    cost: "",
+    foodName: "Chicken, broiler, rotisserie, BBQ, drumstick meat and skin",
+    popular: "",
+    CarbPlusFat: "",
+    ONIscore: "",
+    Group: "Poultry Products",
+    SatietyIndex: 0.504124449,
+    InsulinIndex: 0.39029182,
+    F6: "animal",
+    ND: -0.53657119,
+    InsulinogenicV2: 0.39029182,
+    NutrivoreScore: 0.211575689,
+    Satiety: 0.557304502,
+    group: "animal",
+    Protein: 25.6,
+    Fat: 11.5,
+    Carb: 0.12,
+    ServingSize: "100g",
+    Calorie: 206,
+};*/
 
 export function sendDataToFile(data, category) {
   //Create empty array
-  var arrayOfFoodObjects = [];
+  //var arrayOfFoodObjects = [];
   //console.log(Object.keys(data)[1]);
   //console.log(Object.values(data)[1]);
   console.log("Length of object is: " + Object.keys(data).length);
 
-  for (let i = 0; i < Object.keys(data).length; i++) {
-    if (
-      Object.keys(data)[i] == "Calorie" ||
-      Object.keys(data)[i] == "Carb" ||
-      Object.keys(data)[i] == "Fat" ||
-      Object.keys(data)[i] == "InsulinIndex" ||
-      /*Object.keys(data)[i] == "ND" || */
+  var newArrayOfFoodObjects = [];
+  newArrayOfFoodObjects.push(data);
 
-      Object.keys(data)[i] == "NutrivoreScore" ||
-      Object.keys(data)[i] == "ONIscore" ||
-      Object.keys(data)[i] == "Protein" ||
-      Object.keys(data)[i] == "Satiety" ||
-      Object.keys(data)[i] == "cost"
-    ) {
-      console.log(Object.keys(data)[i] + " is index " + i);
-      arrayOfFoodObjects.push({
-        key: Object.keys(data)[i],
-        value: Object.values(data)[i],
-        //"value": Object.values(data)[i],
-        category: category,
-      });
-    }
-  }
+  /*
+    for (let i = 0; i < Object.keys(data).length; i++) {
+        if (Object.keys(data)[i] == "Calorie" || Object.keys(data)[i] == "Carb" || Object.keys(data)[i] == "Fat" || Object.keys(data)[i] == "InsulinIndex" || Object.keys(data)[i] == "ND" || Object.keys(data)[i] == "NutrivoreScore" || Object.keys(data)[i] == "ONIscore" || Object.keys(data)[i] == "Protein" || Object.keys(data)[i] == "Satiety" || Object.keys(data)[i] == "cost") {
 
-  console.log("foodObject is:  " + JSON.stringify(arrayOfFoodObjects));
-  console.log("Length of new array is: " + arrayOfFoodObjects.length);
-  var variables = JSON.stringify(arrayOfFoodObjects);
-  var dataSend = JSON.stringify(data);
-  // return JSON.stringify(arrayOfFoodObjects)
-  console.log(data);
-  parallelChart(dataSend);
+            var foodPropertyName = Object.keys(data)[i];
+            console.log("FoodPropertyName is: " + foodPropertyName);
+            var foodPropertyValue = Object.values(data)[i];
+            //console.log(Object.keys(data)[i] + " is index " + i);
+            arrayOfFoodObjects[foodPropertyName] = foodPropertyValue;
+        }
+    }*/
+
+  //console.log("foodObject is:  " + JSON.stringify(arrayOfFoodObjects));
+  //console.log("Length of new array is: " + arrayOfFoodObjects.length);
+
+  console.log("before stringify: " + newArrayOfFoodObjects);
+  var newArrayOfFoodObjectsStringified = JSON.stringify(newArrayOfFoodObjects);
+  console.log("after stringify: " + newArrayOfFoodObjectsStringified);
+  parallelChart(newArrayOfFoodObjectsStringified);
 }
 
 //sendDataToFile(exampleData, 1);
-
-/* function normalizeValue(value, index) {
-  switch (index) {
-    //Cost
-    case 1:
-      return Math.round((value / 358) * 100);
-    //OniScore
-    case 5:
-      return Math.round(value * 100);
-    //InsulinIndex
-    case 8:
-      return Math.round(value * 100);
-    //Nutrivore score
-    case 12:
-      return Math.round(value * 100);
-    //Satiety
-    case 13:
-      return Math.round(value * 100);
-    //Protein
-    case 15:
-      return Math.round((value / 62.4) * 100);
-    //Fat
-    case 16:
-      return Math.round(value);
-    //Carb
-    case 17:
-      return Math.round((value / 111) * 100);
-    //Calories
-    case 19:
-      return Math.round((value / 563) * 100);
-  }
-}
-*/
 
 function parallelChart(data) {
   console.log("data received:", data);
@@ -104,14 +61,24 @@ function parallelChart(data) {
     description:
       "Though Vega-Lite supports only one scale per axes, one can create a parallel coordinate plot by folding variables, using `joinaggregate` to normalize their values and using ticks and rules to manually create axes.",
     data: {
-      values: [data],
+      values: data,
     },
     width: 600,
     height: 300,
     transform: [
       { window: [{ op: "count", as: "index" }] },
       {
-        fold: ["ONIscore", "SatietyIndex", "InsulinIndex", "ND"],
+        fold: [
+          "Calorie",
+          "Carb",
+          "Fat",
+          "InsulinIndex",
+          "ND",
+          "NutrivoreScore",
+          "Protein",
+          "Satiety",
+          "cost",
+        ],
       },
       {
         joinaggregate: [
@@ -140,7 +107,7 @@ function parallelChart(data) {
       {
         mark: "line",
         encoding: {
-          color: { type: "nominal", field: "F6" },
+          color: { type: "nominal", field: "foodName" },
           detail: { type: "nominal", field: "index" },
           opacity: { value: 0.3 },
           x: { type: "nominal", field: "key" },
@@ -226,12 +193,7 @@ function parallelChart(data) {
       },
     },
   };
-  vegaEmbed("#radarChart", chart, {
-    theme: "googlecharts",
-  }).then(function (result) {
-    console.log("Checking data", chart);
-    //Simulere et click?
-  });
+  vegaEmbed("#radarChart", chart);
 }
 
 /* const chart = vegaEmbed("#radarChart", parallel, {
