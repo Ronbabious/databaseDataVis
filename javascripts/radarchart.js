@@ -1,3 +1,26 @@
+exampleData = {
+    "": 149,
+    "cost": "",
+    "foodName": "Chicken, broiler, rotisserie, BBQ, drumstick meat and skin",
+    "popular": "",
+    "CarbPlusFat": "",
+    "ONIscore": "",
+    "Group": "Poultry Products",
+    "SatietyIndex": 0.504124449,
+    "InsulinIndex": 0.39029182,
+    "F6": "animal",
+    "ND": -0.53657119,
+    "InsulinogenicV2": 0.39029182,
+    "NutrivoreScore": 0.211575689,
+    "Satiety": 0.557304502,
+    "group": "animal",
+    "Protein": 25.6,
+    "Fat": 11.5,
+    "Carb": 0.12,
+    "ServingSize": "100g",
+    "Calorie": 206
+}
+
 export function sendDataToFile(data, category) {
     //Create empty array
     var arrayOfFoodObjects = [];
@@ -18,42 +41,44 @@ export function sendDataToFile(data, category) {
         };
     };
 
-    // //console.log("foodObject is:  " + JSON.stringify(arrayOfFoodObjects));
-    // console.log("Length of new array is: " + arrayOfFoodObjects.length);
-    // console.log("Variables is: " + JSON.stringify(variables));
+    console.log("foodObject is:  " + JSON.stringify(arrayOfFoodObjects));
+    console.log("Length of new array is: " + arrayOfFoodObjects.length);
     var variables = JSON.stringify(arrayOfFoodObjects)
         // return JSON.stringify(arrayOfFoodObjects)
     radarChart(variables)
 }
 
+//sendDataToFile(exampleData, 1);
+
 
 function normalizeValue(value, index) {
     switch (index) {
-        //Cost from 0 to 358
-        case 3:
+        //Cost 
+        case 1:
             return Math.round((value / 358) * 100);
-        case 7:
+            //OniScore
+        case 5:
             return Math.round(value * 100);
-        case 10:
+            //InsulinIndex
+        case 8:
             return Math.round(value * 100);
-            /*case 12:
-            //ND - Fra 14 til -5 (dvs spænder 19)
-                return value / 19 * 100; */
-        case 14:
+            //Nutrivore score
+        case 12:
             return Math.round(value * 100);
+            //Satiety
+        case 13:
+            return Math.round(value * 100);
+            //Protein
         case 15:
-            return Math.round(value * 100);
-        case 17:
-            //From 0 to 62.4g
             return Math.round((value / 62.4) * 100);
-        case 18:
-            //From 0 to 100 :)
+            //Fat
+        case 16:
             return Math.round(value);
-        case 19:
-            //from 0 to 111
+            //Carb
+        case 17:
             return Math.round((value / 111) * 100);
-        case 20:
-            //Calories from 0 to 563
+            //Calories
+        case 19:
             return Math.round((value / 563) * 100);
     }
 }
