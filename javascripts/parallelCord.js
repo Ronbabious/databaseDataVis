@@ -104,7 +104,7 @@ function parallelChart(data) {
     description:
       "Though Vega-Lite supports only one scale per axes, one can create a parallel coordinate plot by folding variables, using `joinaggregate` to normalize their values and using ticks and rules to manually create axes.",
     data: {
-      values: data,
+      values: [data],
     },
     width: 600,
     height: 300,
@@ -226,7 +226,12 @@ function parallelChart(data) {
       },
     },
   };
-  vegaEmbed("#radarChart", chart);
+  vegaEmbed("#radarChart", chart, {
+    theme: "googlecharts",
+  }).then(function (result) {
+    console.log("Checking data", chart);
+    //Simulere et click?
+  });
 }
 
 /* const chart = vegaEmbed("#radarChart", parallel, {

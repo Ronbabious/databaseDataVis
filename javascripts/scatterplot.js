@@ -393,11 +393,13 @@ const scatterPlot = {
           },
           value: "gray",
         },
+
         x: { aggregate: "count", type: "quantitative" },
         y: { title: "Food Category", field: "F6" },
       },
       //BARCHART
       width: 500,
+      height: 250,
       mark: "bar",
       params: [
         {
@@ -406,6 +408,33 @@ const scatterPlot = {
         },
       ],
       transform: [{ filter: { param: "brush" } }],
+    },
+    {
+      width: 500,
+      mark: "bar",
+      encoding: {
+        x: {
+          field: "ND",
+          type: "quantitative",
+        },
+        y: {
+          // aggregate: "sum",
+          field: "F6",
+          type: "ordinal",
+          title: "F6",
+          //  stack: "normalize",
+          axis: {
+            offset: -200,
+          },
+        },
+        color: {
+          condition: {
+            test: "datum.ND < 0",
+            value: "#F29135",
+          },
+          value: "#4F81B2",
+        },
+      },
     },
   ],
   config: {
