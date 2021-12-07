@@ -1,4 +1,5 @@
-import { sendDataToFile } from "../javascripts/parallelCord.js";
+import { sendDataToParallel } from "../javascripts/parallelCord.js";
+import { addToItemList } from "../javascripts/parallelCord.js";
 
 const scatterPlot = {
     $schema: "https://vega.github.io/schema/vega-lite/v5.json",
@@ -456,8 +457,8 @@ const chart = await vegaEmbed("#scatterPlot", scatterPlot, {
         li.appendChild(removebutton);
         ul.appendChild(li);
 
-        //sendDataToFile(item.datum, 1);
-        //console.log(result.test);
+        //Add object to array of items for later use
+        addToItemList(item.datum);
     });
 });
 
