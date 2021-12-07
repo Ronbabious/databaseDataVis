@@ -1,6 +1,6 @@
-import { sendDataToFile } from "../javascripts/radarchart.js";
+import { sendDataToFile } from "../javascripts/parallelCord.js";
 
-const spec = {
+const scatterPlot = {
   $schema: "https://vega.github.io/schema/vega-lite/v5.json",
   title: "USDA Food Database",
   data: {
@@ -416,54 +416,15 @@ const spec = {
   },
 };
 
-const old = await vegaEmbed("#scatterPlot", spec).then(function (result) {
-  result.view.addEventListener("click", function (event, item) {
-    console.log((result.spec.concat[0].mark = "point"));
-    vegaEmbed("#scatterPlot", spec);
-    //console.log("CreatedNew");
-    //// console.log("New");
-    /*     p.spec.transform[0].filter = "";
-            p.finalize();
-            newResult; */
-  });
-});
-/*     p.spec.transform[0].filter = "";
-    p.finalize();
-    newResult; */
-
-function callNew(spec1) {
-  vegaEmbed("#scatterPlot", spec1).then(function (p) {
-    console.log((p.spec.transform[0].filter = ""));
-  });
-  /*   let changeset = vega
-    .changeset()
-    .remove(() => true)
-    .insert(view);
-  view.change("source_0", changeset).run(); */
-}
-
-/* await vegaEmbed("#scatterPlot", scatterPlot, {
+const chart = await vegaEmbed("#scatterPlot", scatterPlot, {
   theme: "googlecharts",
 }).then(function (result) {
   //Simulere et click?
-  console.log(scatterPlot.transform[0]);
-  result.view.addDataListener("source", function (name, value) {
-    console.log("dataListener", name, value);
-  });
   result.view.addEventListener("click", function (event, item) {
-    scatterPlot.transform[0].filter = "";
     sendDataToFile(item.datum, 1);
     console.log(result.test);
-    vegaEmbed("#scatterPlot", scatterPlot);
-    //callNew();
   });
 });
-
-function callNew() {
-  vegaEmbed("#scatterPlot", scatterPlot).then(function (result) {
-    console.log(result);
-  });
-} */
 
 // vegaEmbedModule('#scatterPlot', scatterPlot, {tooltip: {theme:'dark'}})
 // .then(function(result){
