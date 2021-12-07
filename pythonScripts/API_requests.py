@@ -20,7 +20,7 @@ class API_REQUEST_HEADER:
     pagesize = 1
 
 
-df = pd.read_csv(r"/Users/aronelibaldvinsson/Desktop/dataVis/databaseDataVis/webpage/datavis_project/CSV_files/cleanedCSV.csv")
+df = pd.read_csv(r"C:\Users\Mammoth\Documents\datavisProject\CSVfiles\TestingAPIdata.csv")
 
 foodName = df['foodName']
 foodNameList = foodName.to_list()
@@ -31,6 +31,7 @@ Col_Energy = []
 counter = 0
 failCounter = 0
 apiCounter = 0
+servingSize = ""
 
 for food in foodNameList:
     try:
@@ -46,8 +47,6 @@ for food in foodNameList:
         if(response.status_code == 200):
             jsonObject = response.json()
             foodElem = jsonObject["foods"]
-            if 'servingSize' in foodElem is not False:
-                print("Serving size: ", foodElem["servingSize"],foodElem["servingSizeUnit"])
             if(len(jsonObject['foods']) < 1):
                 print('Json object empty', apiCounter)
                 apiCounter += 1
@@ -56,20 +55,42 @@ for food in foodNameList:
                 Col_Carb.append('NULL')
                 Col_Energy.append('NULL')
             for a in jsonObject['foods']:
+                if "servingSize" in a is not False and "servingSizeUnit" in a is not False:
+                    servingSize = str(a["servingSize"]) + str(a["servingSizeUnit"])
+                else:
+                    servingSize = "100g"
+                print("Serving size: ", servingSize)
+                print("API name: ", a['description'], " @@@@@ Our dataName: ", food)
                 for x in a['foodNutrients']:
                     if x['nutrientName'] == "Protein":
-                        #print(x['nutrientName'], " = ", x['value'] )
-                        Col_Protein.append(x['value'])
+                        if 'nutrientName' in x is False:
+                            print("Could find protein")
+                            Col_Protein.append(str("NaN"))
+                        else:
+                            print(x['nutrientName'], " = ", x['value'] )
+                            Col_Protein.append(x['value'])
                     if x['nutrientName'] == "Total lipid (fat)":
-                        #print(x['nutrientName'], " = ", x['value'] )
-                        Col_Fat.append(x['value'])
+                         if 'nutrientName' in x is False:
+                             print('Could not find fat')
+                             Col_Fat.append(str("NaN"))
+                         else: 
+                            print(x['nutrientName'], " = ", x['value'] )
+                            Col_Fat.append(x['value'])
                     if x['nutrientName'] == "Carbohydrate, by difference":
-                        #print(x['nutrientName'], " = ", x['value'] )
-                        Col_Carb.append(x['value'])
+                        if 'nutrientName' in x is False:
+                            print("Could find Carb")
+                            Col_Carb.append(str("NaN"))
+                        else:
+                            print(x['nutrientName'], " = ", x['value'] )
+                            Col_Carb.append(x['value'])
                     if x['nutrientName'] == "Energy":
-                        if(x['unitName'] == 'KCAL'):
-                            #print(x['nutrientName'], " = ", x['value'],'KCAL' )
-                            Col_Energy.append(x['value'])
+                        if 'nutrientName' in x is False:
+                            print('Couldnt find KCAL')
+                            Col_Energy.append(str("NaN"))
+                        else:
+                            if(x['unitName'] == 'KCAL'):
+                                print(x['nutrientName'], " = ", x['value'],'KCAL', "per", servingSize)
+                                Col_Energy.append(str(x['value'])+servingSize)
             counter += 1
             print('API call number: ', counter)
         else:
