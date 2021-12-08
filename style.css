@@ -1,29 +1,33 @@
-.col {
-    width: fit-content;
-    flex: none;
-}
-
-.container {
-    width: 100%;
-    padding: 0%;
-    margin: 0%;
-}
-
-#auto {
-    width: 10%;
-}
-
-.row {
-    width: 100%;
-    height: 100%;
-    flex-direction: row;
-}
-
-.autoComplete_wrapper {
-    width: auto;
-}
 
 body {
     font-family: "Poppins", "sans-serif";
-    background-color: #697c37;
+}
+.container{
+    background-color: red;
+}
+
+#scatterPlot{
+    height: 500px;
+    width: 65%;
+    float: left;
+}
+#listToFile{
+    height: 500px;
+    width: 35%;
+    float: right;
+    margin-top: 15px;
+
+}
+#radarChart{
+    height: 402px;
+    width: 560px;
+    margin-left: 1167px;
+}
+
+.row {
+    display: flex;
+    /* flex-wrap: wrap; */
+    /* margin-top: calc(-1 * var(--bs-gutter-y)); */
+    /* margin-right: calc(-.5 * var(--bs-gutter-x)); */
+    /* margin-left: calc(-.5 * var(--bs-gutter-x)); */
 }

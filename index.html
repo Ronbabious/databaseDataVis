@@ -37,13 +37,49 @@
     <title>DataVis</title>
 </head>
 
+<!-- 
+<div class="row ">
+    <div class="col-md-6 col-sm-6 p-0">
+       <div class="bg-dark" id="scatterPlot">
+       </div>
+    </div>
 
+    <div class="col-md-6 col-sm-6 p-0 ">
+       <div class="row ">
+          <div class="col-sm-12 bg-primary" id="autoComplete_wrapper">
+            <input id="autoComplete">
+            <ul class="list-group selection" id="listofitems">
+            </ul>
+            <button type="button" class="btn btn-info m-2">Compare food items</button>
+          </div>
+          <div class="col-sm-12 bg-primary" id="radarChart">
+             THE Iternal Love 2
+          </div>
 
-<div class="container">
+       </div>
+    </div>
+ </div> -->
+
+ <div class="container-fluid">
     <div class="row">
-        <div class="col p-3 m-2 bg-light text-dark">
+        <div class="col-md-6" id="scatterPlot"></div>
+        <div class="col-md-3" id="listToFile">
+            <input id="autoComplete">
+            <ul class="list-group selection" id="listofitems">
+            </ul>
+            <button type="button" class="btn btn-info m-2">Compare food items</button>
+        </div>
+        <div class="col-md-3" id="radarChart"></div>
+    </div>
+</div>
+
+
+
+<!-- <div class="container">
+    <div class="row">
+        <div class="col p-3 m-2 bg-light text-dark"> -->
             <!-- AUTOCOMPLETE -->
-            <div class="d-inline-fill p-3 bd-highlight" id="autoComplete_wrapper">
+<!--             <div class="d-inline-fill p-3 bd-highlight" id="autoComplete_wrapper">
                 <input id="autoComplete">
             </div>
             <div class="container-sm">
@@ -59,15 +95,15 @@
             <div id="radarChart"></div>
         </div>
     </div>
-</div>
+</div> -->
 
 <!--AutoComplete Import  -->
 <script src="https://cdn.jsdelivr.net/npm/@tarekraafat/autocomplete.js@10.2.6/dist/autoComplete.min.js"></script>
 
 <!-- Javascript Imports -->
 <!--     <script type="module" src="javascripts/API_Testing.js"></script>-->
+<script type="module" src="javascripts/radarchart.js"></script>
 <script type="module" src="javascripts/scatterplot.js"></script>
-<!--     <script type="module" src="javascripts/radarchart.js"></script>-->
 <script type="module" src="javascripts/searchBar.js"></script>
 <script type="module" src="javascripts/parallelCord.js"></script>
 
