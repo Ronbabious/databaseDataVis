@@ -54,15 +54,15 @@ function parallelChart(data) {
       { window: [{ op: "count", as: "index" }] },
       {
         fold: [
-          "Calorie",
-          "Carb",
+          "cost",
+          "Protein",
           "Fat",
+          "Carb",
+          "Calorie",
+          "Satiety",
           "InsulinIndex",
           "ND",
-          "NutrivoreScore",
-          "Protein",
-          "Satiety",
-          "cost",
+          "CarbPlusFat",
         ],
       },
       {
@@ -81,7 +81,28 @@ function parallelChart(data) {
         as: "mid",
       },
     ],
+
     layer: [
+      {
+        selection: {
+          highlight: {
+            type: "single",
+            on: "mouseover",
+            nearest: "true",
+            fields: ["foodName"],
+          },
+        },
+        mark: "point",
+        encoding: {
+          x: { type: "nominal", field: "key" },
+          y: { type: "quantitative", field: "norm_val", axis: null },
+          color: {
+            type: "nominal",
+            field: "F6",
+            title: "Food Categories",
+          },
+        },
+      },
       {
         mark: { type: "rule", color: "#ccc" },
         encoding: {
@@ -92,27 +113,50 @@ function parallelChart(data) {
       {
         mark: "line",
         encoding: {
-          color: { type: "nominal", field: "foodName" },
+          color: {
+            type: "nominal",
+            field: "F6",
+            scale: {
+              range: [
+                "#0077BB",
+                "#33BBEE",
+                "#009988",
+                "#EE7733",
+                "#CC3311",
+                "#EE3377",
+                "#BBBBBB",
+              ],
+            },
+          },
           detail: { type: "nominal", field: "index" },
-          opacity: { value: 0.3 },
+          opacity: { value: 1 },
           x: { type: "nominal", field: "key" },
           y: { type: "quantitative", field: "norm_val", axis: null },
+          size: {
+            condition: {
+              selection: { not: "highlight" },
+              value: 1,
+            },
+            value: 3,
+          },
           tooltip: [
+            { title: "Food Name", field: "foodName", type: "nominal" },
+            { field: "Protein", type: "nominal" },
+            { title: "Carbohydrates", field: "Carb", type: "nominal" },
             {
-              type: "quantitative",
-              field: "ONIscore",
+              title: "Calories per 100 grams",
+              field: "Calorie",
+              type: "nominal",
             },
+            { title: "USD$ per 2000 calories", field: "cost", type: "nominal" },
+            { field: "Satiety", type: "nominal" },
+            { title: "Nutrient Density", field: "ND", type: "nominal" },
+
+            { title: "Insulin Index", field: "InsulinIndex", type: "nominal" },
             {
-              type: "quantitative",
-              field: "SatietyIndex",
-            },
-            {
-              type: "quantitative",
-              field: "InsulinIndex",
-            },
-            {
-              type: "quantitative",
-              field: "ND",
+              title: "Carb and Fat Ratio",
+              field: "CarbPlusFat",
+              type: "nominal",
             },
           ],
         },
@@ -124,6 +168,7 @@ function parallelChart(data) {
         },
         layer: [
           {
+            //Ikke her
             mark: { type: "text", style: "label" },
             encoding: {
               text: { aggregate: "max", field: "max" },
@@ -141,6 +186,7 @@ function parallelChart(data) {
         },
         layer: [
           {
+            //ikke Her
             mark: { type: "text", style: "label" },
             encoding: {
               text: { aggregate: "min", field: "mid" },
@@ -158,6 +204,7 @@ function parallelChart(data) {
         },
         layer: [
           {
+            //IKKE HER
             mark: { type: "text", style: "label" },
             encoding: {
               text: { aggregate: "min", field: "min" },

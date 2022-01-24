@@ -56,16 +56,55 @@
     </div>
  </div> -->
 
+ 
+ 
  <div class="container-fluid">
-    <div class="row">
-        <div class="col-md-6" id="scatterPlot"></div>
-        <div class="col-md-3" id="listToFile">
-            <input id="autoComplete">
-            <ul class="list-group selection" id="listofitems">
+     <div class="row">
+         <div class="col-md-6" id="scatterPlot"></div>
+         <div class="col-md-3" id="listToFile">
+             <button type="button" class="btn btn-info m-2" id="compareItemsButton">Compare food items</button>
+             <input id="autoComplete">
+             <ul class="list-group selection" id="listofitems">
             </ul>
-            <button type="button" class="btn btn-info m-2" id="compareItemsButton">Compare food items</button>
         </div>
         <div class="col-md-3" id="radarChart"></div>
+    </div>
+    <div id="infoIcon">
+        <img src="infoIcon.svg" alt="Information about data-categories" srcset="" id="infoImg">
+    </div>
+    <div id="center">
+        <div id="center-content">
+            
+            <ul class="list-unstyled">
+                <h1 class="display-6">Understanding the data categories</h1>
+                <li>A specification for each data-item shown in the visualization. Multiple data-categories used throughout this visualization are created by Marty Kendall.</li>
+                <li> </li>                
+                <li>Nutritional information
+                  <ul>
+                    <li>Protein, Fat, Carbohydrates and Calories are listed as a value contained in a food item based on a 100 gram serving size.</li>
+                  </ul>
+                </li>
+                <li>ONIscore
+                    <ul>
+                      <li>Optimal nutrition intake is the percentage of essential macro and micro-nutrients fullfilled in a 2000 calorie serving </li>
+                    </ul>
+                  </li>
+                  <li>Insulin Index
+                    <ul>
+                      <li>Percentual increase of insulin during a two hour period after 250 calories are ingested.</li>
+                    </ul>
+                    <li>Satiety
+                    <ul>
+                        <li>Based on a qualitative study on how filling 240 calories of a specific food item is perceived.</li>
+                    </ul>
+                    <li>Nutrient Density
+                        <ul>
+                            <li>A measurement of how many nutrients contained in a single food item per calorie</li>
+                        </ul>
+                  </li>
+              </ul>
+              
+        </div>
     </div>
 </div>
 
@@ -102,6 +141,7 @@
 <script type="module" src="javascripts/scatterplot.js"></script>
 <script type="module" src="javascripts/searchBar.js"></script>
 <script type="module" src="javascripts/parallelCord.js"></script>
+<script src="javascripts/imagePopUp.js"></script>
 
 <!-- Bootstrap Import -->
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>

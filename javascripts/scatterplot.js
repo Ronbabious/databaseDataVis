@@ -1,9 +1,8 @@
 import { sendDataToParallel } from "../javascripts/parallelCord.js";
 import { addToItemList } from "../javascripts/parallelCord.js";
-
 const scatterPlot = {
   $schema: "https://vega.github.io/schema/vega-lite/v5.json",
-  title: "USDA Food Database",
+  title: "Visualizing Nutritional Data and Satiety Index",
   autosize: "pad",
   data: {
     name: "source",
@@ -12,7 +11,7 @@ const scatterPlot = {
   transform: [
     {
       filter:
-        "datum.ONIscore > 0 && datum.F6 != '' && datum.Protein != 'NULL' && datum.Fat != 'NULL'&& datum.Carb != 'NULL' && datum.Calorie != 'NULL'",
+        "datum.ONIscore > 0 && datum.Protein != 'NULL' && datum.Fat != 'NULL' && datum.Carb != 'NULL' && datum.Calorie != 'NULL' && datum.ND != '' && datum.InsulinIndex != '' && datum.NutrivoreScore != '' && datum.Satiety != '' && datum.cost != 0",
     },
   ],
   concat: [
@@ -21,31 +20,44 @@ const scatterPlot = {
       encoding: {
         color: {
           condition: {
-            param: "brush",
+            selection: "brush",
             title: "Food Categories",
             field: "F6",
             type: "nominal",
+            scale: {
+              range: [
+                "#0077BB",
+                "#33BBEE",
+                "#009988",
+                "#EE7733",
+                "#CC3311",
+                "#EE3377",
+                "#BBBBBB",
+              ],
+            },
           },
           value: "gray",
         },
+        opacity: {
+          condition: { param: "category", value: 0.8 },
+          value: 0.1,
+        },
         tooltip: [
-          { field: "foodName", type: "nominal" },
-          { field: "Protein", type: "nominal" },
-          { field: "Fat", type: "nominal" },
-          { field: "Carb", type: "nominal" },
-          { field: "Calorie", type: "nominal" },
-          { field: "ND", type: "nominal" },
+          { title: "Food Name", field: "foodName", type: "nominal" },
+          { field: "Satiety", type: "nominal" },
+          { title: "Nutrient Density", field: "ND", type: "nominal" },
         ],
         y: {
-          field: "Protein",
-          title: "Protein",
+          field: "Satiety",
+          title: "Satiety",
           type: "quantitative",
         },
         x: {
-          title: "ONIscore",
-          field: "ONIscore",
+          title: "Nutrient Density",
+          field: "ND",
           type: "quantitative",
         },
+        size: { field: "Calorie", type: "quantitative" },
       },
       width: 420,
       height: 250,
@@ -74,9 +86,15 @@ const scatterPlot = {
           },
           bind: "scales",
         },
+        {
+          name: "category",
+          select: { type: "point", fields: ["F6"] },
+          bind: "legend",
+        },
       ],
       transform: [{ filter: { param: "click" } }],
     },
+    //ScatterPlot #2
     {
       encoding: {
         color: {
@@ -88,24 +106,35 @@ const scatterPlot = {
           },
           value: "gray",
         },
+        opacity: {
+          condition: { param: "category", value: 0.8 },
+          value: 0.1,
+        },
+
         tooltip: [
-          { field: "foodName", type: "nominal" },
+          { title: "Food Name", field: "foodName", type: "nominal" },
           { field: "Protein", type: "nominal" },
-          { field: "Fat", type: "nominal" },
-          { field: "Carb", type: "nominal" },
-          { field: "Calorie", type: "nominal" },
-          { field: "ND", type: "nominal" },
+          {
+            title: "Calories per 100 grams",
+            field: "Calorie",
+            type: "nominal",
+          },
+          { title: "USD$ per 2000 calories", field: "cost", type: "nominal" },
         ],
-        y: {
-          field: "Fat",
-          title: "Fat",
-          type: "quantitative",
-        },
         x: {
-          title: "ONIscore",
-          field: "ONIscore",
+          field: "Protein",
+          title: "Protein",
           type: "quantitative",
+          scale: { zero: false },
+          axis: { maxExtent: 20 },
         },
+        y: {
+          field: "cost",
+          title: "Cost per 2000 KCAL",
+          scale: { type: "log" },
+          axis: { maxExtent: 20 },
+        },
+        size: { field: "Calorie", type: "quantitative" },
       },
       width: 420,
       height: 250,
@@ -132,6 +161,7 @@ const scatterPlot = {
               "[mousedown[!event.shiftKey], window:mouseup] > window:mousemove!",
             zoom: "wheel![!event.shiftKey]",
           },
+
           bind: "scales",
         },
       ],
@@ -149,22 +179,27 @@ const scatterPlot = {
           },
           value: "gray",
         },
+        opacity: {
+          condition: { param: "category", value: 0.8 },
+          value: 0.1,
+        },
         tooltip: [
-          { field: "foodName", type: "nominal" },
-          { field: "Protein", type: "nominal" },
-          { field: "Fat", type: "nominal" },
-          { field: "Carb", type: "nominal" },
-          { field: "Calorie", type: "nominal" },
-          { field: "ND", type: "nominal" },
+          { title: "Food Name", field: "foodName", type: "nominal" },
+          { title: "Insulin Index", field: "InsulinIndex", type: "nominal" },
+          {
+            title: "Carb and Fat Ratio",
+            field: "CarbPlusFat",
+            type: "nominal",
+          },
         ],
         y: {
-          field: "Carb",
-          title: "Carbohydrates",
+          field: "InsulinIndex",
+          title: "Insulin Index",
           type: "quantitative",
         },
         x: {
-          title: "ONIscore",
-          field: "ONIscore",
+          title: "Carbohydrates and Fat Ratio",
+          field: "CarbPlusFat",
           type: "quantitative",
         },
       },
@@ -210,27 +245,31 @@ const scatterPlot = {
           },
           value: "gray",
         },
+        opacity: {
+          condition: { param: "category", value: 0.8 },
+          value: 0.1,
+        },
         tooltip: [
-          { field: "foodName", type: "nominal" },
-          { field: "Protein", type: "nominal" },
-          { field: "Fat", type: "nominal" },
-          { field: "Carb", type: "nominal" },
-          { field: "Calorie", type: "nominal" },
-          { field: "ND", type: "nominal" },
-          { field: "ONIscore", type: "nominal" },
-          { field: "SatietyIndex", type: "nominal" },
+          { title: "Food Name", field: "foodName", type: "nominal" },
           { field: "Satiety", type: "nominal" },
+          { title: "Carbohydrates", field: "Carb", type: "nominal" },
+          {
+            title: "Calories per 100 grams",
+            field: "Calorie",
+            type: "nominal",
+          },
         ],
         y: {
-          field: "Calorie",
-          title: "Calories pr. 100 grams",
+          field: "Satiety",
+          title: "Satiety",
           type: "quantitative",
         },
         x: {
-          title: "ONIscore",
-          field: "ONIscore",
+          title: "Carbohydrates",
+          field: "Carb",
           type: "quantitative",
         },
+        size: { field: "Calorie", type: "quantitative" },
       },
       width: 420,
       height: 250,
@@ -260,7 +299,12 @@ const scatterPlot = {
           bind: "scales",
         },
       ],
-      transform: [{ filter: { param: "click" } }],
+      transform: [
+        {
+          filter: { param: "click" },
+          //filter: "datum.Carb > 0",
+        },
+      ],
     },
     //Scatterplot #5
     {
@@ -274,78 +318,18 @@ const scatterPlot = {
           },
           value: "gray",
         },
-        tooltip: [
-          { field: "foodName", type: "nominal" },
-          { field: "Protein", type: "nominal" },
-          { field: "Fat", type: "nominal" },
-          { field: "Carb", type: "nominal" },
-          { field: "Calorie", type: "nominal" },
-          { field: "ND", type: "nominal" },
-        ],
-        y: {
-          field: "Carb",
-          title: "Carb",
-          type: "quantitative",
-        },
-        x: {
-          title: "InsulinogenicV2",
-          field: "InsulinogenicV2",
-          type: "quantitative",
-        },
-      },
-      width: 420,
-      height: 250,
-      mark: "circle",
-      params: [
-        {
-          name: "brush",
-          select: {
-            type: "interval",
-            resolve: "union",
-            on:
-              "[mousedown[event.shiftKey], window:mouseup] > window:mousemove!",
-            translate:
-              "[mousedown[event.shiftKey], window:mouseup] > window:mousemove!",
-            zoom: "wheel![event.shiftKey]",
-          },
-        },
-        {
-          name: "grid",
-          select: {
-            type: "interval",
-            resolve: "global",
-            translate:
-              "[mousedown[!event.shiftKey], window:mouseup] > window:mousemove!",
-            zoom: "wheel![!event.shiftKey]",
-          },
-          bind: "scales",
-        },
-      ],
-      transform: [{ filter: { param: "click" } }],
-    },
-    //Scatterplot #6
-    {
-      encoding: {
-        color: {
-          condition: {
-            param: "brush",
-            title: "Food Categories",
-            field: "F6",
-            type: "nominal",
-          },
-          value: "gray",
+        opacity: {
+          condition: { param: "category", value: 0.8 },
+          value: 0.1,
         },
         tooltip: [
-          { field: "foodName", type: "nominal" },
-          { field: "Protein", type: "nominal" },
-          { field: "Fat", type: "nominal" },
-          { field: "Carb", type: "nominal" },
-          { field: "Calorie", type: "nominal" },
-          { field: "ND", type: "nominal" },
+          { title: "Food Name", field: "foodName", type: "nominal" },
+          { field: "ONIscore", type: "nominal" },
+          { field: "Satiety", type: "nominal" },
         ],
         y: {
-          field: "SatietyIndex",
-          title: "Satiety",
+          field: "ONIscore",
+          title: "ONIscore",
           type: "quantitative",
         },
         x: {
@@ -384,8 +368,10 @@ const scatterPlot = {
       ],
       transform: [{ filter: { param: "click" } }],
     },
-
     {
+      width: 420,
+      height: 250,
+      mark: "bar",
       //Barchart Begin
       encoding: {
         color: {
@@ -395,54 +381,45 @@ const scatterPlot = {
           },
           value: "gray",
         },
-
-        x: { aggregate: "count", type: "quantitative" },
-        y: { title: "Food Category", field: "F6" },
+        text: {
+          field: "foodName",
+          type: "quantitative",
+          format: ".1f",
+        },
+        opacity: {
+          condition: { param: "category", value: 1 },
+          value: 0.1,
+        },
+        tooltip: [
+          { title: "Food Name", field: "foodName", type: "nominal" },
+          { title: "ONI score", field: "ONIscore", type: "nominal" },
+        ],
+        y: { field: "ONIscore", type: "quantitative" },
+        x: {
+          title: "Food Name",
+          field: "foodName",
+          sort: { field: "ONIscore" },
+          axis: {
+            labelOpacity: 0,
+            maxExtent: 20,
+          },
+        },
       },
       //BARCHART
-      width: 420,
-      height: 250,
-      mark: "bar",
+      transform: [{ filter: { param: "brush" } }],
       params: [
         {
           name: "click",
           select: { type: "point", encodings: ["color"] },
         },
       ],
-      transform: [{ filter: { param: "brush" } }],
-    },
-    {
-      width: 420,
-      mark: "bar",
-      encoding: {
-        x: {
-          field: "ND",
-          type: "quantitative",
-        },
-        y: {
-          // aggregate: "sum",
-          field: "F6",
-          type: "ordinal",
-          title: "F6",
-          //  stack: "normalize",
-          axis: {
-            offset: -200,
-          },
-        },
-        color: {
-          condition: {
-            test: "datum.ND < 0",
-            value: "#F29135",
-          },
-          value: "#4F81B2",
-        },
-      },
     },
   ],
   config: {
     concat: {
-      spacing: 0,
+      spacing: 10,
       columns: 2,
+      view: { stroke: "black" },
     },
   },
 };
@@ -451,8 +428,9 @@ const chart = await vegaEmbed("#scatterPlot", scatterPlot, {
   theme: "googlecharts",
 }).then(function (result) {
   //Simulere et click?
-  result.view.addEventListener("dblclick", function (event, item) {
+  result.view.addEventListener("click", function (event, item) {
     //Create new list item
+    console.log(item.datum);
     var ul = document.getElementById("listofitems");
     var li = document.createElement("li");
     li.classList.add("list-group-item");
@@ -476,10 +454,10 @@ const chart = await vegaEmbed("#scatterPlot", scatterPlot, {
 
     //Get name of item to add
     console.log("Item datum is: " + item.datum);
-    var foodItemName = Object.values(item.datum)[2];
+    var foodItemName = Object.values(item.datum)[3];
     console.log("foodName is: " + foodItemName);
 
-    if (!foodItemName) {
+    if (!foodItemName || foodItemName == "12") {
       return;
     }
 
